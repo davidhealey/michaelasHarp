@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="../../../../Strings/Michaela's Harp/celticHarp_triplet" SaveMode="1"
+           RRGroupAmount="3" MicPositions="close;di;room;">
+  <sample ID="0" Root="60" HiKey="60" LoKey="57" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="8026" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_60_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_60_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_60_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="1" Root="60" HiKey="60" LoKey="57" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="11134" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_60_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_60_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_60_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="2" Root="60" HiKey="60" LoKey="57" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="211438" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_60_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_60_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_60_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="3" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="9743" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_61_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_61_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_61_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="4" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="7393" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_61_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_61_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_61_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="5" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="253151" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_61_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_61_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_61_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="6" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="362"
+          SampleEnd="7649" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_62_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_62_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_62_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="7" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3"
+          SampleEnd="9968" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_62_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_62_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_62_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="8" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="262563" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_62_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_62_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_62_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="9" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="7788" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_63_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_63_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_63_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="10" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="9609" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_63_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_63_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_63_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="11" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="250210" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_63_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_63_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_63_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="12" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="7416" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_64_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_64_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_64_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="13" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="10605" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_64_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_64_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_64_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="14" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="285907" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_64_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_64_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_64_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="15" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="7868" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_65_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_65_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_65_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="16" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="8654" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_65_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_65_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_65_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="17" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="285378" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_65_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_65_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_65_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="18" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="7563" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_66_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_66_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_66_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="19" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="9037" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_66_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_66_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_66_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="20" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="209605" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_66_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_66_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_66_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="21" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="7037" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_67_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_67_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_67_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="22" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="8835" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_67_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_67_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_67_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="23" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="238356" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_67_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_67_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_67_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="24" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="7427" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_68_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_68_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_68_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="25" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="7910" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_68_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_68_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_68_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="26" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="217814" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_68_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_68_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_68_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="27" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="7412" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_69_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_69_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_69_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="28" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="9545" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_69_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_69_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_69_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="29" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="287932" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_69_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_69_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_69_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="30" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="6551" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_70_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_70_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_70_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="31" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="10370" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_70_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_70_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_70_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="32" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="193546" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_70_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_70_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_70_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="33" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="6004" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_71_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_71_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_71_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="34" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="9437" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_71_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_71_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_71_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="35" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="186343" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_71_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_71_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_71_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="36" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="6443" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_72_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_72_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_72_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="37" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="8680" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_72_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_72_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_72_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="38" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="268554" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_72_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_72_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_72_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="39" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="5532" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_73_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_73_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_73_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="40" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="8840" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_73_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_73_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_73_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="41" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="200707" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_73_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_73_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_73_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="42" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="6684" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_74_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_74_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_74_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="43" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="8632" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_74_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_74_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_74_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="44" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="153844" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_74_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_74_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_74_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="45" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="8800" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_75_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_75_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_75_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="46" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="9286" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_75_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_75_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_75_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="47" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="254644" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_75_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_75_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_75_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="48" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="8698" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_76_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_76_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_76_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="49" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="7510" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_76_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_76_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_76_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="50" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="176546" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_76_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_76_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_76_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="51" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="5415" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_77_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_77_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_77_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="52" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="10043" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_77_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_77_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_77_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="53" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="181737" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_77_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_77_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_77_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="54" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="5870" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_78_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_78_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_78_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="55" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="8356" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_78_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_78_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_78_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="56" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="178525" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_78_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_78_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_78_dynamic1_rr3.wav"/>
+  </sample>
+  <sample ID="57" Root="79" HiKey="81" LoKey="79" LoVel="0" HiVel="127"
+          RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="9578" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_79_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_79_dynamic1_rr1.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_79_dynamic1_rr1.wav"/>
+  </sample>
+  <sample ID="58" Root="79" HiKey="81" LoKey="79" LoVel="0" HiVel="127"
+          RRGroup="2" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="8979" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_79_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_79_dynamic1_rr2.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_79_dynamic1_rr2.wav"/>
+  </sample>
+  <sample ID="59" Root="79" HiKey="81" LoKey="79" LoVel="0" HiVel="127"
+          RRGroup="3" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
+          SampleEnd="229374" SampleStartMod="0" LoopStart="0" LoopEnd="0"
+          LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
+          SampleState="0" NormalizedPeak="-1" Duplicate="0">
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_close_79_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_di_79_dynamic1_rr3.wav"/>
+    <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/triplet/celticHarp_triplet_room_79_dynamic1_rr3.wav"/>
+  </sample>
+</samplemap>
