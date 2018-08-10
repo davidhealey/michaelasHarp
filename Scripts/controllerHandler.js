@@ -34,7 +34,7 @@ namespace ControllerHandler
 		}
 
 		//Panel
-		ui.setupControl("pnlControllers", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
+		//ui.setupControl("page1", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
 
 		//Labels
 		Content.setPropertiesFromJSON("lblControllers", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE}); //Title label
@@ -51,7 +51,8 @@ namespace ControllerHandler
 		for (i = 0; i < parameters.length; i++)
 		{
 			//Parameter menu
-			cmbCc[i] = ui.setupControl("cmbCc"+i, {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
+			//cmbCc[i] = ui.setupControl("cmbCc"+i, {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
+			cmbCc[i] = Content.getComponent("cmbCc"+i);
 			cmbCc[i].setControlCallback(cmbCcCB);
 
 			//CC number menu
@@ -65,13 +66,13 @@ namespace ControllerHandler
 			}
 
 			//Response table
-			tblCc[i] = ui.setupControl("tblCc"+i, {customColours:true, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, itemColour2:Theme.HEADER});
+			//tblCc[i] = ui.setupControl("tblCc"+i, {customColours:true, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, itemColour2:Theme.HEADER});
 		}
 	}
 
 	inline function onNoteCB()
     {
-        Message.setVelocity(Math.max(1, 127/100 * tblCc[0].getTableValue(Message.getVelocity()) * 100)); //Scale velocity using table
+     //   Message.setVelocity(Math.max(1, 127/100 * tblCc[0].getTableValue(Message.getVelocity()) * 100)); //Scale velocity using table
     }
 
 	inline function cmbParamCB(control, value)

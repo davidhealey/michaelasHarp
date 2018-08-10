@@ -31,12 +31,13 @@ namespace PresetHandler
     const var presetNames = ui.getPresetNames(); //Get array of preset names
 
     //Persistent panel for loading preset data
-    const var pnlPreset = ui.setupControl("pnlPreset", {itemColour:Theme.PRESET, itemColour2:Theme.PRESET});
+    //const var pnlPreset = ui.setupControl("pnlPreset", {itemColour:Theme.PRESET, itemColour2:Theme.PRESET});
+    const var pnlPreset = Content.getComponent("pnlPreset");
     pnlPreset.setControlCallback(pnlPresetCB);
 
     //Preset menu - not persistent
     const var cmbPreset = ui.comboBoxPanel("cmbPreset", paintRoutines.comboBox, Theme.CONTROL_FONT_SIZE, presetNames);
-    Content.setPropertiesFromJSON("cmbPreset", {itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
+    //Content.setPropertiesFromJSON("cmbPreset", {itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
     cmbPreset.setControlCallback(cmbPresetCB);
 
     //Preset save button
@@ -50,11 +51,11 @@ namespace PresetHandler
     //Get the internal instrumentName from the preset name
     if (cmbPreset.getValue() < 1) cmbPreset.setValue(1); //Min cmbPreset value is 1
     local presetName = presetNames[cmbPreset.getValue()-1];
-    instrumentName = presetName.substring(presetName.lastIndexOf(": ")+2, presetName.length); //Set global variable
+    patchName = presetName.substring(presetName.lastIndexOf(": ")+2, presetName.length); //Set global variable
 
     //Load the preset settings
-    loadSampleMaps(instrumentName); //Load sample maps for current preset
-    colourKeys();
+    loadSampleMaps(patchName); //Load sample maps for current preset
+    colourKeys(patchName);
   }
 
   inline function cmbPresetCB(control, value)
@@ -74,19 +75,19 @@ namespace PresetHandler
   }
 
   //Functions
-    inline function colourKeys()
+    inline function colourKeys(patchName)
     {
-        local range = Manifest.patches[instrumentName].range;
+        local range = Manifest.patches[patchName].range;
         
         for (i = 0; i < 128; i++) //Every MIDI note
         {
             if (i < range[0] || i > range[1]) //i is outside max playable range
             {
-                Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Reset current KS colour
+                Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Clear key colour
             }
             else
             {
-                Engine.setKeyColour(i, Colours.withAlpha(Colours.blue, 0.3)); //Reset current KS colour    
+                Engine.setKeyColour(i, Colours.withAlpha(Colours.blue, 0.3)); //Set key colour    
             }
         }
     }

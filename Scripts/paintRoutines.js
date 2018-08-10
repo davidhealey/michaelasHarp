@@ -55,10 +55,10 @@ namespace paintRoutines
 		g.fillAll(this.get("bgColour"));
 
 		//X position of slider based on its current normalized value		
-		reg xPos = (parseInt(this.get("width"))-(parseInt(this.get("width"))/4)) * ui.getNormalizedValue(this.get("id"));
+		reg xPos = (parseInt(this.getWidth())-(this.getHeight())) * ui.getNormalizedValue(this.get("id"));
 		
 		g.setColour(this.get("itemColour"));
-		g.fillRect([xPos, 0, parseInt(this.get("width"))/4, this.get("height")]);
+		g.fillRect([xPos, 0, this.getHeight(), this.getHeight()]);		
 	};
 	    
 	const var textButton = function(g)
@@ -66,7 +66,7 @@ namespace paintRoutines
 		this.getValue() == 0 ? g.setColour(this.get("bgColour")) : g.setColour(this.get("textColour"));
 
 		g.setFont(Theme.LABEL_FONT, Theme.LABEL_FONT_SIZE);
-		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "centred");
+		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "left");
 	};
 	
 	const var pushButton = function(g)

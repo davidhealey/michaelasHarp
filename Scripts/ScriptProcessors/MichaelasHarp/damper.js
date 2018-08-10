@@ -7,9 +7,7 @@ function onNoteOff()
 	
 }
 function onController()
-{
-    Console.print(Synth.isSustainPedalDown());
-    
+{   
 	if (Synth.isSustainPedalDown() == 1)
     {
         Engine.allNotesOff();

@@ -28,7 +28,7 @@ namespace Footer
     pnlStats.startTimer(250);
     pnlStats.setTimerCallback(function()
     {
-        lblStats.set("text", "CPU: " + Math.round(Engine.getCpuUsage()) + "%" + ", " + "RAM: " + Math.round(Engine.getMemoryUsage()) + "MB" + ", " + "Voices: " + Engine.getNumVoices());
+        lblStats.set("text", "MEMORY: " + Math.round(Engine.getMemoryUsage()) + "MB");
     });
   }
 

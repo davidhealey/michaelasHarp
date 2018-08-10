@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProjectSettings>
+  <Name value="Michaelas Harp"/>
+  <Version value="1.0.0"/>
+  <Description value=""/>
+  <BundleIdentifier value="com.librewave.michaelasHarp"/>
+  <PluginCode value="Abcd"/>
+  <EmbedAudioFiles value="0"/>
+  <AdditionalDspLibraries value=""/>
+  <OSXStaticLibs value=""/>
+  <WindowsStaticLibFolder value=""/>
+  <ExtraDefinitionsWindows value=""/>
+  <ExtraDefinitionsOSX value=""/>
+  <ExtraDefinitionsIOS value=""/>
+  <AppGroupID value=""/>
+  <RedirectSampleFolder value=""/>
+</ProjectSettings>

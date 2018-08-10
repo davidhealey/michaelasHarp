@@ -25,7 +25,8 @@ namespace Theme
 	const var HEADER = 0xFF1C2A39;
 	const var LOGO = 0xFFEEEEEE;
 	const var PRESET = 0xFF5C6A79;
-	const var BODY = 0xFFBDBDBD;
+	//const var BODY = 0xFFBDBDBD;
+	const var BODY = 0xFFEEEEEE;
 	const var ZONE = 0xFFEEEEEE;
 	const var ZONE_FONT = "Sarala-Bold";
 	const var ZONE_FONT_SIZE = 26;
