@@ -23,13 +23,14 @@ include("manifest.js");
 include("theme.js");
 include("paintRoutines.js");
 include("presetHandler.js");
+include("pageHandler.js");
 include("header.js");
-//include("mixer.js");
+include("mixer.js");
 include("controllerHandler.js");
+include("performance.js");
 include("settingsWindowJson.js");
-include("footer.js");
 
-Content.makeFrontInterface(676, 392);
+Content.makeFrontInterface(650, 375);
 
 reg patchName = "";
 
@@ -37,13 +38,11 @@ reg patchName = "";
 reg i;
 reg j;
 
-//Tabs
-const var tabs = [];
-tabs[0] = Content.getComponent("pnlMain");
-tabs[1] = Content.getComponent("pnlSettings");
+//Page background
+Content.setPropertiesFromJSON("pnlMain", {itemColour:Theme.PAGE, itemColour2:Theme.PAGE});
 
 //*** GUI ***
-Content.setPropertiesFromJSON("pnlMain", {itemColour:Theme.BODY, itemColour2:Theme.BODY}); //Main tab background panel
+Content.setPropertiesFromJSON("pnlMain", {itemColour:Theme.PAGE, itemColour2:Theme.PAGE}); //Main tab background panel
 
 //Settings tab
 const var fltSettings = Content.getComponent("fltSettings");
@@ -52,16 +51,15 @@ fltSettings.setContentData(SettingsJson.settings);
 //Includes initialisation
 Header.onInitCB();
 PresetHandler.onInitCB();
-//Mixer.onInitCB();
+PageHandler.onInitCB();
+Mixer.onInitCB();
 ControllerHandler.onInitCB();
-Footer.onInitCB();function onNoteOn()
+Performance.onInitCB();function onNoteOn()
 {
     if (Message.getNoteNumber() < Manifest.patches[patchName].range[0] || Message.getNoteNumber() > Manifest.patches[patchName].range[1])
     {
         Message.ignoreEvent(true);
-    }
-    
-    ControllerHandler.onNoteCB();
+    }    
 }
 function onNoteOff()
 {

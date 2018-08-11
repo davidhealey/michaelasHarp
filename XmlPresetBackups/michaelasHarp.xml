@@ -27,167 +27,239 @@
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
             <Control type="ScriptPanel" id="btnPurge2" value="1"/>
-            <Control type="ScriptPanel" id="pnlControllers" value="0"/>
-            <Control type="ScriptPanel" id="cmbParam" value="1"/>
-            <Control type="ScriptPanel" id="cmbCc0" value="100"/>
-            <Control type="ScriptPanel" id="cmbCc1" value="11"/>
-            <Control type="ScriptTable" id="tblCc0" value="38" data="24......vNVA3C...vO...f+....9C..jwO"/>
+            <Control type="ScriptPanel" id="page1" value="0"/>
+            <Control type="ScriptComboBox" id="cmbParam" value="2"/>
+            <Control type="ScriptComboBox" id="cmbCc0" value="1"/>
+            <Control type="ScriptComboBox" id="cmbCc1" value="11"/>
+            <Control type="ScriptTable" id="tblCc0" value="57" data="24......fdKF3C...vO...f+....9C..jwO"/>
             <Control type="ScriptTable" id="tblCc1" value="127" data="24...............vO...f+....9C..fxO"/>
-            <Control type="ScriptPanel" id="pnlStats" value="0"/>
-            <Control type="ScriptLabel" id="lblStats" value="MEMORY: 21MB"/>
-            <Control type="ScriptPanel" id="btnSettings" value="0"/>
+            <Control type="ScriptSlider" id="sliAtk" value="50"/>
+            <Control type="ScriptSlider" id="sliRel" value="3000"/>
+            <Control type="ScriptPanel" id="btnRR" value="1"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
               <Component type="ScriptPanel" id="pnlHeader" x="0" y="0" width="676" height="50"
-                         borderRadius="0" borderSize="0" itemColour="4280035897" itemColour2="4280035897">
+                         borderRadius="0" borderSize="0" itemColour="4280492835" itemColour2="4280492835">
                 <Component type="ScriptPanel" id="pnlLogo" x="45" y="16" width="136" height="16"
                            itemColour2="0" itemColour="0" textColour="4293848814" text=""
                            borderSize="0" borderRadius="0" parentComponent="pnlHeader" popupOnRightClick="0"/>
               </Component>
               <Component type="ScriptPanel" id="pnlPreset" x="335" y="9" width="300" height="30"
-                         borderRadius="0" borderSize="0" bgColour="4290888129" itemColour="4284246649"
-                         itemColour2="4284246649" saveInPreset="1">
+                         borderRadius="0" borderSize="0" bgColour="12698049" itemColour="4290164406"
+                         itemColour2="4290164406" saveInPreset="1" textColour="16777215">
                 <Component type="ScriptPanel" id="cmbPreset" x="0" y="0" width="250" height="30"
                            parentComponent="pnlPreset" borderRadius="0" borderSize="0" itemColour2=""
                            allowCallbacks="Context Menu" popupOnRightClick="0" popupMenuAlign="1"
-                           text="Instruments" bgColour="4284246649" textColour="4294967295"
-                           itemColour="4288585374" popupMenuItems="0 Michaelas Harp: Natural&#10;1 Michaelas Harp: Muted"/>
+                           text="Instruments" bgColour="4290164406" textColour="4278190080"
+                           itemColour="4283979864" popupMenuItems="0 Michaelas Harp: Natural&#10;1 Michaelas Harp: Muted"/>
                 <Component type="ScriptPanel" id="btnSavePreset" x="265" y="7" width="16"
                            height="16" parentComponent="pnlPreset" allowCallbacks="Clicks Only"
-                           itemColour="2231369727" itemColour2="4009754623"/>
+                           itemColour="4283979864" itemColour2="5789784"/>
               </Component>
-              <Component type="ScriptPanel" id="pnlMain" x="0" y="50" width="676" height="245"
-                         itemColour2="4293848814" itemColour="4293848814" textColour="16777215"
-                         saveInPreset="1" borderSize="0" borderRadius="0" bgColour="4294940824">
-                <Component type="ScriptPanel" id="pnlMenu" x="20" y="10" width="250" height="225"
-                           parentComponent="pnlMain" borderRadius="0" borderSize="0" bgColour="16777215"
-                           itemColour="0" itemColour2="0" textColour="16777215"/>
-                <Component type="ScriptPanel" id="page0" x="166" y="10" width="200" height="225"
+              <Component type="ScriptPanel" id="pnlMain" x="0" y="50" width="676" height="250"
+                         itemColour2="4294967295" itemColour="4294967295" textColour="16777215"
+                         saveInPreset="1" borderSize="0" borderRadius="0" bgColour="16750744">
+                <Component type="ScriptPanel" id="pnlMenu" x="0" y="0" width="150" height="250"
+                           parentComponent="pnlMain" borderRadius="0" borderSize="0" bgColour="10377561"
+                           itemColour="4282729797" itemColour2="4282729797" textColour="16777215">
+                  <Component type="ScriptPanel" id="btnPage0" x="0" y="0" width="150" parentComponent="pnlMenu"
+                             text="Mixer" height="50" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
+                             textColour="4294967295" itemColour2="2107744673" itemColour="2107744673"/>
+                  <Component type="ScriptPanel" id="btnPage1" x="0" y="50" width="150" parentComponent="pnlMenu"
+                             text="Controllers" height="50" borderRadius="0" borderSize="0"
+                             allowCallbacks="Clicks Only" textColour="4294967295" itemColour="2107744673"
+                             itemColour2="2107744673"/>
+                  <Component type="ScriptPanel" id="btnPage2" x="0" y="100" width="150" parentComponent="pnlMenu"
+                             text="Performance" height="50" borderRadius="0" borderSize="0"
+                             allowCallbacks="Clicks Only" textColour="4294967295" itemColour="2107744673"
+                             itemColour2="2107744673"/>
+                  <Component type="ScriptPanel" id="btnPage3" x="0" y="150" width="150" parentComponent="pnlMenu"
+                             text="Settings" height="50" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
+                             textColour="4294967295" itemColour="2107744673" itemColour2="2107744673"/>
+                </Component>
+                <Component type="ScriptPanel" id="page0" x="150" y="0" width="500" height="250"
                            parentComponent="pnlMain" saveInPreset="1" borderSize="0" borderRadius="0"
-                           itemColour="4293848814" itemColour2="4293848814" textColour="0">
-                  <Component type="ScriptLabel" id="lblMixer" x="0" y="5" width="200" height="25"
-                             text="Mixer" parentComponent="page0" editable="0" fontSize="26"
-                             fontName="Sarala-Bold" textColour="4278190080" saveInPreset="0"/>
-                  <Component type="ScriptPanel" id="sliPan0" x="20" y="53" width="40" height="10"
-                             borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                             enableMidiLearn="1" saveInPreset="1" parentComponent="page0"
-                             stepSize="0.01" min="-100" max="100" bgColour="4288585374" itemColour="4284246649"
-                             processorId="micDI" parameterId="Balance"/>
-                  <Component type="ScriptPanel" id="sliPan1" x="80" y="53" width="40" height="10"
-                             borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                             enableMidiLearn="1" saveInPreset="1" parentComponent="page0"
-                             stepSize="0.01" min="-100" max="100" bgColour="4288585374" itemColour="4284246649"
-                             processorId="micClose" parameterId="Balance"/>
-                  <Component type="ScriptPanel" id="sliPan2" x="140" y="53" width="40" height="10"
-                             borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                             enableMidiLearn="1" saveInPreset="1" parentComponent="page0"
-                             stepSize="0.01" min="-100" max="100" bgColour="4288585374" itemColour="4284246649"
-                             processorId="micRoom" parameterId="Balance"/>
-                  <Component type="ScriptSlider" id="sliVol0" x="35" y="80" width="25" height="100"
-                             middlePosition="-18" min="-100" max="3" stepSize="0.1" suffix=" dB"
-                             parentComponent="page0" bgColour="4288585374" itemColour="4284246649"
-                             itemColour2="1118481" mode="Decibel" dragDirection="Vertical"
-                             style="Vertical" showValuePopup="Below" numStrips="2" textColour="4278190080"
-                             showTextBox="0" processorId="micDI" parameterId="Gain"/>
-                  <Component type="ScriptSlider" id="sliVol1" x="95" y="80" width="25" height="100"
-                             style="Vertical" middlePosition="-18" mode="Decibel" min="-100"
-                             max="3" stepSize="0.1" suffix=" dB" parentComponent="page0" bgColour="4288585374"
-                             itemColour="4284246649" itemColour2="1118481" showValuePopup="Below"
-                             numStrips="2" textColour="4278190080" showTextBox="0" processorId="micClose"
-                             parameterId="Gain"/>
-                  <Component type="ScriptSlider" id="sliVol2" x="155" y="80" width="25" height="100"
-                             style="Vertical" middlePosition="-18" mode="Decibel" min="-100"
-                             max="3" stepSize="0.1" suffix=" dB" parentComponent="page0" bgColour="4288585374"
-                             itemColour="4284246649" itemColour2="1118481" showValuePopup="Below"
-                             numStrips="1" textColour="4278190080" showTextBox="0" processorId="micRoom"
-                             parameterId="Gain"/>
-                  <Component type="ScriptSlider" id="sliWidth0" x="20" y="80" width="10" height="45"
-                             text="" style="Vertical" middlePosition="100" parentComponent="page0"
-                             bgColour="4288585374" itemColour="4284246649" max="200" itemColour2="1118481"
-                             visible="0" processorId="micDI" parameterId="Width" textColour="4278190080"
-                             showTextBox="0"/>
-                  <Component type="ScriptSlider" id="sliWidth1" x="80" y="80" width="10" height="45"
-                             text="" style="Vertical" middlePosition="100" parentComponent="page0"
-                             bgColour="4288585374" itemColour="4284246649" max="200" itemColour2="1118481"
-                             processorId="micClose" parameterId="Width" textColour="4278190080"
-                             showTextBox="0"/>
-                  <Component type="ScriptSlider" id="sliWidth2" x="140" y="80" width="10"
-                             height="45" text="" style="Vertical" middlePosition="100" parentComponent="page0"
-                             bgColour="4288585374" itemColour="4284246649" max="200" itemColour2="1118481"
-                             processorId="micRoom" parameterId="Width" textColour="4278190080"
-                             showTextBox="0"/>
-                  <Component type="ScriptSlider" id="sliDelay0" x="20" y="135" width="10"
-                             height="45" text="" style="Vertical" middlePosition="100" parentComponent="page0"
-                             bgColour="4288585374" itemColour="4284246649" itemColour2="1118481"
-                             max="500" processorId="micDI" parameterId="Delay" showValuePopup="Above"
-                             showTextBox="0" textColour="4278190080"/>
-                  <Component type="ScriptSlider" id="sliDelay1" x="80" y="135" width="10"
-                             height="45" text="" style="Vertical" middlePosition="100" parentComponent="page0"
-                             bgColour="4288585374" itemColour="4284246649" max="500" itemColour2="1118481"
-                             processorId="micClose" parameterId="Delay" textColour="4278190080"
-                             showTextBox="0"/>
-                  <Component type="ScriptSlider" id="sliDelay2" x="140" y="135" width="10"
-                             height="45" text="" style="Vertical" middlePosition="100" parentComponent="page0"
-                             bgColour="4288585374" itemColour="4284246649" max="500" itemColour2="1118481"
-                             processorId="micRoom" parameterId="Delay" textColour="4278190080"
-                             showTextBox="0"/>
-                  <Component type="ScriptPanel" id="btnPurge0" x="20" y="185" width="40" height="25"
-                             parentComponent="page0" bgColour="4288585374" itemColour="11569452"
-                             allowCallbacks="Clicks Only" saveInPreset="1" text="DI" itemColour2="0"
-                             textColour="4278190080" holdIsRightClick="0"/>
-                  <Component type="ScriptPanel" id="btnPurge1" x="80" y="185" width="40" height="25"
-                             parentComponent="page0" bgColour="4288585374" itemColour="11569452"
-                             allowCallbacks="Clicks Only" saveInPreset="1" text="Close" itemColour2="0"
-                             textColour="4278190080"/>
-                  <Component type="ScriptPanel" id="btnPurge2" x="140" y="185" width="40"
-                             height="25" parentComponent="page0" bgColour="4288585374" itemColour="11569452"
-                             allowCallbacks="Clicks Only" saveInPreset="1" text="Room" itemColour2="0"
-                             textColour="4278190080"/>
+                           itemColour="10354558" itemColour2="10354558" textColour="0" visible="0">
+                  <Component type="ScriptLabel" id="lblVol" x="70" y="15" width="100" height="20"
+                             parentComponent="page0" text="Volume" textColour="4278190080"
+                             itemColour2="1118481" fontSize="24" saveInPreset="0" fontName="Sarala-Bold"/>
+                  <Component type="ScriptLabel" id="lblPan" x="195" y="15" width="75" height="20"
+                             parentComponent="page0" text="Pan" textColour="4278190080" itemColour2="1118481"
+                             fontSize="24" saveInPreset="0" fontName="Sarala-Bold"/>
+                  <Component type="ScriptLabel" id="lblWidth" x="295" y="15" width="75" height="20"
+                             parentComponent="page0" text="Width" textColour="4278190080"
+                             itemColour2="1118481" fontSize="24" saveInPreset="0" fontName="Sarala-Bold"/>
+                  <Component type="ScriptLabel" id="lblDelay" x="395" y="15" width="75" height="20"
+                             parentComponent="page0" text="Delay" textColour="4278190080"
+                             itemColour2="1118481" fontSize="24" saveInPreset="0" fontName="Sarala-Bold"/>
+                  <Component type="ScriptPanel" id="pnlMixer" x="20" y="60" width="450" height="140"
+                             parentComponent="page0" borderRadius="0" borderSize="0" bgColour="16777215"
+                             textColour="16777215" itemColour2="0" itemColour="0">
+                    <Component type="ScriptPanel" id="sliPan0" x="175" y="0" width="75" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" min="-100" max="100" bgColour="4290164406"
+                               itemColour="4283979864" processorId="micClose" parameterId="Balance"
+                               itemColour2="16711680"/>
+                    <Component type="ScriptPanel" id="sliPan1" x="175" y="50" width="75" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" min="-100" max="100" bgColour="4290164406"
+                               itemColour="4283979864" processorId="micDI" parameterId="Balance"
+                               itemColour2="16711680"/>
+                    <Component type="ScriptPanel" id="sliPan2" x="175" y="100" width="75" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" min="-100" max="100" bgColour="4290164406"
+                               itemColour="4283979864" processorId="micRoom" parameterId="Balance"
+                               itemColour2="16711680"/>
+                    <Component type="ScriptSlider" id="sliVol0" x="50" y="0" width="100" height="30"
+                               middlePosition="-18" min="-100" max="3" stepSize="0.1" suffix=" dB"
+                               parentComponent="pnlMixer" bgColour="4290164406" itemColour="4283979864"
+                               itemColour2="0" mode="Decibel" dragDirection="Horizontal" style="Horizontal"
+                               numStrips="2" processorId="micClose" parameterId="Gain" isVertical="0"/>
+                    <Component type="ScriptSlider" id="sliVol1" x="50" y="50" width="100" height="30"
+                               style="Horizontal" middlePosition="-18" mode="Decibel" min="-100"
+                               max="3" stepSize="0.1" suffix=" dB" parentComponent="pnlMixer"
+                               bgColour="4290164406" itemColour="4283979864" itemColour2="0"
+                               numStrips="2" processorId="micDI" parameterId="Gain" isVertical="0"
+                               dragDirection="Horizontal"/>
+                    <Component type="ScriptSlider" id="sliVol2" x="50" y="100" width="100" height="30"
+                               style="Horizontal" middlePosition="-18" mode="Decibel" min="-100"
+                               max="3" stepSize="0.1" suffix=" dB" parentComponent="pnlMixer"
+                               bgColour="4290164406" itemColour="4283979864" itemColour2="0"
+                               numStrips="1" processorId="micRoom" parameterId="Gain" isVertical="0"
+                               dragDirection="Horizontal"/>
+                    <Component type="ScriptSlider" id="sliWidth0" x="275" y="0" width="75" height="30"
+                               text="" style="Horizontal" middlePosition="100" parentComponent="pnlMixer"
+                               bgColour="4290164406" itemColour="4283979864" max="200" itemColour2="0"
+                               processorId="micClose" parameterId="Width" dragDirection="Horizontal"
+                               isVertical="0"/>
+                    <Component type="ScriptSlider" id="sliWidth1" x="275" y="50" width="75"
+                               height="30" text="" style="Horizontal" middlePosition="100" parentComponent="pnlMixer"
+                               bgColour="4290164406" itemColour="4283979864" max="200" itemColour2="0"
+                               processorId="micDI" parameterId="Width" dragDirection="Horizontal"
+                               isVertical="0"/>
+                    <Component type="ScriptSlider" id="sliWidth2" x="275" y="100" width="75"
+                               height="30" text="" style="Horizontal" middlePosition="100" parentComponent="pnlMixer"
+                               bgColour="4290164406" itemColour="4283979864" max="200" itemColour2="0"
+                               processorId="micRoom" parameterId="Width" dragDirection="Horizontal"
+                               isVertical="0"/>
+                    <Component type="ScriptSlider" id="sliDelay0" x="375" y="0" width="75" height="30"
+                               text="" style="Horizontal" middlePosition="100" parentComponent="pnlMixer"
+                               bgColour="4290164406" itemColour="4283979864" itemColour2="0"
+                               max="500" processorId="micClose" parameterId="Delay" dragDirection="Horizontal"
+                               mode="Time" isVertical="0"/>
+                    <Component type="ScriptSlider" id="sliDelay1" x="375" y="50" width="75"
+                               height="30" text="" style="Horizontal" middlePosition="100" parentComponent="pnlMixer"
+                               bgColour="4290164406" itemColour="4283979864" max="500" itemColour2="0"
+                               processorId="micDI" parameterId="Delay" dragDirection="Horizontal"
+                               mode="Time" isVertical="0"/>
+                    <Component type="ScriptSlider" id="sliDelay2" x="375" y="100" width="75"
+                               height="30" text="" style="Horizontal" middlePosition="100" parentComponent="pnlMixer"
+                               bgColour="4290164406" itemColour="4283979864" max="500" itemColour2="0"
+                               processorId="micRoom" parameterId="Delay" dragDirection="Horizontal"
+                               mode="Time" isVertical="0"/>
+                    <Component type="ScriptPanel" id="btnPurge0" x="0" y="0" width="40" height="30"
+                               parentComponent="pnlMixer" bgColour="4283979864" itemColour="4283979864"
+                               allowCallbacks="Clicks Only" saveInPreset="1" text="Close" itemColour2="0"
+                               textColour="4278190080" holdIsRightClick="0"/>
+                    <Component type="ScriptPanel" id="btnPurge1" x="0" y="50" width="40" height="30"
+                               parentComponent="pnlMixer" bgColour="4283979864" itemColour="4283979864"
+                               allowCallbacks="Clicks Only" saveInPreset="1" text="DI" itemColour2="0"
+                               textColour="4278190080"/>
+                    <Component type="ScriptPanel" id="btnPurge2" x="0" y="100" width="40" height="30"
+                               parentComponent="pnlMixer" bgColour="4283979864" itemColour="4283979864"
+                               allowCallbacks="Clicks Only" saveInPreset="1" text="Room" itemColour2="0"
+                               textColour="4278190080"/>
+                  </Component>
                 </Component>
-                <Component type="ScriptPanel" id="pnlControllers" x="376" y="10" width="200"
-                           height="225" parentComponent="pnlMain" borderSize="0" borderRadius="0"
-                           itemColour="4293848814" itemColour2="4293848814" saveInPreset="1"
-                           textColour="0">
-                  <Component type="ScriptLabel" id="lblControllers" x="0" y="5" width="200"
-                             height="25" text="Controllers" parentComponent="pnlControllers"
-                             editable="0" fontSize="26" fontName="Sarala-Bold" textColour="4278190080"
-                             saveInPreset="0"/>
-                  <Component type="ScriptLabel" id="lblParameter" x="5" y="45" width="85"
-                             height="25" text="Parameter" alignment="left" editable="0" parentComponent="pnlControllers"
-                             fontName="Sarala-Regular" fontSize="23" textColour="4278190080"
-                             itemColour2="1118481" saveInPreset="0"/>
-                  <Component type="ScriptLabel" id="lblController" x="5" y="80" width="85"
-                             height="25" text="Controller" alignment="left" editable="0" parentComponent="pnlControllers"
-                             fontName="Sarala-Regular" fontSize="23" textColour="4278190080"
-                             itemColour2="1118481" saveInPreset="0"/>
-                  <Component type="ScriptPanel" id="cmbParam" x="90" y="45" width="100" height="25"
-                             parentComponent="pnlControllers" borderRadius="0" borderSize="0"
-                             allowCallbacks="Context Menu" popupOnRightClick="0" popupMenuAlign="1"
-                             saveInPreset="1" popupMenuItems="Velocity&#10;Expression" textColour="4294967295"
-                             bgColour="4284246649" itemColour="4288585374" text="Parameters"/>
-                  <Component type="ScriptPanel" id="cmbCc0" x="90" y="80" width="100" height="25"
-                             parentComponent="pnlControllers" allowCallbacks="Context Menu"
-                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" text="Velocity"
-                             bgColour="4284246649" textColour="4294967295" itemColour="4288585374"
-                             popupMenuItems="Velocity" enabled="0"/>
-                  <Component type="ScriptPanel" id="cmbCc1" x="90" y="80" width="100" height="25"
-                             parentComponent="pnlControllers" allowCallbacks="Context Menu"
-                             popupOnRightClick="0" popupMenuAlign="1" saveInPreset="1" text="Controller"
-                             bgColour="4284246649" textColour="4294967295" itemColour="4288585374"
-                             popupMenuItems="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;32&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
-                             itemColour2="15927047" visible="0"/>
-                  <Component type="ScriptTable" id="tblCc0" x="10" y="115" width="180" height="95"
-                             parentComponent="pnlControllers" bgColour="4288585374" customColours="1"
-                             itemColour="4284246649" itemColour2="4280035897" processorId="Velocity Modulator"/>
-                  <Component type="ScriptTable" id="tblCc1" x="10" y="115" width="180" height="95"
-                             parentComponent="pnlControllers" processorId="expressionCC" bgColour="4288585374"
-                             itemColour="4284246649" itemColour2="4280035897" customColours="1"
-                             visible="0"/>
+                <Component type="ScriptPanel" id="page1" x="150" y="0" width="500" height="250"
+                           parentComponent="pnlMain" borderSize="0" borderRadius="0" itemColour="10354558"
+                           itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215"
+                           visible="0">
+                  <Component type="ScriptPanel" id="controllers" x="20" y="15" width="433"
+                             height="240" parentComponent="page1" bgColour="0" itemColour="0"
+                             itemColour2="0" textColour="0" borderSize="0" borderRadius="0">
+                    <Component type="ScriptLabel" id="lblParameter" x="0" y="0" width="100"
+                               height="30" text="Parameter" alignment="left" editable="0" parentComponent="controllers"
+                               fontName="Sarala-Bold" fontSize="24" textColour="4278190080"
+                               itemColour2="1118481" saveInPreset="0"/>
+                    <Component type="ScriptLabel" id="lblController" x="0" y="40" width="100"
+                               height="30" text="Controller" alignment="left" editable="0" parentComponent="controllers"
+                               fontName="Sarala-Bold" fontSize="24" textColour="4278190080"
+                               itemColour2="1118481" saveInPreset="0"/>
+                    <Component type="ScriptComboBox" id="cmbParam" x="125" y="0" itemColour2="15921906"
+                               itemColour="14417920" bgColour="4278190080" textColour="4278190080"
+                               parentComponent="controllers" width="125" items="Velocity&#10;Expression"
+                               text="Parameters" max="2" height="32"/>
+                    <Component type="ScriptComboBox" id="cmbCc0" x="125" y="40" itemColour2="15921906"
+                               itemColour="14417920" bgColour="4278190080" textColour="4278190080"
+                               parentComponent="controllers" width="125" enabled="0" items="Velocity"
+                               height="32" visible="0"/>
+                    <Component type="ScriptComboBox" id="cmbCc1" x="125" y="40" max="125" itemColour2="15921906"
+                               itemColour="14417920" bgColour="4278190080" textColour="4278190080"
+                               parentComponent="controllers" width="125" items="1&#10;2&#10;3&#10;4&#10;5&#10;6&#10;7&#10;8&#10;9&#10;10&#10;11&#10;12&#10;13&#10;14&#10;15&#10;16&#10;17&#10;18&#10;19&#10;20&#10;21&#10;22&#10;23&#10;24&#10;25&#10;26&#10;27&#10;28&#10;29&#10;30&#10;31&#10;33&#10;34&#10;35&#10;36&#10;37&#10;38&#10;39&#10;40&#10;41&#10;42&#10;43&#10;44&#10;45&#10;46&#10;47&#10;48&#10;49&#10;50&#10;51&#10;52&#10;53&#10;54&#10;55&#10;56&#10;57&#10;58&#10;59&#10;60&#10;61&#10;62&#10;63&#10;65&#10;66&#10;67&#10;68&#10;69&#10;70&#10;71&#10;72&#10;73&#10;74&#10;75&#10;76&#10;77&#10;78&#10;79&#10;80&#10;81&#10;82&#10;83&#10;84&#10;85&#10;86&#10;87&#10;88&#10;89&#10;90&#10;91&#10;92&#10;93&#10;94&#10;95&#10;96&#10;97&#10;98&#10;99&#10;100&#10;101&#10;102&#10;103&#10;104&#10;105&#10;106&#10;107&#10;108&#10;109&#10;110&#10;111&#10;112&#10;113&#10;114&#10;115&#10;116&#10;117&#10;118&#10;119&#10;120&#10;121&#10;122&#10;123&#10;124&#10;125&#10;126&#10;127"
+                               defaultValue="11" height="32"/>
+                    <Component type="ScriptTable" id="tblCc0" x="0" y="80" width="250" height="135"
+                               parentComponent="controllers" bgColour="4290164406" customColours="1"
+                               itemColour="4283979864" itemColour2="1879048192" processorId="Velocity Modulator"
+                               visible="0"/>
+                    <Component type="ScriptTable" id="tblCc1" x="0" y="80" width="250" height="135"
+                               parentComponent="controllers" processorId="expressionCC" bgColour="4290164406"
+                               itemColour="4283979864" itemColour2="1879048192" customColours="1"/>
+                  </Component>
+                </Component>
+                <Component type="ScriptPanel" id="page2" x="150" y="0" width="500" height="250"
+                           parentComponent="pnlMain" itemColour="0" itemColour2="0" borderSize="0"
+                           borderRadius="0">
+                  <Component type="ScriptPanel" id="performanceControls" x="20" y="15" width="284"
+                             height="189" parentComponent="page2" borderSize="0" borderRadius="0"
+                             textColour="0" itemColour2="0" itemColour="0" bgColour="0">
+                    <Component type="ScriptLabel" id="lblAtk" x="0" y="0" width="100" height="30"
+                               text="Attack" alignment="left" editable="0" parentComponent="performanceControls"
+                               fontName="Sarala-Bold" fontSize="24" textColour="4278190080"
+                               itemColour2="1118481" saveInPreset="0"/>
+                    <Component type="ScriptLabel" id="lblRel" x="0" y="40" width="100" height="30"
+                               text="Release" alignment="left" editable="0" parentComponent="performanceControls"
+                               fontName="Sarala-Bold" fontSize="24" textColour="4278190080"
+                               itemColour2="1118481" saveInPreset="0"/>
+                    <Component type="ScriptLabel" id="lblRR" x="0" y="80" width="100" height="30"
+                               text="Round Robin" alignment="left" editable="0" parentComponent="performanceControls"
+                               fontName="Sarala-Bold" fontSize="24" textColour="4278190080"
+                               itemColour2="1118481" saveInPreset="0"/>
+                    <Component type="ScriptSlider" id="sliAtk" x="125" y="0" width="125" height="30"
+                               middlePosition="500" min="50" max="1000" stepSize="0.1" suffix="ms"
+                               parentComponent="performanceControls" bgColour="4290164406" itemColour="4283979864"
+                               itemColour2="0" mode="Time" dragDirection="Horizontal" style="Horizontal"
+                               numStrips="2" processorId="sustainEnvelope" parameterId="Attack"
+                               isVertical="0" defaultValue="50"/>
+                    <Component type="ScriptSlider" id="sliRel" x="125" y="40" width="125" height="30"
+                               middlePosition="3000" min="100" max="10000" stepSize="0.1" suffix="ms"
+                               parentComponent="performanceControls" bgColour="4290164406" itemColour="4283979864"
+                               itemColour2="0" mode="Time" dragDirection="Horizontal" style="Horizontal"
+                               numStrips="2" processorId="sustainEnvelope" parameterId="Release"
+                               isVertical="0" defaultValue="3000"/>
+                    <Component type="ScriptPanel" id="btnRR" x="125" y="80" width="125" parentComponent="performanceControls"
+                               text="Enabled" height="30" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
+                               textColour="4294967295" itemColour2="4278190080" itemColour="4290164406"
+                               saveInPreset="1" bgColour="4283979864" popupOnRightClick="0"
+                               holdIsRightClick="0"/>
+                  </Component>
+                </Component>
+                <Component type="ScriptPanel" id="page3" x="150" y="0" width="500" height="250"
+                           parentComponent="pnlMain" bgColour="16777215" itemColour="0"
+                           itemColour2="0" visible="0">
+                  <Component type="ScriptFloatingTile" id="fltSettings" x="0" y="0" width="500"
+                             height="250" parentComponent="page3" Font="Sarala-Bold" FontSize="50"
+                             bgColour="4278190080" textColour="4294165443" itemColour2="3087411221"
+                             itemColour="4280483966" itemColour3="4287809360" updateAfterInit="0"
+                             ContentType="Tabs"/>
                 </Component>
               </Component>
-              <Component type="ScriptPanel" id="pnlKeyboard" x="0" y="295" width="676"
-                         height="72" bgColour="16777215" textColour="16777215" itemColour="4283974210"
+              <Component type="ScriptPanel" id="pnlKeyboard" x="0" y="300" width="676"
+                         height="75" bgColour="16777215" textColour="16777215" itemColour="4283974210"
                          itemColour2="4283974210" borderSize="0" borderRadius="0" text="*">
                 <Component type="ScriptFloatingTile" id="fltKeyboard" x="0" y="0" width="676"
                            height="72" itemColour="4294951115" itemColour2="4294951115"
@@ -196,26 +268,7 @@
               </Component>
               <Component type="ScriptPanel" id="pnlSettings" x="0" y="50" width="676"
                          height="317" borderSize="0" borderRadius="0" bgColour="16777215"
-                         itemColour="0" itemColour2="0" textColour="16777215" visible="0">
-                <Component type="ScriptFloatingTile" id="fltSettings" x="0" y="0" width="676"
-                           height="319" parentComponent="pnlSettings" Font="Sarala-Bold"
-                           FontSize="50" bgColour="4278190080" textColour="4294165443" itemColour2="3087411221"
-                           itemColour="4280483966" itemColour3="4287809360" updateAfterInit="0"/>
-              </Component>
-              <Component type="ScriptPanel" id="pnlFooter" x="0" y="367" width="676" height="25"
-                         borderSize="0" borderRadius="0" itemColour="4278190080" itemColour2="4278190080">
-                <Component type="ScriptPanel" id="pnlStats" x="0" y="0" width="300" height="25"
-                           parentComponent="pnlFooter" borderRadius="0" borderSize="0" itemColour2="0"
-                           textColour="0" itemColour="0" bgColour="0" saveInPreset="1">
-                  <Component type="ScriptLabel" id="lblStats" x="0" y="0" width="300" height="25"
-                             parentComponent="pnlStats" fontName="Sarala-Bold" fontSize="20"
-                             textColour="4289309097" text="MEMORY: 21MB" alignment="left"/>
-                </Component>
-                <Component type="ScriptPanel" id="btnSettings" x="647" y="4" width="17"
-                           height="17" parentComponent="pnlFooter" borderRadius="0" borderSize="0"
-                           itemColour="1291845631" allowCallbacks="Clicks Only" itemColour2="3053453311"
-                           saveInPreset="1"/>
-              </Component>
+                         itemColour="0" itemColour2="0" textColour="16777215" visible="0"/>
             </ContentProperties>
           </UIData>
         </Processor>
@@ -235,24 +288,6 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="SimpleGain" ID="micDI" Bypassed="0" Gain="1.0354387e-06"
-                   Delay="0" Width="0" Balance="0">
-          <ChildProcessors>
-            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
-              <ChildProcessors/>
-            </Processor>
-            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1">
-              <ChildProcessors/>
-            </Processor>
-            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1">
-              <ChildProcessors/>
-            </Processor>
-            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1">
-              <ChildProcessors/>
-            </Processor>
-          </ChildProcessors>
-          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
-        </Processor>
         <Processor Type="SimpleGain" ID="micClose" Bypassed="0" Gain="1.0354387e-06"
                    Delay="0" Width="0" Balance="0">
           <ChildProcessors>
@@ -269,7 +304,29 @@
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
-          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+          <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                         Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
+                         Send4="-1" Channel5="-1" Send5="-1"/>
+        </Processor>
+        <Processor Type="SimpleGain" ID="micDI" Bypassed="0" Gain="1.0354387e-06"
+                   Delay="0" Width="0" Balance="0">
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1">
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1">
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="6" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
+                         Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
         <Processor Type="SimpleGain" ID="micRoom" Bypassed="0" Gain="1.0354387e-06"
                    Delay="0" Width="0" Balance="0">
@@ -287,7 +344,9 @@
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
-          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+          <RoutingMatrix NumSourceChannels="6" Channel0="-1" Send0="-1" Channel1="-1"
+                         Send1="-1" Channel2="-1" Send2="-1" Channel3="-1" Send3="-1"
+                         Channel4="4" Send4="-1" Channel5="5" Send5="-1"/>
         </Processor>
       </ChildProcessors>
     </Processor>
@@ -301,7 +360,7 @@
         <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="Velocity" ID="Velocity Modulator" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24......vNVA3C...vO...f+....9C..jwO">
+                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24......fdKF3C...vO...f+....9C..jwO">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
@@ -338,7 +397,7 @@
                    Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMap="">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="celticHarp_sustain">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -349,11 +408,30 @@
                     <ContentProperties DeviceType="Desktop"/>
                   </UIData>
                 </Processor>
+                <Processor Type="ScriptProcessor" ID="roundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
+                  <ChildProcessors/>
+                  <Content>
+                    <Control type="ScriptButton" id="Enable" value="1"/>
+                    <Control type="ScriptButton" id="Random" value="1"/>
+                    <Control type="ScriptSlider" id="Low Note" value="36"/>
+                    <Control type="ScriptSlider" id="High Note" value="93"/>
+                  </Content>
+                  <UIData>
+                    <ContentProperties DeviceType="Desktop">
+                      <Component type="ScriptButton" id="Enable" x="0" y="10"/>
+                      <Component type="ScriptButton" id="Random" x="150" y="10"/>
+                      <Component type="ScriptSlider" id="Low Note" x="300" y="0" stepSize="1"
+                                 max="127"/>
+                      <Component type="ScriptSlider" id="High Note" x="450" y="0" stepSize="1"
+                                 max="127" defaultValue="127"/>
+                    </ContentProperties>
+                  </UIData>
+                </Processor>
               </ChildProcessors>
             </Processor>
             <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
               <ChildProcessors>
-                <Processor Type="SimpleEnvelope" ID="DefaultEnvelope" Bypassed="0" Monophonic="0"
+                <Processor Type="SimpleEnvelope" ID="sustainEnvelope" Bypassed="0" Monophonic="0"
                            Retrigger="1" Intensity="1" Attack="50" Release="3000" LinearMode="1">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
@@ -390,14 +468,14 @@
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
-                <Processor Type="MonophonicFilter" ID="Monophonic Filter2" Bypassed="0"
-                           Gain="0" Frequency="20000" Q="1" Mode="0" RenderQuality="256"
-                           BipolarIntensity="2.0816682e-17">
+                <Processor Type="PolyphonicFilter" ID="Polyphonic Filter" Bypassed="0" Gain="0"
+                           Frequency="20000" Q="1" Mode="9" Quality="0" BipolarIntensity="0">
                   <ChildProcessors>
-                    <Processor Type="ModulatorChain" ID="Freq Modulation" Bypassed="0" Intensity="1">
+                    <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
+                               Intensity="1">
                       <ChildProcessors>
-                        <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator2"
-                                   Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="36...............vOdtlU+....9C..voO...f+....9C..XpO"
+                        <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator4"
+                                   Bypassed="0" Intensity="1" UseTable="1" Inverted="0" TableData="36......flYl4C...vOX9Sa+....9C...YO...f+....9C..PfO"
                                    Connection="Global Modulator Container:Velocity Modulator">
                           <ChildProcessors/>
                         </Processor>
@@ -406,7 +484,8 @@
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
                       <ChildProcessors/>
                     </Processor>
-                    <Processor Type="ModulatorChain" ID="Bipolar Freq Mod" Bypassed="0" Intensity="1">
+                    <Processor Type="ModulatorChain" ID="Bipolar Freq Modulation" Bypassed="0"
+                               Intensity="1">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -421,1059 +500,13 @@
             </Processor>
           </ChildProcessors>
           <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
-                         Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
-                         Send4="-1" Channel5="1" Send5="-1"/>
+                         Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
+                         Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
             <channelData enabled="1" level="0" suffix="di"/>
             <channelData enabled="1" level="0" suffix="room"/>
           </channels>
-          <samplemap ID="celticHarp_sustain" SaveMode="1" RRGroupAmount="1" MicPositions="close;di;room;">
-            <sample ID="0" Root="36" HiKey="36" LoKey="36" LoVel="0" HiVel="73" RRGroup="1"
-                    Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7994"
-                    SampleEnd="941270" SampleStartMod="0" LoopStart="7994" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_36_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_36_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_36_dynamic1.wav"/>
-            </sample>
-            <sample ID="1" Root="36" HiKey="36" LoKey="36" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10740"
-                    SampleEnd="1227098" SampleStartMod="0" LoopStart="10740" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_36_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_36_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_36_dynamic2.wav"/>
-            </sample>
-            <sample ID="2" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="73" RRGroup="1"
-                    Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7192"
-                    SampleEnd="722185" SampleStartMod="0" LoopStart="7192" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_37_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_37_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_37_dynamic1.wav"/>
-            </sample>
-            <sample ID="3" Root="37" HiKey="37" LoKey="37" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12401"
-                    SampleEnd="1167143" SampleStartMod="0" LoopStart="12401" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_37_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_37_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_37_dynamic2.wav"/>
-            </sample>
-            <sample ID="4" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="73" RRGroup="1"
-                    Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8115"
-                    SampleEnd="1054151" SampleStartMod="0" LoopStart="8115" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_38_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_38_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_38_dynamic1.wav"/>
-            </sample>
-            <sample ID="5" Root="38" HiKey="38" LoKey="38" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11547"
-                    SampleEnd="1365488" SampleStartMod="0" LoopStart="11547" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_38_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_38_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_38_dynamic2.wav"/>
-            </sample>
-            <sample ID="6" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="73" RRGroup="1"
-                    Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7839"
-                    SampleEnd="803007" SampleStartMod="0" LoopStart="7839" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_39_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_39_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_39_dynamic1.wav"/>
-            </sample>
-            <sample ID="7" Root="39" HiKey="39" LoKey="39" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12931"
-                    SampleEnd="1110522" SampleStartMod="0" LoopStart="12931" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_39_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_39_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_39_dynamic2.wav"/>
-            </sample>
-            <sample ID="8" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="73" RRGroup="1"
-                    Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8241"
-                    SampleEnd="953389" SampleStartMod="0" LoopStart="8241" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_40_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_40_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_40_dynamic1.wav"/>
-            </sample>
-            <sample ID="9" Root="40" HiKey="40" LoKey="40" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9144"
-                    SampleEnd="984848" SampleStartMod="0" LoopStart="9144" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_40_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_40_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_40_dynamic2.wav"/>
-            </sample>
-            <sample ID="10" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7965"
-                    SampleEnd="798743" SampleStartMod="0" LoopStart="7965" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_41_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_41_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_41_dynamic1.wav"/>
-            </sample>
-            <sample ID="11" Root="41" HiKey="41" LoKey="41" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12301"
-                    SampleEnd="1070186" SampleStartMod="0" LoopStart="12301" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_41_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_41_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_41_dynamic2.wav"/>
-            </sample>
-            <sample ID="12" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5789"
-                    SampleEnd="804791" SampleStartMod="0" LoopStart="6754" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_42_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_42_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_42_dynamic1.wav"/>
-            </sample>
-            <sample ID="13" Root="42" HiKey="42" LoKey="42" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6580"
-                    SampleEnd="945619" SampleStartMod="0" LoopStart="6580" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_42_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_42_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_42_dynamic2.wav"/>
-            </sample>
-            <sample ID="14" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2897"
-                    SampleEnd="681940" SampleStartMod="0" LoopStart="3634" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_43_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_43_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_43_dynamic1.wav"/>
-            </sample>
-            <sample ID="15" Root="43" HiKey="43" LoKey="43" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8585"
-                    SampleEnd="1003589" SampleStartMod="0" LoopStart="8585" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_43_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_43_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_43_dynamic2.wav"/>
-            </sample>
-            <sample ID="16" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7606"
-                    SampleEnd="700936" SampleStartMod="0" LoopStart="7606" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_44_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_44_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_44_dynamic1.wav"/>
-            </sample>
-            <sample ID="17" Root="44" HiKey="44" LoKey="44" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13382"
-                    SampleEnd="877810" SampleStartMod="0" LoopStart="13382" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_44_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_44_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_44_dynamic2.wav"/>
-            </sample>
-            <sample ID="18" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6098"
-                    SampleEnd="797827" SampleStartMod="0" LoopStart="7440" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_45_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_45_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_45_dynamic1.wav"/>
-            </sample>
-            <sample ID="19" Root="45" HiKey="45" LoKey="45" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4573"
-                    SampleEnd="877556" SampleStartMod="0" LoopStart="4573" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_45_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_45_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_45_dynamic2.wav"/>
-            </sample>
-            <sample ID="20" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8255"
-                    SampleEnd="713847" SampleStartMod="0" LoopStart="8255" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_46_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_46_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_46_dynamic1.wav"/>
-            </sample>
-            <sample ID="21" Root="46" HiKey="46" LoKey="46" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3528"
-                    SampleEnd="821390" SampleStartMod="0" LoopStart="3528" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_46_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_46_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_46_dynamic2.wav"/>
-            </sample>
-            <sample ID="22" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2722"
-                    SampleEnd="600662" SampleStartMod="0" LoopStart="3521" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_47_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_47_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_47_dynamic1.wav"/>
-            </sample>
-            <sample ID="23" Root="47" HiKey="47" LoKey="47" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8620"
-                    SampleEnd="922162" SampleStartMod="0" LoopStart="8620" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_47_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_47_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_47_dynamic2.wav"/>
-            </sample>
-            <sample ID="24" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7119"
-                    SampleEnd="647486" SampleStartMod="0" LoopStart="7119" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_48_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_48_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_48_dynamic1.wav"/>
-            </sample>
-            <sample ID="25" Root="48" HiKey="48" LoKey="48" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11054"
-                    SampleEnd="875537" SampleStartMod="0" LoopStart="11054" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_48_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_48_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_48_dynamic2.wav"/>
-            </sample>
-            <sample ID="26" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5773"
-                    SampleEnd="611382" SampleStartMod="0" LoopStart="7412" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_49_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_49_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_49_dynamic1.wav"/>
-            </sample>
-            <sample ID="27" Root="49" HiKey="49" LoKey="49" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6935"
-                    SampleEnd="856915" SampleStartMod="0" LoopStart="9099" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_49_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_49_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_49_dynamic2.wav"/>
-            </sample>
-            <sample ID="28" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1477"
-                    SampleEnd="405699" SampleStartMod="0" LoopStart="1477" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_50_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_50_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_50_dynamic1.wav"/>
-            </sample>
-            <sample ID="29" Root="50" HiKey="50" LoKey="50" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11485"
-                    SampleEnd="484014" SampleStartMod="0" LoopStart="11485" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_50_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_50_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_50_dynamic2.wav"/>
-            </sample>
-            <sample ID="30" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2738"
-                    SampleEnd="410872" SampleStartMod="0" LoopStart="3558" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_51_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_51_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_51_dynamic1.wav"/>
-            </sample>
-            <sample ID="31" Root="51" HiKey="51" LoKey="51" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7054"
-                    SampleEnd="453289" SampleStartMod="0" LoopStart="7054" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_51_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_51_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_51_dynamic2.wav"/>
-            </sample>
-            <sample ID="32" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3672"
-                    SampleEnd="531963" SampleStartMod="0" LoopStart="3672" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_52_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_52_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_52_dynamic1.wav"/>
-            </sample>
-            <sample ID="33" Root="52" HiKey="52" LoKey="52" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7826"
-                    SampleEnd="647878" SampleStartMod="0" LoopStart="7826" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_52_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_52_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_52_dynamic2.wav"/>
-            </sample>
-            <sample ID="34" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5164"
-                    SampleEnd="466133" SampleStartMod="0" LoopStart="5164" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_53_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_53_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_53_dynamic1.wav"/>
-            </sample>
-            <sample ID="35" Root="53" HiKey="53" LoKey="53" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11656"
-                    SampleEnd="376715" SampleStartMod="0" LoopStart="11656" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_53_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_53_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_53_dynamic2.wav"/>
-            </sample>
-            <sample ID="36" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8031"
-                    SampleEnd="461867" SampleStartMod="0" LoopStart="8031" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_54_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_54_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_54_dynamic1.wav"/>
-            </sample>
-            <sample ID="37" Root="54" HiKey="54" LoKey="54" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9857"
-                    SampleEnd="603168" SampleStartMod="0" LoopStart="9857" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_54_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_54_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_54_dynamic2.wav"/>
-            </sample>
-            <sample ID="38" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3592"
-                    SampleEnd="360949" SampleStartMod="0" LoopStart="3592" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_55_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_55_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_55_dynamic1.wav"/>
-            </sample>
-            <sample ID="39" Root="55" HiKey="55" LoKey="55" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9499"
-                    SampleEnd="361173" SampleStartMod="0" LoopStart="9499" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_55_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_55_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_55_dynamic2.wav"/>
-            </sample>
-            <sample ID="40" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5370"
-                    SampleEnd="392760" SampleStartMod="0" LoopStart="5370" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_56_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_56_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_56_dynamic1.wav"/>
-            </sample>
-            <sample ID="41" Root="56" HiKey="56" LoKey="56" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6755"
-                    SampleEnd="475128" SampleStartMod="0" LoopStart="6755" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_56_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_56_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_56_dynamic2.wav"/>
-            </sample>
-            <sample ID="42" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3550"
-                    SampleEnd="371918" SampleStartMod="0" LoopStart="3550" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_57_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_57_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_57_dynamic1.wav"/>
-            </sample>
-            <sample ID="43" Root="57" HiKey="57" LoKey="57" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5392"
-                    SampleEnd="702730" SampleStartMod="0" LoopStart="5742" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_57_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_57_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_57_dynamic2.wav"/>
-            </sample>
-            <sample ID="44" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2807"
-                    SampleEnd="436045" SampleStartMod="0" LoopStart="2807" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_58_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_58_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_58_dynamic1.wav"/>
-            </sample>
-            <sample ID="45" Root="58" HiKey="58" LoKey="58" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6755"
-                    SampleEnd="496337" SampleStartMod="0" LoopStart="7210" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_58_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_58_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_58_dynamic2.wav"/>
-            </sample>
-            <sample ID="46" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3568"
-                    SampleEnd="591229" SampleStartMod="0" LoopStart="3568" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_59_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_59_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_59_dynamic1.wav"/>
-            </sample>
-            <sample ID="47" Root="59" HiKey="59" LoKey="59" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7378"
-                    SampleEnd="707733" SampleStartMod="0" LoopStart="7378" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_59_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_59_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_59_dynamic2.wav"/>
-            </sample>
-            <sample ID="48" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3958"
-                    SampleEnd="385472" SampleStartMod="0" LoopStart="4262" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_60_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_60_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_60_dynamic1.wav"/>
-            </sample>
-            <sample ID="49" Root="60" HiKey="60" LoKey="60" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4995"
-                    SampleEnd="443173" SampleStartMod="0" LoopStart="4995" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_60_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_60_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_60_dynamic2.wav"/>
-            </sample>
-            <sample ID="50" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3972"
-                    SampleEnd="532819" SampleStartMod="0" LoopStart="3972" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_61_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_61_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_61_dynamic1.wav"/>
-            </sample>
-            <sample ID="51" Root="61" HiKey="61" LoKey="61" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9087"
-                    SampleEnd="790256" SampleStartMod="0" LoopStart="9087" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_61_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_61_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_61_dynamic2.wav"/>
-            </sample>
-            <sample ID="52" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4170"
-                    SampleEnd="303925" SampleStartMod="0" LoopStart="4170" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_62_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_62_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_62_dynamic1.wav"/>
-            </sample>
-            <sample ID="53" Root="62" HiKey="62" LoKey="62" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10741"
-                    SampleEnd="397953" SampleStartMod="0" LoopStart="10741" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_62_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_62_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_62_dynamic2.wav"/>
-            </sample>
-            <sample ID="54" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3366"
-                    SampleEnd="547243" SampleStartMod="0" LoopStart="3366" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_63_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_63_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_63_dynamic1.wav"/>
-            </sample>
-            <sample ID="55" Root="63" HiKey="63" LoKey="63" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9589"
-                    SampleEnd="653036" SampleStartMod="0" LoopStart="9589" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_63_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_63_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_63_dynamic2.wav"/>
-            </sample>
-            <sample ID="56" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3457"
-                    SampleEnd="488879" SampleStartMod="0" LoopStart="3457" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_64_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_64_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_64_dynamic1.wav"/>
-            </sample>
-            <sample ID="57" Root="64" HiKey="64" LoKey="64" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9214"
-                    SampleEnd="667237" SampleStartMod="0" LoopStart="9214" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_64_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_64_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_64_dynamic2.wav"/>
-            </sample>
-            <sample ID="58" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8348"
-                    SampleEnd="310521" SampleStartMod="0" LoopStart="8348" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_65_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_65_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_65_dynamic1.wav"/>
-            </sample>
-            <sample ID="59" Root="65" HiKey="65" LoKey="65" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5908"
-                    SampleEnd="396420" SampleStartMod="0" LoopStart="5908" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_65_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_65_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_65_dynamic2.wav"/>
-            </sample>
-            <sample ID="60" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3801"
-                    SampleEnd="394551" SampleStartMod="0" LoopStart="3801" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_66_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_66_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_66_dynamic1.wav"/>
-            </sample>
-            <sample ID="61" Root="66" HiKey="66" LoKey="66" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9877"
-                    SampleEnd="752116" SampleStartMod="0" LoopStart="9877" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_66_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_66_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_66_dynamic2.wav"/>
-            </sample>
-            <sample ID="62" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4672"
-                    SampleEnd="470629" SampleStartMod="0" LoopStart="4672" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_67_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_67_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_67_dynamic1.wav"/>
-            </sample>
-            <sample ID="63" Root="67" HiKey="67" LoKey="67" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11467"
-                    SampleEnd="443021" SampleStartMod="0" LoopStart="11467" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_67_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_67_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_67_dynamic2.wav"/>
-            </sample>
-            <sample ID="64" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3328"
-                    SampleEnd="472350" SampleStartMod="0" LoopStart="3328" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_68_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_68_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_68_dynamic1.wav"/>
-            </sample>
-            <sample ID="65" Root="68" HiKey="68" LoKey="68" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10283"
-                    SampleEnd="435701" SampleStartMod="0" LoopStart="10283" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_68_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_68_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_68_dynamic2.wav"/>
-            </sample>
-            <sample ID="66" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4752"
-                    SampleEnd="348760" SampleStartMod="0" LoopStart="4752" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_69_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_69_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_69_dynamic1.wav"/>
-            </sample>
-            <sample ID="67" Root="69" HiKey="69" LoKey="69" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9991"
-                    SampleEnd="391179" SampleStartMod="0" LoopStart="9991" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_69_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_69_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_69_dynamic2.wav"/>
-            </sample>
-            <sample ID="68" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3180"
-                    SampleEnd="355717" SampleStartMod="0" LoopStart="3180" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_70_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_70_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_70_dynamic1.wav"/>
-            </sample>
-            <sample ID="69" Root="70" HiKey="70" LoKey="70" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10053"
-                    SampleEnd="430580" SampleStartMod="0" LoopStart="10053" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_70_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_70_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_70_dynamic2.wav"/>
-            </sample>
-            <sample ID="70" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2996"
-                    SampleEnd="273449" SampleStartMod="0" LoopStart="2996" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_71_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_71_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_71_dynamic1.wav"/>
-            </sample>
-            <sample ID="71" Root="71" HiKey="71" LoKey="71" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8408"
-                    SampleEnd="420636" SampleStartMod="0" LoopStart="8408" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_71_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_71_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_71_dynamic2.wav"/>
-            </sample>
-            <sample ID="72" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4160"
-                    SampleEnd="256510" SampleStartMod="0" LoopStart="4160" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_72_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_72_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_72_dynamic1.wav"/>
-            </sample>
-            <sample ID="73" Root="72" HiKey="72" LoKey="72" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7539"
-                    SampleEnd="359051" SampleStartMod="0" LoopStart="7539" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_72_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_72_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_72_dynamic2.wav"/>
-            </sample>
-            <sample ID="74" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2974"
-                    SampleEnd="510124" SampleStartMod="0" LoopStart="2974" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_73_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_73_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_73_dynamic1.wav"/>
-            </sample>
-            <sample ID="75" Root="73" HiKey="73" LoKey="73" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9629"
-                    SampleEnd="499466" SampleStartMod="0" LoopStart="9629" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_73_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_73_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_73_dynamic2.wav"/>
-            </sample>
-            <sample ID="76" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2289"
-                    SampleEnd="194406" SampleStartMod="0" LoopStart="2289" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_74_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_74_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_74_dynamic1.wav"/>
-            </sample>
-            <sample ID="77" Root="74" HiKey="74" LoKey="74" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9655"
-                    SampleEnd="338600" SampleStartMod="0" LoopStart="9655" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_74_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_74_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_74_dynamic2.wav"/>
-            </sample>
-            <sample ID="78" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1874"
-                    SampleEnd="281074" SampleStartMod="0" LoopStart="1874" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_75_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_75_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_75_dynamic1.wav"/>
-            </sample>
-            <sample ID="79" Root="75" HiKey="75" LoKey="75" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4446"
-                    SampleEnd="416859" SampleStartMod="0" LoopStart="4446" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_75_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_75_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_75_dynamic2.wav"/>
-            </sample>
-            <sample ID="80" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2706"
-                    SampleEnd="249899" SampleStartMod="0" LoopStart="2706" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_76_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_76_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_76_dynamic1.wav"/>
-            </sample>
-            <sample ID="81" Root="76" HiKey="76" LoKey="76" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8712"
-                    SampleEnd="323625" SampleStartMod="0" LoopStart="8712" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_76_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_76_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_76_dynamic2.wav"/>
-            </sample>
-            <sample ID="82" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2070"
-                    SampleEnd="270280" SampleStartMod="0" LoopStart="2070" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_77_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_77_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_77_dynamic1.wav"/>
-            </sample>
-            <sample ID="83" Root="77" HiKey="77" LoKey="77" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11600"
-                    SampleEnd="298001" SampleStartMod="0" LoopStart="11600" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_77_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_77_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_77_dynamic2.wav"/>
-            </sample>
-            <sample ID="84" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2822"
-                    SampleEnd="312724" SampleStartMod="0" LoopStart="2822" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_78_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_78_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_78_dynamic1.wav"/>
-            </sample>
-            <sample ID="85" Root="78" HiKey="78" LoKey="78" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7082"
-                    SampleEnd="305299" SampleStartMod="0" LoopStart="7082" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_78_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_78_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_78_dynamic2.wav"/>
-            </sample>
-            <sample ID="86" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2295"
-                    SampleEnd="195827" SampleStartMod="0" LoopStart="2295" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_79_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_79_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_79_dynamic1.wav"/>
-            </sample>
-            <sample ID="87" Root="79" HiKey="79" LoKey="79" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9400"
-                    SampleEnd="298087" SampleStartMod="0" LoopStart="9400" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_79_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_79_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_79_dynamic2.wav"/>
-            </sample>
-            <sample ID="88" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2519"
-                    SampleEnd="300326" SampleStartMod="0" LoopStart="2519" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_80_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_80_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_80_dynamic1.wav"/>
-            </sample>
-            <sample ID="89" Root="80" HiKey="80" LoKey="80" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9524"
-                    SampleEnd="317050" SampleStartMod="0" LoopStart="9524" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_80_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_80_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_80_dynamic2.wav"/>
-            </sample>
-            <sample ID="90" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2161"
-                    SampleEnd="164560" SampleStartMod="0" LoopStart="2161" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_81_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_81_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_81_dynamic1.wav"/>
-            </sample>
-            <sample ID="91" Root="81" HiKey="81" LoKey="81" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9127"
-                    SampleEnd="254493" SampleStartMod="0" LoopStart="9127" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_81_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_81_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_81_dynamic2.wav"/>
-            </sample>
-            <sample ID="92" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2825"
-                    SampleEnd="279961" SampleStartMod="0" LoopStart="2825" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_82_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_82_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_82_dynamic1.wav"/>
-            </sample>
-            <sample ID="93" Root="82" HiKey="82" LoKey="82" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9749"
-                    SampleEnd="333068" SampleStartMod="0" LoopStart="9749" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_82_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_82_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_82_dynamic2.wav"/>
-            </sample>
-            <sample ID="94" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1780"
-                    SampleEnd="186311" SampleStartMod="0" LoopStart="1780" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_83_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_83_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_83_dynamic1.wav"/>
-            </sample>
-            <sample ID="95" Root="83" HiKey="83" LoKey="83" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10736"
-                    SampleEnd="324391" SampleStartMod="0" LoopStart="10736" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_83_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_83_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_83_dynamic2.wav"/>
-            </sample>
-            <sample ID="96" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2111"
-                    SampleEnd="152979" SampleStartMod="0" LoopStart="2111" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_84_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_84_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_84_dynamic1.wav"/>
-            </sample>
-            <sample ID="97" Root="84" HiKey="84" LoKey="84" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7196"
-                    SampleEnd="280219" SampleStartMod="0" LoopStart="7196" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_84_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_84_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_84_dynamic2.wav"/>
-            </sample>
-            <sample ID="98" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1371"
-                    SampleEnd="214390" SampleStartMod="0" LoopStart="1371" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_85_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_85_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_85_dynamic1.wav"/>
-            </sample>
-            <sample ID="99" Root="85" HiKey="85" LoKey="85" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6529"
-                    SampleEnd="290318" SampleStartMod="0" LoopStart="6529" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_85_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_85_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_85_dynamic2.wav"/>
-            </sample>
-            <sample ID="100" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2247"
-                    SampleEnd="155620" SampleStartMod="0" LoopStart="2247" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_86_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_86_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_86_dynamic1.wav"/>
-            </sample>
-            <sample ID="101" Root="86" HiKey="86" LoKey="86" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7199"
-                    SampleEnd="220073" SampleStartMod="0" LoopStart="7199" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_86_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_86_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_86_dynamic2.wav"/>
-            </sample>
-            <sample ID="102" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1687"
-                    SampleEnd="121047" SampleStartMod="0" LoopStart="1687" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_87_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_87_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_87_dynamic1.wav"/>
-            </sample>
-            <sample ID="103" Root="87" HiKey="87" LoKey="87" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9086"
-                    SampleEnd="156702" SampleStartMod="0" LoopStart="9086" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_87_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_87_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_87_dynamic2.wav"/>
-            </sample>
-            <sample ID="104" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2480"
-                    SampleEnd="121691" SampleStartMod="0" LoopStart="2480" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_88_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_88_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_88_dynamic1.wav"/>
-            </sample>
-            <sample ID="105" Root="88" HiKey="88" LoKey="88" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11691"
-                    SampleEnd="289021" SampleStartMod="0" LoopStart="11691" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_88_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_88_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_88_dynamic2.wav"/>
-            </sample>
-            <sample ID="106" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2184"
-                    SampleEnd="147507" SampleStartMod="0" LoopStart="2184" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_89_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_89_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_89_dynamic1.wav"/>
-            </sample>
-            <sample ID="107" Root="89" HiKey="89" LoKey="89" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7943"
-                    SampleEnd="195779" SampleStartMod="0" LoopStart="7943" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_89_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_89_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_89_dynamic2.wav"/>
-            </sample>
-            <sample ID="108" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3164"
-                    SampleEnd="119384" SampleStartMod="0" LoopStart="3164" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_90_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_90_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_90_dynamic1.wav"/>
-            </sample>
-            <sample ID="109" Root="90" HiKey="90" LoKey="90" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9281"
-                    SampleEnd="230759" SampleStartMod="0" LoopStart="9281" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_90_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_90_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_90_dynamic2.wav"/>
-            </sample>
-            <sample ID="110" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2508"
-                    SampleEnd="103681" SampleStartMod="0" LoopStart="2508" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_91_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_91_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_91_dynamic1.wav"/>
-            </sample>
-            <sample ID="111" Root="91" HiKey="91" LoKey="91" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8504"
-                    SampleEnd="159291" SampleStartMod="0" LoopStart="8504" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_91_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_91_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_91_dynamic2.wav"/>
-            </sample>
-            <sample ID="112" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1592"
-                    SampleEnd="121000" SampleStartMod="0" LoopStart="1805" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_92_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_92_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_92_dynamic1.wav"/>
-            </sample>
-            <sample ID="113" Root="92" HiKey="92" LoKey="92" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6296"
-                    SampleEnd="150566" SampleStartMod="0" LoopStart="6296" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_92_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_92_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_92_dynamic2.wav"/>
-            </sample>
-            <sample ID="114" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="73"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3173"
-                    SampleEnd="125820" SampleStartMod="0" LoopStart="3173" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_93_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_93_dynamic1.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_93_dynamic1.wav"/>
-            </sample>
-            <sample ID="115" Root="93" HiKey="93" LoKey="93" LoVel="54" HiVel="127"
-                    RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7011"
-                    SampleEnd="138955" SampleStartMod="0" LoopStart="7011" LoopEnd="0"
-                    LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
-                    SampleState="0" NormalizedPeak="-1" Duplicate="0">
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_close_93_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_di_93_dynamic2.wav"/>
-              <file FileName="/media/dave/work1/Xtant Audio/Products/Virtual Instruments/Strings/Michaela's Harp/session/media/final/sustain/celticHarp_sustain_room_93_dynamic2.wav"/>
-            </sample>
-          </samplemap>
         </Processor>
         <Processor Type="StreamingSampler" ID="stopped" Bypassed="0" Gain="1" Balance="0"
                    VoiceLimit="96" KillFadeTime="20" IconColour="0" PreloadSize="8192"
@@ -1483,7 +516,7 @@
                    Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMap="">
+                   Group7Table="24...............vO...f+....9C...vO">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -1528,8 +561,8 @@
             </Processor>
           </ChildProcessors>
           <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
-                         Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
-                         Send4="-1" Channel5="1" Send5="-1"/>
+                         Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
+                         Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
             <channelData enabled="1" level="0" suffix="di"/>
@@ -1710,10 +743,14 @@
           </samplemap>
         </Processor>
       </ChildProcessors>
-      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+      <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                     Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="4"
+                     Send4="-1" Channel5="5" Send5="-1"/>
     </Processor>
   </ChildProcessors>
-  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <RoutingMatrix NumSourceChannels="6" Channel0="0" Send0="-1" Channel1="1" Send1="-1"
+                 Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
+                 Send4="-1" Channel5="1" Send5="-1"/>
   <macro_controls>
     <macro name="Macro 1" value="0" midi_cc="-1"/>
     <macro name="Macro 2" value="0" midi_cc="-1"/>
