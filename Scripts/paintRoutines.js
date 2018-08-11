@@ -35,20 +35,7 @@ namespace paintRoutines
         this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
         g.fillPath(svgPaths.gear, [0, 0, this.get("width"), this.get("height")]);
     };
-    		
-    const var roundRobin = function(g)
-    {
-        g.setFont(Theme.ZONE_FONT, 24);
-        this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
-        g.drawAlignedText("RR", [0, 0, this.get("width"), this.get("height")], "centred");
-    };
-
-    const var release = function(g)
-    {
-        this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
-        g.fillPath(svgPaths.release, [0, 0, this.get("width"), this.get("height")]);
-    };
-    
+    		    
 	const var biDirectionalSlider = function(g)
 	{       
 		//Background
@@ -68,6 +55,16 @@ namespace paintRoutines
 		g.setFont(Theme.LABEL_FONT, Theme.LABEL_FONT_SIZE);
 		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "left");
 	};
+	
+	const var enabledDisabledButton = function(g)
+    {
+        this.getValue() == 1 ? this.set("text", "Enabled") : this.set("text", "Disabled");
+        this.getValue() == 1 ? g.fillAll(this.get("bgColour")) : g.fillAll(this.get("itemColour"));
+	    this.getValue() == 1 ? g.setColour(this.get("textColour")) : g.setColour(this.get("itemColour2"));
+	    	    
+		g.setFont(Theme.REGULAR, 16);
+		g.drawAlignedText(this.get("text"), [0, 0, this.getWidth(), this.getHeight()-5], "centred");
+    };
 	
 	const var pushButton = function(g)
 	{							

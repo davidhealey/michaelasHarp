@@ -20,7 +20,7 @@ namespace ControllerHandler
 	inline function onInitCB()
 	{
 		const var parameters = ["Velocity", "Expression"];
-		const var reservedCc = [64]; //CCs used internally, not user selectable
+		const var reservedCc = [32, 64]; //CCs used internally, not user selectable
 	
 		//Get CC modulators
 		const var mods = [];
@@ -33,16 +33,12 @@ namespace ControllerHandler
 		  if (reservedCc.indexOf(i) == -1) ccNums.push(i); //If CC is not reserved
 		}
 
-		//Panel
-		//ui.setupControl("page1", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
-
 		//Labels
-		Content.setPropertiesFromJSON("lblControllers", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE}); //Title label
-		Content.setPropertiesFromJSON("lblParameter", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
-		Content.setPropertiesFromJSON("lblController", {fontName:Theme.LABEL_FONT, fontSize:Theme.LABEL_FONT_SIZE, textColour:Theme.BLACK});
+		Content.setPropertiesFromJSON("lblParameter", {fontName:Theme.BOLD, fontSize:Theme.H2, textColour:Theme.BLACK});
+		Content.setPropertiesFromJSON("lblController", {fontName:Theme.BOLD, fontSize:Theme.H2, textColour:Theme.BLACK});
 
-		const var cmbParam = ui.comboBoxPanel("cmbParam", paintRoutines.comboBox, Theme.CONTROL_FONT_SIZE, parameters);
-		Content.setPropertiesFromJSON("cmbParam", {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
+        //Parameter combo box
+		const var cmbParam = ui.setupControl("cmbParam", {bgColour:Theme.COMBO_BORDER, textColour:Theme.COMBO_TEXT, items:parameters.join("\n")});
 		cmbParam.setControlCallback(cmbParamCB);
 
 		const var cmbCc = []; //Controller number selection combo boxes
@@ -51,29 +47,14 @@ namespace ControllerHandler
 		for (i = 0; i < parameters.length; i++)
 		{
 			//Parameter menu
-			//cmbCc[i] = ui.setupControl("cmbCc"+i, {bgColour:Theme.CONTROL2, itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
-			cmbCc[i] = Content.getComponent("cmbCc"+i);
+			cmbCc[i] = ui.setupControl("cmbCc"+i, {bgColour:Theme.COMBO_BORDER, textColour:Theme.COMBO_TEXT});
 			cmbCc[i].setControlCallback(cmbCcCB);
-
-			//CC number menu
-			if (i > 0) //Skip velocity
-			{
-				ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, Theme.CONTROL_FONT_SIZE, ccNums);
-			}
-			else //Velocity
-			{
-				ui.comboBoxPanel("cmbCc"+i, paintRoutines.comboBox, Theme.CONTROL_FONT_SIZE, ["Velocity"]);
-			}
+            i > 0 ? cmbCc[i].set("items", ccNums.join("\n")) : cmbCc[i].set("items", "Velocity");
 
 			//Response table
-			//tblCc[i] = ui.setupControl("tblCc"+i, {customColours:true, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, itemColour2:Theme.HEADER});
+			tblCc[i] = ui.setupControl("tblCc"+i, {customColours:true, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, itemColour2:0x70000000});
 		}
 	}
-
-	inline function onNoteCB()
-    {
-     //   Message.setVelocity(Math.max(1, 127/100 * tblCc[0].getTableValue(Message.getVelocity()) * 100)); //Scale velocity using table
-    }
 
 	inline function cmbParamCB(control, value)
 	{
@@ -87,10 +68,6 @@ namespace ControllerHandler
 	inline function cmbCcCB(control, value)
 	{
 		local idx = cmbCc.indexOf(control); //Get control's index
-
-		if (idx > 0) //Ignore velocity mod
-		{
-			mods[idx].setAttribute(2, control.data.items[value-1]);
-		}
+		if (idx > 0) mods[idx].setAttribute(2, control.getItemText()); //Velocity mod is ignored
 	}
 }

@@ -19,8 +19,6 @@ namespace Mixer
 {
 	inline function onInitCB()
 	{
-		const var micNames = ["Close", "DI", "Room"];
-		const var pan = [];
 		const var purge = [];
 	
 		//Retrieve samplers and store in samplers array
@@ -32,22 +30,22 @@ namespace Mixer
 		    samplers.push(Synth.getSampler(s));
 		}
 
-		//Panel
-		//ui.setupControl("page0", {"itemColour":Theme.ZONE, "itemColour2":Theme.ZONE});
-
-		//Title label
-		Content.setPropertiesFromJSON("lblMixer", {fontName:Theme.ZONE_FONT, fontSize:Theme.ZONE_FONT_SIZE});
+		//Labels	
+		Content.setPropertiesFromJSON("lblVol", {fontName:Theme.BOLD, fontSize:Theme.H2});
+		Content.setPropertiesFromJSON("lblPan", {fontName:Theme.BOLD, fontSize:Theme.H2});
+		Content.setPropertiesFromJSON("lblWidth", {fontName:Theme.BOLD, fontSize:Theme.H2});
+		Content.setPropertiesFromJSON("lblDelay", {fontName:Theme.BOLD, fontSize:Theme.H2});
 	
-		for (i = 0; i < micNames.length; i++)
+		for (i = 0; i < 3; i++)
 		{
-			//Content.setPropertiesFromJSON("sliPan"+i, {stepSize:0.01, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-			pan[i] = ui.sliderPanel("sliPan"+i, paintRoutines.biDirectionalSlider, 0, 0.5); //Set up for pan slider
+			Content.setPropertiesFromJSON("sliPan"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
+			ui.sliderPanel("sliPan"+i, paintRoutines.biDirectionalSlider, 0, 0.5); //Set up for pan slider
 
-		//	Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});			
-			//Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-			//Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
+			Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});			
+			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
+			Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
 
-			//Content.setPropertiesFromJSON("btnPurge"+i, {text:micNames[i], bgColour:Theme.CONTROL1, textColour:Theme.BLACK});
+			Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.BLACK, bgColour:Theme.CONTROL2});
 			purge[i] = ui.buttonPanel("btnPurge"+i, paintRoutines.textButton); //Set up callbacks for purge button
 			purge[i].setControlCallback(btnPurgeCB);
 		}

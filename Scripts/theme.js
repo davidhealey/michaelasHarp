@@ -19,19 +19,36 @@ namespace Theme
 {
     Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
     Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
-
+    //Engine.setGlobalFont("Sarala-Regular"); //Set default font
+    
 	const var BLACK = 0xFF000000;
 	const var WHITE = 0xFFFFFFFF;
 	const var HEADER = 0xFF1C2A39;
 	const var LOGO = 0xFFEEEEEE;
 	const var PRESET = 0xFF5C6A79;
+	const var Reg = "Sarala-Regular";
+	const var BOLD = "Sarala-Bold";
+	const var H2 = 24;
+    const var H3 = 18;
+	const var PAGE = 0xFFFFFFFF;
+	const var SETTINGS_TAB_BG = 0xFFFFFFFF;
+	const var SETTINGS_TAB_TEXT = 0xFF000000;
+	const var SETTINGS_LABEL = 0xFF000000;
+    const var CONTROL1 = 0xFFB6B6B6;
+	const var CONTROL2 = 0xFF585858;
+	const var COMBO_BORDER = 0xFF000000;
+	const var COMBO_TEXT = 0xFF000000;
+	const var BUTTON_ON = 0xFFFFFFFF;
+	const var BUTTON_OFF = 0xFF000000;
+	
+	
+	
 	//const var BODY = 0xFFBDBDBD;
 	const var BODY = 0xFFEEEEEE;
 	const var ZONE = 0xFFEEEEEE;
 	const var ZONE_FONT = "Sarala-Bold";
 	const var ZONE_FONT_SIZE = 26;
-	const var CONTROL1 = 0xFF9E9E9E;
-	const var CONTROL2 = 0xFF5C6A79;
+
 	const var CONTROL_TEXT = 0xFFFFFFFF;
 	const var CONTROL_FONT = "Sarala-Regular";
 	const var CONTROL_FONT_SIZE = 20;

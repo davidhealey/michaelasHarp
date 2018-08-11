@@ -25,7 +25,7 @@ namespace PageHandler
 	{
 	    for (i = 0; i < PageHandler.pageCount; i++)
 	    {
-	        PageHandler.pages[i] = Content.getComponent("page"+i);
+	        PageHandler.pages[i] = Content.getComponent("page"+i);	        
 	        PageHandler.buttons[i] = ui.buttonPanel("btnPage"+i, buttonPaintRoutine);
 	        PageHandler.buttons[i].setControlCallback(btnPageCB);
 	    }	    

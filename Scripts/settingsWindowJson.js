@@ -28,14 +28,14 @@ namespace SettingsJson
     // Pass this object to the floating tile
     const var settings = {
     "Type": "Tabs",
-    "Font": Theme.ZONE_FONT,
+    "Font": Theme.REGULAR,
     "FontSize": 26,
     "Dynamic": false,
     "ColourData":
         {
-            "bgColour": Theme.BODY,
+            "bgColour": Theme.SETTINGS_TAB_BG,
             "itemColour1": Theme.CONTROL1,
-            "textColour":Theme.LABEL_TEXT
+            "textColour":Theme.SETTINGS_TAB_TEXT
         },
     "Content": [
         {
@@ -45,10 +45,10 @@ namespace SettingsJson
         },
         "ColourData":
             {
-                "bgColour": Theme.BODY,
-                "textColour": Theme.LABEL_TEXT,
+                "bgColour": Theme.PAGE,
+                "textColour": Theme.SETTINGS_LABEL,
             },
-        "Font": Theme.CONTROL_FONT,
+        "Font": Theme.BOLD,
         "FontSize": 22,
         "Driver": !isPlugin,
         "Device": !isPlugin,
@@ -82,11 +82,11 @@ namespace SettingsJson
             "Title": "MIDI Input",
             "StyleData": {
             },
-            "Font": Theme.CONTROL_FONT,
-            "FontSize": 22,
+            "Font": Theme.REGULAR,
+            "FontSize": 14,
             "ColourData": {
-                "bgColour": Theme.BODY,
-                "textColour": Theme.LABEL_TEXT,
+                "bgColour": Theme.PAGE,
+                "textColour": Theme.SETTINGS_LABEL,
             }
         });
     }
@@ -96,25 +96,24 @@ namespace SettingsJson
         "Title": "MIDI Channel",
         "StyleData": {
         },
-        "Font": Theme.CONTROL_FONT,
-        "FontSize": 22,
+        "Font": Theme.REGULAR,
+        "FontSize": 14,
         "ColourData": {
-            "bgColour": Theme.BODY,
-            "textColour": Theme.LABEL_TEXT,
-            "itemColour1": 0xFFDFDFDF
+            "bgColour": Theme.PAGE,
+            "textColour": Theme.SETTINGS_LABEL
         }
     });
 
     settings["Content"].push({
         "Type": "MidiLearnPanel",
         "Title": "MIDI Automation",
-        "Font": Theme.CONTROL_FONT,
-        "FontSize": 22,
+        "Font": Theme.REGULAR,
+        "FontSize": 14,
         "ColourData":
         {
-            "bgColour": Theme.BODY,
-            "textColour": Theme.LABEL_TEXT,
-            "itemColour1": Theme.ZONE
+            "bgColour": Theme.PAGE,
+            "textColour": Theme.SETTINGS_LABEL,
+            "itemColour1": Theme.PAGE
         }
     });
 };
