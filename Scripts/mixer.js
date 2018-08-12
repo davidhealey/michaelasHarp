@@ -39,13 +39,15 @@ namespace Mixer
 		for (i = 0; i < 3; i++)
 		{
 			Content.setPropertiesFromJSON("sliPan"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-			ui.sliderPanel("sliPan"+i, paintRoutines.biDirectionalSlider, 0, 0.5); //Set up for pan slider
+			ui.sliderPanel("sliPan"+i, paintRoutines.knob, 0, 0.5); //Set up for pan slider
 
+            Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
+			ui.sliderPanel("sliWidth"+i, paintRoutines.knob, 0, 0.5); //Set up for pan slider
+			
 			Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});			
 			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-			Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
 
-			Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.BLACK, bgColour:Theme.CONTROL2});
+			Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.BUTTON_OFF, itemColour:Theme.CONTROL1});
 			purge[i] = ui.buttonPanel("btnPurge"+i, paintRoutines.textButton); //Set up callbacks for purge button
 			purge[i].setControlCallback(btnPurgeCB);
 		}

@@ -83,7 +83,7 @@ namespace SettingsJson
             "StyleData": {
             },
             "Font": Theme.REGULAR,
-            "FontSize": 14,
+            "FontSize": 23,
             "ColourData": {
                 "bgColour": Theme.PAGE,
                 "textColour": Theme.SETTINGS_LABEL,
@@ -97,7 +97,7 @@ namespace SettingsJson
         "StyleData": {
         },
         "Font": Theme.REGULAR,
-        "FontSize": 14,
+        "FontSize": 23,
         "ColourData": {
             "bgColour": Theme.PAGE,
             "textColour": Theme.SETTINGS_LABEL
@@ -108,7 +108,7 @@ namespace SettingsJson
         "Type": "MidiLearnPanel",
         "Title": "MIDI Automation",
         "Font": Theme.REGULAR,
-        "FontSize": 14,
+        "FontSize": 23,
         "ColourData":
         {
             "bgColour": Theme.PAGE,

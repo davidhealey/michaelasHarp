@@ -54,11 +54,11 @@ namespace PageHandler
     
     function buttonPaintRoutine(g)
 	{
-	    this.getValue() == 1 ? g.fillAll(this.get("itemColour")) : g.fillAll(0x000000);
-	    this.getValue() == 1 ? g.setColour(0xFF000000) : g.setColour(this.get("textColour"));
+	    this.getValue() == 1 ? g.fillAll(Theme.CONTROL1) : g.fillAll(Theme.CONTROL2);
+	    this.getValue() == 1 ? g.setColour(Theme.BUTTON_OFF) : g.setColour(Theme.BUTTON_ON);
 	    
 	    
-		g.setFont(Theme.LABEL_FONT, Theme.LABEL_FONT_SIZE);
+		g.setFont(Theme.REGULAR, 23);
 		g.drawAlignedText(this.get("text"), [10, 0, this.get("width"), this.get("height")], "left");
 	};
 }

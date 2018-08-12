@@ -30,7 +30,7 @@ include("controllerHandler.js");
 include("performance.js");
 include("settingsWindowJson.js");
 
-Content.makeFrontInterface(650, 375);
+Content.makeFrontInterface(665, 375);
 
 reg patchName = "";
 
@@ -40,6 +40,9 @@ reg j;
 
 //Page background
 Content.setPropertiesFromJSON("pnlMain", {itemColour:Theme.PAGE, itemColour2:Theme.PAGE});
+
+//Menu
+Content.setPropertiesFromJSON("pnlMenu", {itemColour:Theme.CONTROL2, itemColour2:Theme.CONTROL2});
 
 //*** GUI ***
 Content.setPropertiesFromJSON("pnlMain", {itemColour:Theme.PAGE, itemColour2:Theme.PAGE}); //Main tab background panel

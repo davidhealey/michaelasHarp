@@ -48,11 +48,23 @@ namespace paintRoutines
 		g.fillRect([xPos, 0, this.getHeight(), this.getHeight()]);		
 	};
 	    
+	const var knob = function(g)
+	{
+	    reg v = (((this.getValue() - this.get("min")) * (135 - -135)) / (this.get("max") - this.get("min"))) + -135;
+	    
+	    g.rotate(Math.toRadians(v), [this.getWidth()/2, this.getHeight()/2]);
+	    
+	    g.setColour(this.get("itemColour"));
+	    g.drawEllipse([0.5, 0.5, this.getWidth()-1, this.getHeight()-1], 1);
+	    
+	    g.drawLine(this.getWidth()/2, this.getWidth()/2, 0, this.getHeight()/4, 2);
+	};	
+	
 	const var textButton = function(g)
 	{							
-		this.getValue() == 0 ? g.setColour(this.get("bgColour")) : g.setColour(this.get("textColour"));
+		this.getValue() == 1 ? g.setColour(this.get("textColour")) : g.setColour(this.get("itemColour"));
 
-		g.setFont(Theme.LABEL_FONT, Theme.LABEL_FONT_SIZE);
+		g.setFont(Theme.BOLD, Theme.H2);
 		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "left");
 	};
 	
@@ -62,8 +74,8 @@ namespace paintRoutines
         this.getValue() == 1 ? g.fillAll(this.get("bgColour")) : g.fillAll(this.get("itemColour"));
 	    this.getValue() == 1 ? g.setColour(this.get("textColour")) : g.setColour(this.get("itemColour2"));
 	    	    
-		g.setFont(Theme.REGULAR, 16);
-		g.drawAlignedText(this.get("text"), [0, 0, this.getWidth(), this.getHeight()-5], "centred");
+		g.setFont(Theme.REGULAR, 20);
+		g.drawAlignedText(this.get("text"), [0, 0, this.getWidth(), this.getHeight()], "centred");
     };
 	
 	const var pushButton = function(g)
@@ -90,13 +102,6 @@ namespace paintRoutines
 		this.getValue()-1 == -1 ? text = this.get("text") : text = this.data.items[this.getValue()-1];
 		g.drawAlignedText(text, [7, 0, this.getWidth(), this.getHeight()], "left");
 	}
-	
-	const var verticalSliderOld = function(g)
-    {
-        g.fillAll(this.get("bgColour"));        
-        g.setColour(this.get("itemColour"));
-        g.fillRect([0, this.getHeight() - this.getValue() * this.getHeight(), this.getWidth(), this.getValue() * this.getHeight()]);
-    }
     
     const var verticalSlider = function(g)
     {
