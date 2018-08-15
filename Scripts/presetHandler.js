@@ -28,53 +28,37 @@ namespace PresetHandler
       childSynths[id] = Synth.getChildSynth(id);
     }
 
-    const var presetNames = ui.getPresetNames(); //Get array of preset names
+    //Get array of preset names
+    const var presetNames = ui.getPresetNames();
 
     //Persistent panel for loading preset data
-    //const var pnlPreset = ui.setupControl("pnlPreset", {itemColour:Theme.PRESET, itemColour2:Theme.PRESET});
     const var pnlPreset = Content.getComponent("pnlPreset");
     pnlPreset.setControlCallback(pnlPresetCB);
-
-    //Preset menu - not persistent
-    const var cmbPreset = ui.comboBoxPanel("cmbPreset", paintRoutines.comboBox, Theme.CONTROL_FONT_SIZE, presetNames);
-    //Content.setPropertiesFromJSON("cmbPreset", {itemColour:Theme.CONTROL1, textColour:Theme.CONTROL_TEXT});
+    
+    //Preset selection dropdown
+    const var cmbPreset = Content.getComponent("cmbPreset");
+    Content.setPropertiesFromJSON("cmbPreset", {itemColour:Theme.C4, itemColour2:Theme.C4, textColour:Theme.C6, items:presetNames.join("\n")});
     cmbPreset.setControlCallback(cmbPresetCB);
-
-    //Preset save button
-    const var btnSavePreset = ui.momentaryButtonPanel("btnSavePreset", paintRoutines.disk);
-    btnSavePreset.setControlCallback(btnSavePresetCB);
   }
 
-  //UI Callbacks
-  inline function pnlPresetCB(control, value)
-  {
-    //Get the internal instrumentName from the preset name
-    if (cmbPreset.getValue() < 1) cmbPreset.setValue(1); //Min cmbPreset value is 1
-    local presetName = presetNames[cmbPreset.getValue()-1];
-    patchName = presetName.substring(presetName.lastIndexOf(": ")+2, presetName.length); //Set global variable
-
-    //Load the preset settings
-    loadSampleMaps(patchName); //Load sample maps for current preset
-    colourKeys(patchName);
-  }
-
-  inline function cmbPresetCB(control, value)
-  {
-     Engine.loadUserPreset(Engine.getUserPresetList()[value-1]);
-  }
-
-  inline function btnSavePresetCB(control, value)
-  {
-    local presetList = Engine.getUserPresetList();
-      
-    //Save the current user preset
-    if (value == 1)
-    {
-        Engine.saveUserPreset(presetList[cmbPreset.getValue()-1]);
+    //UI Callbacks
+    inline function pnlPresetCB(control, value)
+    {  
+        if (cmbPreset.getValue() < 1) cmbPreset.setValue(1);
+        local presetName = presetNames[cmbPreset.getValue()-1];       
+        patchName = presetName.substring(presetName.lastIndexOf(": ")+2, presetName.length); //Set global variable
+    
+        //Load the preset settings
+        loadSampleMaps(patchName); //Load sample maps for current preset
+        colourKeys(patchName);   
     }
-  }
+  
+    inline function cmbPresetCB(control, value)
+    {
+        Engine.loadUserPreset(Engine.getUserPresetList()[value-1]);
+    }
 
-  //Functions
+    //Functions
     inline function colourKeys(patchName)
     {
         local range = Manifest.patches[patchName].range;

@@ -15,7 +15,7 @@
     along with this file. If not, see <http://www.gnu.org/licenses/>.
 */
 
-namespace SettingsJson
+namespace Settings
 {
     const var isPlugin = Engine.isPlugin();
 
@@ -26,30 +26,33 @@ namespace SettingsJson
     };
 
     // Pass this object to the floating tile
-    const var settings = {
+    const var tileData = {
     "Type": "Tabs",
     "Font": Theme.REGULAR,
-    "FontSize": 26,
+    "FontSize": 22,
     "Dynamic": false,
     "ColourData":
         {
-            "bgColour": Theme.SETTINGS_TAB_BG,
-            "itemColour1": Theme.CONTROL1,
-            "textColour":Theme.SETTINGS_TAB_TEXT
+            "bgColour": Theme.C3,
+            "itemColour1": Theme.C5,
+            "textColour":Theme.C6
         },
-    "Content": [
-        {
+    "Content": [],
+    "CurrentTab": 0
+    };
+
+    tileData["Content"].push({
         "Type": "CustomSettings",
         "Title": "Engine",
         "StyleData": {
         },
         "ColourData":
             {
-                "bgColour": Theme.PAGE,
-                "textColour": Theme.SETTINGS_LABEL,
+                "bgColour": Theme.C3,
+                "textColour": Theme.C6,
             },
         "Font": Theme.BOLD,
-        "FontSize": 22,
+        "FontSize": 18,
         "Driver": !isPlugin,
         "Device": !isPlugin,
         "Output": !isPlugin,
@@ -62,58 +65,64 @@ namespace SettingsJson
         "SustainCC": false,
         "ClearMidiCC": true,
         "SampleLocation": true,
-        "DebugMode": true,
+        "DebugMode": false,
         "ScaleFactorList": [
             1,
             1.25,
             1.5,
             2
         ]
-        }
-    ],
-    "CurrentTab": 0
-    };
-
+    });
+    
     if(!isPlugin)
     {
-        settings["Content"].push(
+        tileData["Content"].push(
         {
             "Type": "MidiSources",
             "Title": "MIDI Input",
             "StyleData": {
             },
             "Font": Theme.REGULAR,
-            "FontSize": 23,
+            "FontSize": 18,
             "ColourData": {
-                "bgColour": Theme.PAGE,
-                "textColour": Theme.SETTINGS_LABEL,
+                "bgColour": Theme.C3,
+                "textColour": Theme.C6
             }
         });
     }
 
-    settings["Content"].push({
+    tileData["Content"].push({
         "Type": "MidiChannelList",
         "Title": "MIDI Channel",
         "StyleData": {
         },
         "Font": Theme.REGULAR,
-        "FontSize": 23,
+        "FontSize": 18,
         "ColourData": {
-            "bgColour": Theme.PAGE,
-            "textColour": Theme.SETTINGS_LABEL
+            "bgColour": Theme.C3,
+            "textColour": Theme.C6
         }
     });
 
-    settings["Content"].push({
+    tileData["Content"].push({
         "Type": "MidiLearnPanel",
         "Title": "MIDI Automation",
         "Font": Theme.REGULAR,
-        "FontSize": 23,
+        "FontSize": 18,
         "ColourData":
         {
-            "bgColour": Theme.PAGE,
-            "textColour": Theme.SETTINGS_LABEL,
-            "itemColour1": Theme.PAGE
+            "bgColour": Theme.C3,
+            "textColour": Theme.C6,
+            "itemColour1": Theme.C4
         }
     });
+    
+	inline function onInitCB()
+	{
+        //Background panel
+		Content.setPropertiesFromJSON("pnlSettings", {itemColour:Theme.C3, itemColour2:Theme.C3});
+		
+        local fltSettings = Content.getComponent("fltSettings");
+        fltSettings.setContentData(Settings.tileData);
+	}
 };

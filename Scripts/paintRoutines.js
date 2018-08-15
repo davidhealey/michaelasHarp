@@ -35,6 +35,12 @@ namespace paintRoutines
         this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
         g.fillPath(svgPaths.gear, [0, 0, this.get("width"), this.get("height")]);
     };
+    
+	const var star = function(g)
+    {
+        this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
+        g.fillPath(svgPaths.star, [0, 0, this.get("width"), this.get("height")]);
+    };
     		    
 	const var biDirectionalSlider = function(g)
 	{       
@@ -54,27 +60,30 @@ namespace paintRoutines
 	    
 	    g.rotate(Math.toRadians(v), [this.getWidth()/2, this.getHeight()/2]);
 	    
-	    g.setColour(this.get("itemColour"));
-	    g.drawEllipse([0.5, 0.5, this.getWidth()-1, this.getHeight()-1], 1);
+	    g.setColour(this.get("bgColour"));
+	    g.fillEllipse([0, 0, this.getWidth(), this.getHeight()]);
 	    
-	    g.drawLine(this.getWidth()/2, this.getWidth()/2, 0, this.getHeight()/4, 2);
+	    g.setColour(this.get("itemColour"));
+	    g.drawEllipse([1, 1, this.getWidth()-2, this.getHeight()-2], 2);
+	    
+	    g.drawLine(this.getWidth()/2, this.getWidth()/2, 0, 10, 2);
 	};	
 	
 	const var textButton = function(g)
 	{							
 		this.getValue() == 1 ? g.setColour(this.get("textColour")) : g.setColour(this.get("itemColour"));
 
-		g.setFont(Theme.BOLD, Theme.H2);
+		g.setFont(this.get("fontStyle"), Theme.H2);
 		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "left");
 	};
 	
-	const var enabledDisabledButton = function(g)
+	const var onOffButton = function(g)
     {
-        this.getValue() == 1 ? this.set("text", "Enabled") : this.set("text", "Disabled");
+        this.getValue() == 1 ? this.set("text", "On") : this.set("text", "Off");
         this.getValue() == 1 ? g.fillAll(this.get("bgColour")) : g.fillAll(this.get("itemColour"));
 	    this.getValue() == 1 ? g.setColour(this.get("textColour")) : g.setColour(this.get("itemColour2"));
 	    	    
-		g.setFont(Theme.REGULAR, 20);
+		g.setFont(Theme.REGULAR, 18);
 		g.drawAlignedText(this.get("text"), [0, 0, this.getWidth(), this.getHeight()], "centred");
     };
 	
@@ -104,14 +113,13 @@ namespace paintRoutines
 	}
     
     const var verticalSlider = function(g)
-    {
-        g.fillAll(this.get("bgColour"));        
-    
-        g.setColour(this.get("itemColour"));
-    
+    {           
         var range = this.get("max") - this.get("min");
         var newVal = (this.get("height") / range) * (-this.get("min") + this.getValue());
-    
+     
+        g.fillAll(this.get("bgColour"));
+        g.setColour(this.get("itemColour"));
+        
         g.fillRect([0, this.get("height")-newVal, this.get("width"), this.get("height")]);
     }
 }
@@ -201,8 +209,14 @@ namespace svgPaths
 	gear.loadFromData(gearData);
 	
 	const var releaseData = [110,109,96,176,136,196,80,120,15,197,108,96,176,136,196,16,194,14,197,108,16,161,140,196,16,194,14,197,108,16,161,140,196,240,73,14,197,108,96,176,136,196,240,73,14,197,108,240,152,132,196,240,73,14,197,108,160,164,134,196,32,225,14,197,108,96,176,136,
-196,80,120,15,197,99,101,0,0];
+    196,80,120,15,197,99,101,0,0];
 	
     const var release = Content.createPath();
 	release.loadFromData(releaseData);
+	
+    const var starData = [110,109,0,0,112,67,0,0,130,67,108,104,193,131,67,53,46,136,67,108,176,130,129,67,20,46,118,67,108,96,5,139,67,150,163,99,67,108,137,193,123,67,236,209,95,67,108,0,0,112,67,0,0,72,67,108,119,62,100,67,236,209,95,67,108,63,245,73,67,150,163,99,67,108,160,
+    250,92,67,20,46,118,67,108,47,125,88,67,53,46,136,67,108,0,0,112,67,0,0,130,67,99,101,0,0];
+    
+    const var star = Content.createPath();
+	star.loadFromData(starData);
 }

@@ -17,7 +17,7 @@
 
 namespace PageHandler
 {
-    const var pageCount = 4;
+    const var pageCount = 3;
     const var pages = [];
     const var buttons = [];
 
@@ -54,11 +54,9 @@ namespace PageHandler
     
     function buttonPaintRoutine(g)
 	{
-	    this.getValue() == 1 ? g.fillAll(Theme.CONTROL1) : g.fillAll(Theme.CONTROL2);
-	    this.getValue() == 1 ? g.setColour(Theme.BUTTON_OFF) : g.setColour(Theme.BUTTON_ON);
-	    
+	    this.getValue() == 1 ? g.setColour(Theme.C6) : g.setColour(Theme.C5);
 	    
 		g.setFont(Theme.REGULAR, 23);
-		g.drawAlignedText(this.get("text"), [10, 0, this.get("width"), this.get("height")], "left");
+		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "centred");
 	};
 }

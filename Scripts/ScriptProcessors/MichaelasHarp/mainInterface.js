@@ -28,9 +28,9 @@ include("header.js");
 include("mixer.js");
 include("controllerHandler.js");
 include("performance.js");
-include("settingsWindowJson.js");
+include("settings.js");
 
-Content.makeFrontInterface(665, 375);
+Content.makeFrontInterface(700, 525);
 
 reg patchName = "";
 
@@ -38,18 +38,12 @@ reg patchName = "";
 reg i;
 reg j;
 
-//Page background
-Content.setPropertiesFromJSON("pnlMain", {itemColour:Theme.PAGE, itemColour2:Theme.PAGE});
+//*** GUI ***
+Content.setPropertiesFromJSON("pnlMain", {itemColour:Theme.C2, itemColour2:Theme.C2}); //Main background panel
 
 //Menu
-Content.setPropertiesFromJSON("pnlMenu", {itemColour:Theme.CONTROL2, itemColour2:Theme.CONTROL2});
-
-//*** GUI ***
-Content.setPropertiesFromJSON("pnlMain", {itemColour:Theme.PAGE, itemColour2:Theme.PAGE}); //Main tab background panel
-
-//Settings tab
-const var fltSettings = Content.getComponent("fltSettings");
-fltSettings.setContentData(SettingsJson.settings);
+Content.setPropertiesFromJSON("lblMenu", {textColour:Theme.C5});
+Content.setPropertiesFromJSON("pnlMenu", {itemColour:Theme.C3, itemColour2:Theme.C3});
 
 //Includes initialisation
 Header.onInitCB();
@@ -57,7 +51,9 @@ PresetHandler.onInitCB();
 PageHandler.onInitCB();
 Mixer.onInitCB();
 ControllerHandler.onInitCB();
-Performance.onInitCB();function onNoteOn()
+Performance.onInitCB();
+Settings.onInitCB();
+function onNoteOn()
 {
     if (Message.getNoteNumber() < Manifest.patches[patchName].range[0] || Message.getNoteNumber() > Manifest.patches[patchName].range[1])
     {

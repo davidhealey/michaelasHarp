@@ -33,12 +33,15 @@ namespace ControllerHandler
 		  if (reservedCc.indexOf(i) == -1) ccNums.push(i); //If CC is not reserved
 		}
 
-		//Labels
-		Content.setPropertiesFromJSON("lblParameter", {fontName:Theme.BOLD, fontSize:Theme.H2, textColour:Theme.BLACK});
-		Content.setPropertiesFromJSON("lblController", {fontName:Theme.BOLD, fontSize:Theme.H2, textColour:Theme.BLACK});
+		//Background panel
+		Content.setPropertiesFromJSON("pnlControllers", {itemColour:Theme.C3, itemColour2:Theme.C3});
+		
+		//Heading Labels
+		Content.setPropertiesFromJSON("lblParameter", {fontName:Theme.BOLD, fontSize:20, textColour:Theme.C6});
+		Content.setPropertiesFromJSON("lblController", {fontName:Theme.BOLD, fontSize:20, textColour:Theme.C6});
 
         //Parameter combo box
-		const var cmbParam = ui.setupControl("cmbParam", {bgColour:Theme.COMBO_BORDER, textColour:Theme.COMBO_TEXT, items:parameters.join("\n")});
+		const var cmbParam = ui.setupControl("cmbParam", {itemColour:Theme.C4, itemColour2:Theme.C4, textColour:Theme.C6, items:parameters.join("\n")});
 		cmbParam.setControlCallback(cmbParamCB);
 
 		const var cmbCc = []; //Controller number selection combo boxes
@@ -47,13 +50,16 @@ namespace ControllerHandler
 		for (i = 0; i < parameters.length; i++)
 		{
 			//Parameter menu
-			cmbCc[i] = ui.setupControl("cmbCc"+i, {bgColour:Theme.COMBO_BORDER, textColour:Theme.COMBO_TEXT});
+			cmbCc[i] = ui.setupControl("cmbCc"+i, {itemColour:Theme.C4, itemColour2:Theme.C4, textColour:Theme.C6});
 			cmbCc[i].setControlCallback(cmbCcCB);
             i > 0 ? cmbCc[i].set("items", ccNums.join("\n")) : cmbCc[i].set("items", "Velocity");
 
 			//Response table
-			tblCc[i] = ui.setupControl("tblCc"+i, {customColours:true, bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2, itemColour2:0x70000000});
+			tblCc[i] = ui.setupControl("tblCc"+i, {customColours:true, bgColour:Theme.C2, itemColour:Theme.F, itemColour2:0x70000000});
 		}
+		
+		//Value labels
+		const var lblAtkVal = ui.setupControl("lblAtkVal", {fontName:Theme.REGULAR, fontSize:18, textColour:Theme.C6});
 	}
 
 	inline function cmbParamCB(control, value)

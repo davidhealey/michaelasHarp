@@ -17,16 +17,17 @@
 
 namespace Theme
 {
-    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Regular.ttf", "Sarala-Regular");
-    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/Sarala-Bold.ttf", "Sarala-Bold");
+    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/oxygen.light.ttf", "Oxygen-Light");
+    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/oxygen.regular.ttf", "Oxygen-Regular");
+    Engine.loadFontAs("{PROJECT_FOLDER}Fonts/oxygen.bold.ttf", "Oxygen-Bold");
     
 	const var BLACK = 0xFF000000;
 	const var WHITE = 0xFFFFFFFF;
 	const var HEADER = 0xFF1C2A39;
 	const var LOGO = 0xFFEEEEEE;
-	const var PRESET = 0xFF5C6A79;
-	const var REGULAR = "Sarala-Regular";
-	const var BOLD = "Sarala-Bold";
+	const var LIGHT = "Oxygen-Light";
+	const var REGULAR = "Oxygen-Regular";
+	const var BOLD = "Oxygen-Bold";
 	const var H2 = 24;
     const var H3 = 18;
 	const var PAGE = 0xFFFFFFFF;
@@ -39,4 +40,14 @@ namespace Theme
 	const var COMBO_TEXT = 0xFF000000;
 	const var BUTTON_ON = 0xFFFFFFFF;
 	const var BUTTON_OFF = 0xFF000000;
+	const var TEXT1 = 0xFF000000;
+	const var TEXT2 = 0xFFFFFFFF;
+	
+	const var C1 = 0xff000000;
+	const var C2 = 0xff262626;
+	const var C3 = 0xff333333;
+	const var C4 = 0xff525252;
+	const var C5 = 0xff7a7a7a;
+	const var C6 = 0xffffffff;	
+	const var F = 0xffaa8800; //Feature colour
 }

@@ -19,8 +19,7 @@ namespace Mixer
 {
 	inline function onInitCB()
 	{
-		const var purge = [];
-	
+
 		//Retrieve samplers and store in samplers array
 		const var samplerIds = Synth.getIdList("Sampler"); //Get IDs of samplers
 		const var samplers = [];
@@ -30,26 +29,40 @@ namespace Mixer
 		    samplers.push(Synth.getSampler(s));
 		}
 
+		//Background panel
+		Content.setPropertiesFromJSON("pnlMixer", {itemColour:Theme.C3, itemColour2:Theme.C3});
+		
 		//Labels	
 		Content.setPropertiesFromJSON("lblVol", {fontName:Theme.BOLD, fontSize:Theme.H2});
 		Content.setPropertiesFromJSON("lblPan", {fontName:Theme.BOLD, fontSize:Theme.H2});
 		Content.setPropertiesFromJSON("lblWidth", {fontName:Theme.BOLD, fontSize:Theme.H2});
 		Content.setPropertiesFromJSON("lblDelay", {fontName:Theme.BOLD, fontSize:Theme.H2});
 	
+		//Knobs and sliders
+		const var purge = [];
+
 		for (i = 0; i < 3; i++)
 		{
-			Content.setPropertiesFromJSON("sliPan"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-			ui.sliderPanel("sliPan"+i, paintRoutines.knob, 0, 0.5); //Set up for pan slider
-
-            Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-			ui.sliderPanel("sliWidth"+i, paintRoutines.knob, 0, 0.5); //Set up for pan slider
-			
-			Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});			
-			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.CONTROL1, itemColour:Theme.CONTROL2});
-
-			Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.BUTTON_OFF, itemColour:Theme.CONTROL1});
-			purge[i] = ui.buttonPanel("btnPurge"+i, paintRoutines.textButton); //Set up callbacks for purge button
+		    //Purge button
+		    Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.C6, itemColour:Theme.C5});
+			purge[i] = ui.buttonPanel("btnPurge"+i, purgeButtonPaintRoutine);
 			purge[i].setControlCallback(btnPurgeCB);
+			
+		    //Volume slider
+		    Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.C2, itemColour:Theme.F});
+		    ui.sliderPanel("sliVol"+i, paintRoutines.verticalSlider, -50, 0.8);
+		    
+		    //Pan knob
+			Content.setPropertiesFromJSON("sliPan"+i, {bgColour:Theme.C2, itemColour:Theme.F});
+			ui.sliderPanel("sliPan"+i, paintRoutines.knob, 0, 0.5);
+
+			//Width knob
+            Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.C2, itemColour:Theme.F});
+			ui.sliderPanel("sliWidth"+i, paintRoutines.knob, 0, 0.5);
+			
+			//Delay knob
+			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.C2, itemColour:Theme.F});
+			ui.sliderPanel("sliDelay"+i, paintRoutines.knob, 0, 0.5);
 		}
 	}
 	
@@ -66,4 +79,12 @@ namespace Mixer
 			}
 		}
 	}
+	
+    function purgeButtonPaintRoutine(g)
+	{							
+		this.getValue() == 1 ? g.setColour(this.get("textColour")) : g.setColour(this.get("itemColour"));
+
+		g.setFont(Theme.BOLD, 22);
+		g.drawAlignedText(this.get("text"), [0, 0, this.get("width"), this.get("height")], "centred");
+	};
 }
