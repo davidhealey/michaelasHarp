@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset Version="1.0.0">
+<Preset Version="1.0.0" Notes="">
   <Content Processor="mainInterface">
     <Control type="ScriptPanel" id="pnlPreset" value="0"/>
     <Control type="ScriptPanel" id="pnlMain" value="0"/>
-    <Control type="ScriptPanel" id="pnlArticulations" value="0"/>
-    <Control type="ScriptPanel" id="pnlMixer" value="0"/>
-    <Control type="ScriptPanel" id="sliPan0" value="0"/>
-    <Control type="ScriptPanel" id="sliPan1" value="0"/>
-    <Control type="ScriptPanel" id="sliPan2" value="0"/>
-    <Control type="ScriptSlider" id="sliVol0" value="1.4901161e-06"/>
-    <Control type="ScriptSlider" id="sliVol1" value="1.4901161e-06"/>
-    <Control type="ScriptSlider" id="sliVol2" value="1.4901161e-06"/>
-    <Control type="ScriptSlider" id="sliWidth0" value="0"/>
-    <Control type="ScriptSlider" id="sliWidth1" value="0"/>
-    <Control type="ScriptSlider" id="sliWidth2" value="0"/>
-    <Control type="ScriptSlider" id="sliDelay0" value="0"/>
-    <Control type="ScriptSlider" id="sliDelay1" value="0"/>
-    <Control type="ScriptSlider" id="sliDelay2" value="0"/>
+    <Control type="ScriptPanel" id="page0" value="0"/>
     <Control type="ScriptPanel" id="btnPurge0" value="1"/>
     <Control type="ScriptPanel" id="btnPurge1" value="1"/>
     <Control type="ScriptPanel" id="btnPurge2" value="1"/>
-    <Control type="ScriptPanel" id="pnlControllers" value="0"/>
-    <Control type="ScriptPanel" id="cmbParam" value="1"/>
-    <Control type="ScriptPanel" id="cmbCc0" value="100"/>
-    <Control type="ScriptPanel" id="cmbCc1" value="11"/>
+    <Control type="ScriptSlider" id="sliVol0" value="1.4901161e-06"/>
+    <Control type="ScriptSlider" id="sliVol1" value="1.4901161e-06"/>
+    <Control type="ScriptSlider" id="sliVol2" value="1.4901161e-06"/>
+    <Control type="ScriptSlider" id="sliDelay0" value="0"/>
+    <Control type="ScriptSlider" id="sliDelay1" value="0"/>
+    <Control type="ScriptSlider" id="sliDelay2" value="0"/>
+    <Control type="ScriptPanel" id="sliWidth0" value="0"/>
+    <Control type="ScriptPanel" id="sliWidth1" value="0"/>
+    <Control type="ScriptPanel" id="sliWidth2" value="0"/>
+    <Control type="ScriptPanel" id="sliPan0" value="10"/>
+    <Control type="ScriptPanel" id="sliPan1" value="0"/>
+    <Control type="ScriptPanel" id="sliPan2" value="0"/>
+    <Control type="ScriptPanel" id="page1" value="0"/>
+    <Control type="ScriptComboBox" id="cmbParam" value="1"/>
+    <Control type="ScriptComboBox" id="cmbCc0" value="100"/>
+    <Control type="ScriptComboBox" id="cmbCc1" value="11"/>
     <Control type="ScriptTable" id="tblCc0" value="57" data="24......vNVA3C...vO...f+....9C..jwO"/>
     <Control type="ScriptTable" id="tblCc1" value="127" data="24...............vO...f+....9C..fxO"/>
-    <Control type="ScriptPanel" id="pnlStats" value="0"/>
-    <Control type="ScriptLabel" id="lblStats" value="CPU: 1%, RAM: 0MB, Voices: 0"/>
-    <Control type="ScriptPanel" id="btnSettings" value="0"/>
+    <Control type="ScriptSlider" id="sliAtk" value="50"/>
+    <Control type="ScriptSlider" id="sliRel" value="3000"/>
+    <Control type="ScriptPanel" id="btnRR" value="0"/>
   </Content>
   <MidiAutomation/>
   <MPEData Enabled="0"/>
