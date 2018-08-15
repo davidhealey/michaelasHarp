@@ -27,27 +27,12 @@ namespace Theme
 	const var LOGO = 0xFFEEEEEE;
 	const var LIGHT = "Oxygen-Light";
 	const var REGULAR = "Oxygen-Regular";
-	const var BOLD = "Oxygen-Bold";
-	const var H2 = 24;
-    const var H3 = 18;
-	const var PAGE = 0xFFFFFFFF;
-	const var SETTINGS_TAB_BG = 0xFFFFFFFF;
-	const var SETTINGS_TAB_TEXT = 0xFF000000;
-	const var SETTINGS_LABEL = 0xFF000000;
-    const var CONTROL1 = 0xFFB6B6B6;
-	const var CONTROL2 = 0xFF585858;
-	const var COMBO_BORDER = 0xFF000000;
-	const var COMBO_TEXT = 0xFF000000;
-	const var BUTTON_ON = 0xFFFFFFFF;
-	const var BUTTON_OFF = 0xFF000000;
-	const var TEXT1 = 0xFF000000;
-	const var TEXT2 = 0xFFFFFFFF;
-	
+	const var BOLD = "Oxygen-Bold";	
 	const var C1 = 0xff000000;
 	const var C2 = 0xff262626;
 	const var C3 = 0xff333333;
 	const var C4 = 0xff525252;
 	const var C5 = 0xff7a7a7a;
 	const var C6 = 0xffffffff;	
-	const var F = 0xffaa8800; //Feature colour
+	const var F = 0xff7ba359; //Feature colour
 }

@@ -11,14 +11,14 @@
           <Content>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
             <Control type="ScriptPanel" id="pnlPreset" value="0"/>
-            <Control type="ScriptPanel" id="btnPage0" value="1"/>
+            <Control type="ScriptPanel" id="btnPage1" value="1"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
             <Control type="ScriptPanel" id="btnPurge2" value="1"/>
-            <Control type="ScriptPanel" id="sliVol0" value="-3"/>
-            <Control type="ScriptPanel" id="sliVol1" value="-3"/>
-            <Control type="ScriptPanel" id="sliVol2" value="-3"/>
+            <Control type="ScriptPanel" id="sliVol0" value="1.4901161e-06"/>
+            <Control type="ScriptPanel" id="sliVol1" value="1.4901161e-06"/>
+            <Control type="ScriptPanel" id="sliVol2" value="1.4901161e-06"/>
             <Control type="ScriptPanel" id="sliPan0" value="0"/>
             <Control type="ScriptPanel" id="sliPan1" value="0"/>
             <Control type="ScriptPanel" id="sliPan2" value="0"/>
@@ -32,11 +32,11 @@
             <Control type="ScriptComboBox" id="cmbParam" value="1"/>
             <Control type="ScriptComboBox" id="cmbCc0" value="100"/>
             <Control type="ScriptComboBox" id="cmbCc1" value="11"/>
-            <Control type="ScriptTable" id="tblCc0" value="57" data="24......vNVA3C...vO...f+....9C..jwO"/>
+            <Control type="ScriptTable" id="tblCc0" value="57" data="24......fNsA3C...vO...f+....9C..jwO"/>
             <Control type="ScriptTable" id="tblCc1" value="127" data="24...............vO...f+....9C..fxO"/>
             <Control type="ScriptPanel" id="sliAtk" value="50"/>
             <Control type="ScriptPanel" id="sliRel" value="3000"/>
-            <Control type="ScriptPanel" id="btnRR" value="0"/>
+            <Control type="ScriptPanel" id="btnRR" value="1"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
@@ -61,24 +61,24 @@
                 <Component type="ScriptPanel" id="pnlMenu" x="0" y="400" width="700" height="50"
                            parentComponent="pnlMain" borderRadius="0" borderSize="0" bgColour="0"
                            itemColour="4281545523" itemColour2="4281545523" textColour="0">
-                  <Component type="ScriptLabel" id="lblMenu" x="100" y="0" text="" parentComponent="pnlMenu"
-                             width="500" fontName="Oxygen-Regular" fontSize="23" height="50"
-                             textColour="4286216826" enabled="0" saveInPreset="0"/>
+                  <Component type="ScriptLabel" id="lblMenu" x="100" y="0" text="Mixer | Performance | Settings"
+                             parentComponent="pnlMenu" width="500" fontName="Oxygen-Regular"
+                             fontSize="23" height="50" textColour="4286216826" enabled="0"
+                             saveInPreset="0" editable="0"/>
                   <Component type="ScriptPanel" id="btnPage0" x="217" y="0" width="60" parentComponent="pnlMenu"
                              text="Mixer" height="50" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
-                             textColour="4294967295" itemColour2="2107744673" itemColour="2107744673"
-                             saveInPreset="1"/>
+                             textColour="4294967295" itemColour2="2107744673" itemColour="2107744673"/>
                   <Component type="ScriptPanel" id="btnPage1" x="279" y="0" width="120" parentComponent="pnlMenu"
                              text="Performance" height="50" borderRadius="0" borderSize="0"
                              allowCallbacks="Clicks Only" textColour="4294967295" itemColour="2107744673"
-                             itemColour2="2107744673"/>
+                             itemColour2="2107744673" saveInPreset="1"/>
                   <Component type="ScriptPanel" id="btnPage2" x="401" y="0" width="80" parentComponent="pnlMenu"
                              text="Settings" height="50" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
                              textColour="4294967295" itemColour="2107744673" itemColour2="2107744673"/>
                 </Component>
                 <Component type="ScriptPanel" id="page0" x="20" y="60" width="660" height="320"
                            parentComponent="pnlMain" saveInPreset="1" borderSize="0" borderRadius="0"
-                           itemColour="10354558" itemColour2="10354558" textColour="0">
+                           itemColour="10354558" itemColour2="10354558" textColour="0" visible="0">
                   <Component type="ScriptPanel" id="pnlMixer" x="165" y="0" width="320" height="320"
                              parentComponent="page0" borderRadius="0" borderSize="0" bgColour="16777215"
                              textColour="16777215" itemColour2="4281545523" itemColour="4281545523">
@@ -97,75 +97,74 @@
                     <Component type="ScriptPanel" id="sliVol0" x="52" y="175" width="6" height="100"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="6" bgColour="4280690214" itemColour="4289366016"
+                               stepSize="0.0099999998" max="6" bgColour="4280690214" itemColour="4286292825"
                                itemColour2="16711680" min="-100" defaultValue="-3" processorId="micClose"
                                parameterId="Gain"/>
                     <Component type="ScriptPanel" id="sliVol1" x="157" y="175" width="5" height="100"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="6" bgColour="4280690214" itemColour="4289366016"
+                               stepSize="0.0099999998" max="6" bgColour="4280690214" itemColour="4286292825"
                                processorId="micDI" parameterId="Gain" itemColour2="16711680"
                                min="-100" defaultValue="-3"/>
                     <Component type="ScriptPanel" id="sliVol2" x="262" y="175" width="6" height="100"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="6" bgColour="4280690214" itemColour="4289366016"
+                               stepSize="0.0099999998" max="6" bgColour="4280690214" itemColour="4286292825"
                                processorId="micRoom" parameterId="Gain" itemColour2="16711680"
                                min="-100" defaultValue="-3"/>
                     <Component type="ScriptPanel" id="sliPan0" x="40" y="125" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
-                               itemColour="4289366016" processorId="micClose" parameterId="Balance"
+                               itemColour="4286292825" processorId="micClose" parameterId="Balance"
                                itemColour2="16711680"/>
                     <Component type="ScriptPanel" id="sliPan1" x="145" y="125" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
-                               itemColour="4289366016" processorId="micDI" parameterId="Balance"
+                               itemColour="4286292825" processorId="micDI" parameterId="Balance"
                                itemColour2="16711680"/>
                     <Component type="ScriptPanel" id="sliPan2" x="250" y="125" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
-                               itemColour="4289366016" processorId="micRoom" parameterId="Balance"
+                               itemColour="4286292825" processorId="micRoom" parameterId="Balance"
                                itemColour2="16711680"/>
                     <Component type="ScriptPanel" id="sliWidth0" x="40" y="75" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4289366016"
+                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4286292825"
                                processorId="micClose" parameterId="Width" itemColour2="16711680"/>
                     <Component type="ScriptPanel" id="sliWidth1" x="145" y="75" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4289366016"
+                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4286292825"
                                processorId="micDI" parameterId="Width" itemColour2="16711680"/>
                     <Component type="ScriptPanel" id="sliWidth2" x="250" y="75" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4289366016"
+                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4286292825"
                                processorId="micRoom" parameterId="Width" itemColour2="16711680"/>
                     <Component type="ScriptPanel" id="sliDelay0" x="40" y="25" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4289366016"
+                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4286292825"
                                processorId="micClose" parameterId="Delay" itemColour2="16711680"/>
                     <Component type="ScriptPanel" id="sliDelay1" x="145" y="25" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4289366016"
+                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4286292825"
                                processorId="micDI" parameterId="Delay" itemColour2="16711680"/>
                     <Component type="ScriptPanel" id="sliDelay2" x="250" y="25" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4289366016"
+                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4286292825"
                                processorId="micRoom" parameterId="Delay" itemColour2="16711680"/>
                   </Component>
                 </Component>
                 <Component type="ScriptPanel" id="page1" x="20" y="60" width="660" height="320"
                            parentComponent="pnlMain" borderSize="0" borderRadius="0" itemColour="10354558"
-                           itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215"
-                           visible="0">
+                           itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215">
                   <Component type="ScriptPanel" id="pnlControllers" x="0" y="0" width="320"
                              height="320" parentComponent="page1" bgColour="0" itemColour="4281545523"
                              itemColour2="4281545523" textColour="0" borderSize="0" borderRadius="0">
@@ -188,9 +187,9 @@
                                defaultValue="11" height="32" visible="0"/>
                     <Component type="ScriptTable" id="tblCc0" x="20" y="145" width="280" height="150"
                                parentComponent="pnlControllers" bgColour="4280690214" customColours="1"
-                               itemColour="4289366016" itemColour2="1879048192" processorId="Velocity Modulator"/>
+                               itemColour="4286216826" itemColour2="1879048192" processorId="Velocity Modulator"/>
                     <Component type="ScriptTable" id="tblCc1" x="20" y="145" width="280" height="150"
-                               parentComponent="pnlControllers" bgColour="4280690214" itemColour="4289366016"
+                               parentComponent="pnlControllers" bgColour="4280690214" itemColour="4286216826"
                                itemColour2="1879048192" customColours="1" processorId="expressionCC"
                                visible="0"/>
                   </Component>
@@ -210,12 +209,12 @@
                     <Component type="ScriptPanel" id="sliAtk" x="200" y="20" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlPerformance"
-                               stepSize="1" min="50" max="1000" bgColour="4280690214" itemColour="4289366016"
+                               stepSize="1" min="50" max="1000" bgColour="4280690214" itemColour="4286292825"
                                itemColour2="16711680" defaultValue="50"/>
                     <Component type="ScriptPanel" id="sliRel" x="200" y="68" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlPerformance"
-                               stepSize="1" min="100" max="10000" bgColour="4280690214" itemColour="4289366016"
+                               stepSize="1" min="100" max="10000" bgColour="4280690214" itemColour="4286292825"
                                itemColour2="16711680" defaultValue="3000"/>
                     <Component type="ScriptLabel" id="lblAtkVal" x="240" y="20" width="60" height="30"
                                text="50ms" alignment="right" parentComponent="pnlPerformance"
@@ -228,7 +227,7 @@
                                saveInPreset="0" processorId="sustainEnvelope" parameterId="Release"
                                editable="0"/>
                     <Component type="ScriptPanel" id="btnRR" x="200" y="116" width="100" parentComponent="pnlPerformance"
-                               text="Off" height="30" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
+                               text="On" height="30" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
                                textColour="4294967295" itemColour2="4280690214" itemColour="4283585106"
                                saveInPreset="1" bgColour="4286216826" popupOnRightClick="0"
                                holdIsRightClick="0" opaque="1" processorId="roundRobin" parameterId="Enable"/>
@@ -274,8 +273,8 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="SimpleGain" ID="micClose" Bypassed="0" Gain="-3" Delay="0"
-                   Width="0" Balance="0">
+        <Processor Type="SimpleGain" ID="micClose" Bypassed="0" Gain="1.0354387e-06"
+                   Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -294,8 +293,8 @@
                          Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="micDI" Bypassed="0" Gain="-3" Delay="0"
-                   Width="0" Balance="0">
+        <Processor Type="SimpleGain" ID="micDI" Bypassed="0" Gain="1.0354387e-06"
+                   Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -314,8 +313,8 @@
                          Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="micRoom" Bypassed="0" Gain="-3" Delay="0"
-                   Width="0" Balance="0">
+        <Processor Type="SimpleGain" ID="micRoom" Bypassed="0" Gain="1.0354387e-06"
+                   Delay="0" Width="0" Balance="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -346,7 +345,7 @@
         <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="Velocity" ID="Velocity Modulator" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24......vNVA3C...vO...f+....9C..jwO">
+                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24......fNsA3C...vO...f+....9C..jwO">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
@@ -397,7 +396,7 @@
                 <Processor Type="ScriptProcessor" ID="roundRobin" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/borrowedSampleRoundRobin.js">
                   <ChildProcessors/>
                   <Content>
-                    <Control type="ScriptButton" id="Enable" value="0"/>
+                    <Control type="ScriptButton" id="Enable" value="1"/>
                     <Control type="ScriptButton" id="Random" value="1"/>
                     <Control type="ScriptSlider" id="Low Note" value="36"/>
                     <Control type="ScriptSlider" id="High Note" value="93"/>
