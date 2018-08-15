@@ -19,7 +19,7 @@
             <Control type="ScriptPanel" id="sliVol0" value="1.4901161e-06"/>
             <Control type="ScriptPanel" id="sliVol1" value="1.4901161e-06"/>
             <Control type="ScriptPanel" id="sliVol2" value="1.4901161e-06"/>
-            <Control type="ScriptPanel" id="sliPan0" value="0"/>
+            <Control type="ScriptPanel" id="sliPan0" value="10"/>
             <Control type="ScriptPanel" id="sliPan1" value="0"/>
             <Control type="ScriptPanel" id="sliPan2" value="0"/>
             <Control type="ScriptPanel" id="sliWidth0" value="0"/>
@@ -32,7 +32,7 @@
             <Control type="ScriptComboBox" id="cmbParam" value="1"/>
             <Control type="ScriptComboBox" id="cmbCc0" value="100"/>
             <Control type="ScriptComboBox" id="cmbCc1" value="11"/>
-            <Control type="ScriptTable" id="tblCc0" value="57" data="24......fNsA3C...vO...f+....9C..jwO"/>
+            <Control type="ScriptTable" id="tblCc0" value="57" data="24......vNVA3C...vO...f+....9C..jwO"/>
             <Control type="ScriptTable" id="tblCc1" value="127" data="24...............vO...f+....9C..fxO"/>
             <Control type="ScriptPanel" id="sliAtk" value="50"/>
             <Control type="ScriptPanel" id="sliRel" value="3000"/>
@@ -209,7 +209,7 @@
                     <Component type="ScriptPanel" id="sliAtk" x="200" y="20" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlPerformance"
-                               stepSize="1" min="50" max="1000" bgColour="4280690214" itemColour="4286292825"
+                               stepSize="1" max="1000" bgColour="4280690214" itemColour="4286292825"
                                itemColour2="16711680" defaultValue="50"/>
                     <Component type="ScriptPanel" id="sliRel" x="200" y="68" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
@@ -274,7 +274,7 @@
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
         <Processor Type="SimpleGain" ID="micClose" Bypassed="0" Gain="1.0354387e-06"
-                   Delay="0" Width="0" Balance="0">
+                   Delay="0" Width="0" Balance="10">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -345,7 +345,7 @@
         <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="Velocity" ID="Velocity Modulator" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24......fNsA3C...vO...f+....9C..jwO">
+                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24......vNVA3C...vO...f+....9C..jwO">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
