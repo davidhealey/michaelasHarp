@@ -6,7 +6,7 @@
   <Description value=""/>
   <BundleIdentifier value="com.librewave.michaelasHarp"/>
   <PluginCode value="Abcd"/>
-  <EmbedAudioFiles value="0"/>
+  <EmbedAudioFiles value="1"/>
   <AdditionalDspLibraries value=""/>
   <OSXStaticLibs value=""/>
   <WindowsStaticLibFolder value=""/>
