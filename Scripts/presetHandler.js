@@ -48,6 +48,7 @@ namespace PresetHandler
     //UI Callbacks
     inline function pnlPresetCB(control, value)
     {  
+        if (cmbPreset.getValue() < 1) cmbPreset.setValue(1); //Default
         loadPreset(presetNames[cmbPreset.getValue()-1]);
     }
   

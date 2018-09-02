@@ -66,7 +66,8 @@ function onNoteOff()
 	
 }
 function onController()
-{      
+{
+	
 }
 function onTimer()
 {
