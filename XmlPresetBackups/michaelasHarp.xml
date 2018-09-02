@@ -11,12 +11,12 @@
           <Content>
             <Control type="ScriptPanel" id="pnlMain" value="0"/>
             <Control type="ScriptPanel" id="pnlPreset" value="0"/>
-            <Control type="ScriptPanel" id="btnPage1" value="1"/>
+            <Control type="ScriptPanel" id="btnPage1" value="0"/>
             <Control type="ScriptPanel" id="page0" value="0"/>
             <Control type="ScriptPanel" id="btnPurge0" value="1"/>
             <Control type="ScriptPanel" id="btnPurge1" value="1"/>
             <Control type="ScriptPanel" id="btnPurge2" value="1"/>
-            <Control type="ScriptPanel" id="sliDelay2" value="0"/>
+            <Control type="ScriptPanel" id="sliVol0" value="-6"/>
             <Control type="ScriptPanel" id="sliVol1" value="-6"/>
             <Control type="ScriptPanel" id="sliVol2" value="-6"/>
             <Control type="ScriptPanel" id="sliPan0" value="0"/>
@@ -27,7 +27,7 @@
             <Control type="ScriptPanel" id="sliWidth2" value="0"/>
             <Control type="ScriptPanel" id="sliDelay0" value="0"/>
             <Control type="ScriptPanel" id="sliDelay1" value="0"/>
-            <Control type="ScriptPanel" id="sliVol0" value="-6"/>
+            <Control type="ScriptPanel" id="sliDelay2" value="0"/>
             <Control type="ScriptPanel" id="page1" value="0"/>
             <Control type="ScriptComboBox" id="cmbParam" value="1"/>
             <Control type="ScriptComboBox" id="cmbCc0" value="100"/>
@@ -78,7 +78,7 @@
                 </Component>
                 <Component type="ScriptPanel" id="page0" x="20" y="60" width="660" height="320"
                            parentComponent="pnlMain" saveInPreset="1" borderSize="0" borderRadius="0"
-                           itemColour="10354558" itemColour2="10354558" textColour="0" visible="0">
+                           itemColour="10354558" itemColour2="10354558" textColour="0">
                   <Component type="ScriptPanel" id="pnlMixer" x="165" y="0" width="320" height="320"
                              parentComponent="page0" borderRadius="0" borderSize="0" bgColour="16777215"
                              textColour="16777215" itemColour2="4281545523" itemColour="4281545523">
@@ -94,83 +94,84 @@
                                height="30" parentComponent="pnlMixer" bgColour="4283979864"
                                itemColour="4286216826" allowCallbacks="Clicks Only" saveInPreset="1"
                                text="Room" itemColour2="0" textColour="4294967295"/>
-                    <Component type="ScriptPanel" id="sliDelay2" x="250" y="25" width="30" height="30"
-                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4286292825"
-                               processorId="micRoom" parameterId="Delay" itemColour2="16711680"
-                               isPluginParameter="1" pluginParameterName="Room Delay"/>
-                    <Component type="ScriptPanel" id="sliVol1" x="157" y="175" width="5" height="100"
-                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="6" bgColour="4280690214" itemColour="4286292825"
-                               processorId="micDI" parameterId="Gain" itemColour2="16711680"
-                               min="-100" defaultValue="-6" pluginParameterName="DI Gain"/>
-                    <Component type="ScriptPanel" id="sliVol2" x="262" y="175" width="6" height="100"
-                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="6" bgColour="4280690214" itemColour="4286292825"
-                               processorId="micRoom" parameterId="Gain" itemColour2="16711680"
-                               min="-100" defaultValue="-6" pluginParameterName="Room Gain"/>
-                    <Component type="ScriptPanel" id="sliPan0" x="40" y="125" width="30" height="30"
-                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
-                               itemColour="4286292825" processorId="micClose" parameterId="Balance"
-                               itemColour2="16711680" pluginParameterName="Close Pan"/>
-                    <Component type="ScriptPanel" id="sliPan1" x="145" y="125" width="30" height="30"
-                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
-                               itemColour="4286292825" processorId="micDI" parameterId="Balance"
-                               itemColour2="16711680" pluginParameterName="DI Pan"/>
-                    <Component type="ScriptPanel" id="sliPan2" x="250" y="125" width="30" height="30"
-                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
-                               itemColour="4286292825" processorId="micRoom" parameterId="Balance"
-                               itemColour2="16711680" pluginParameterName="Room Pan"/>
-                    <Component type="ScriptPanel" id="sliWidth0" x="40" y="75" width="30" height="30"
-                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4286292825"
-                               processorId="micClose" parameterId="Width" itemColour2="16711680"
-                               pluginParameterName="Close Width"/>
-                    <Component type="ScriptPanel" id="sliWidth1" x="145" y="75" width="30" height="30"
-                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4286292825"
-                               processorId="micDI" parameterId="Width" itemColour2="16711680"
-                               pluginParameterName="DI Width"/>
-                    <Component type="ScriptPanel" id="sliWidth2" x="250" y="75" width="30" height="30"
-                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4286292825"
-                               processorId="micRoom" parameterId="Width" itemColour2="16711680"
-                               pluginParameterName="Room Width"/>
-                    <Component type="ScriptPanel" id="sliDelay0" x="40" y="25" width="30" height="30"
-                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4286292825"
-                               processorId="micClose" parameterId="Delay" itemColour2="16711680"
-                               pluginParameterName="Close Delay"/>
-                    <Component type="ScriptPanel" id="sliDelay1" x="145" y="25" width="30" height="30"
-                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
-                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
-                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4286292825"
-                               processorId="micDI" parameterId="Delay" itemColour2="16711680"
-                               pluginParameterName="DI Delay"/>
                     <Component type="ScriptPanel" id="sliVol0" x="52" y="175" width="6" height="100"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
                                stepSize="0.0099999998" max="6" bgColour="4280690214" itemColour="4286292825"
                                itemColour2="16711680" min="-100" defaultValue="-6" processorId="micClose"
                                parameterId="Gain" isPluginParameter="1" pluginParameterName="Close Gain"/>
+                    <Component type="ScriptPanel" id="sliVol1" x="157" y="175" width="5" height="100"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" max="6" bgColour="4280690214" itemColour="4286292825"
+                               processorId="micDI" parameterId="Gain" itemColour2="16711680"
+                               min="-100" defaultValue="-6" isPluginParameter="1" pluginParameterName="DI Gain"/>
+                    <Component type="ScriptPanel" id="sliVol2" x="262" y="175" width="6" height="100"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" max="6" bgColour="4280690214" itemColour="4286292825"
+                               processorId="micRoom" parameterId="Gain" itemColour2="16711680"
+                               min="-100" defaultValue="-6" isPluginParameter="1" pluginParameterName="Room Gain"/>
+                    <Component type="ScriptPanel" id="sliPan0" x="40" y="125" width="30" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
+                               itemColour="4286292825" processorId="micClose" parameterId="Balance"
+                               itemColour2="16711680" isPluginParameter="1" pluginParameterName="Close Pan"/>
+                    <Component type="ScriptPanel" id="sliPan1" x="145" y="125" width="30" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
+                               itemColour="4286292825" processorId="micDI" parameterId="Balance"
+                               itemColour2="16711680" isPluginParameter="1" pluginParameterName="DI Pan"/>
+                    <Component type="ScriptPanel" id="sliPan2" x="250" y="125" width="30" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" min="-100" max="100" bgColour="4280690214"
+                               itemColour="4286292825" processorId="micRoom" parameterId="Balance"
+                               itemColour2="16711680" isPluginParameter="1" pluginParameterName="Room Pan"/>
+                    <Component type="ScriptPanel" id="sliWidth0" x="40" y="75" width="30" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4286292825"
+                               processorId="micClose" parameterId="Width" itemColour2="16711680"
+                               isPluginParameter="1" pluginParameterName="Close Width"/>
+                    <Component type="ScriptPanel" id="sliWidth1" x="145" y="75" width="30" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4286292825"
+                               processorId="micDI" parameterId="Width" itemColour2="16711680"
+                               isPluginParameter="1" pluginParameterName="DI Width"/>
+                    <Component type="ScriptPanel" id="sliWidth2" x="250" y="75" width="30" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" max="200" bgColour="4280690214" itemColour="4286292825"
+                               processorId="micRoom" parameterId="Width" itemColour2="16711680"
+                               isPluginParameter="1" pluginParameterName="Room Width"/>
+                    <Component type="ScriptPanel" id="sliDelay0" x="40" y="25" width="30" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4286292825"
+                               processorId="micClose" parameterId="Delay" itemColour2="16711680"
+                               isPluginParameter="1" pluginParameterName="Close Delay"/>
+                    <Component type="ScriptPanel" id="sliDelay1" x="145" y="25" width="30" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4286292825"
+                               processorId="micDI" parameterId="Delay" itemColour2="16711680"
+                               isPluginParameter="1" pluginParameterName="DI Delay"/>
+                    <Component type="ScriptPanel" id="sliDelay2" x="250" y="25" width="30" height="30"
+                               borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
+                               enableMidiLearn="1" saveInPreset="1" parentComponent="pnlMixer"
+                               stepSize="0.0099999998" max="500" bgColour="4280690214" itemColour="4286292825"
+                               processorId="micRoom" parameterId="Delay" itemColour2="16711680"
+                               isPluginParameter="1" pluginParameterName="Room Delay"/>
                   </Component>
                 </Component>
                 <Component type="ScriptPanel" id="page1" x="20" y="60" width="660" height="320"
                            parentComponent="pnlMain" borderSize="0" borderRadius="0" itemColour="10354558"
-                           itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215">
+                           itemColour2="10354558" saveInPreset="1" textColour="0" bgColour="16777215"
+                           visible="0">
                   <Component type="ScriptPanel" id="pnlControllers" x="0" y="0" width="320"
                              height="320" parentComponent="page1" bgColour="0" itemColour="4281545523"
                              itemColour2="4281545523" textColour="0" borderSize="0" borderRadius="0">
