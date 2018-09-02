@@ -55,6 +55,7 @@ Performance.onInitCB();
 Settings.onInitCB();
 function onNoteOn()
 {
+    //Ignore events outside playable range
     if (Message.getNoteNumber() < Manifest.patches[patchName].range[0] || Message.getNoteNumber() > Manifest.patches[patchName].range[1])
     {
         Message.ignoreEvent(true);
@@ -66,10 +67,6 @@ function onNoteOff()
 }
 function onController()
 {      
-    if (Message.getControllerNumber() == 14) //Controls RR on/off
-    {
-        Footer.onControllerCB();
-    }
 }
 function onTimer()
 {

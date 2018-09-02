@@ -28,8 +28,12 @@ namespace PresetHandler
       childSynths[id] = Synth.getChildSynth(id);
     }
 
-    //Get array of preset names
-    const var presetNames = ui.getPresetNames();
+    //Get array of preset names from manifest
+    const var presetNames = [];
+    for (k in Manifest.patches)
+    {
+        presetNames.push(k);
+    }
 
     //Persistent panel for loading preset data
     const var pnlPreset = Content.getComponent("pnlPreset");
@@ -44,21 +48,30 @@ namespace PresetHandler
     //UI Callbacks
     inline function pnlPresetCB(control, value)
     {  
-        if (cmbPreset.getValue() < 1) cmbPreset.setValue(1);
-        local presetName = presetNames[cmbPreset.getValue()-1];       
-        patchName = presetName.substring(presetName.lastIndexOf(": ")+2, presetName.length); //Set global variable
-    
-        //Load the preset settings
-        loadSampleMaps(patchName); //Load sample maps for current preset
-        colourKeys(patchName);   
+        loadPreset(presetNames[cmbPreset.getValue()-1]);
     }
   
     inline function cmbPresetCB(control, value)
     {
-        Engine.loadUserPreset(Engine.getUserPresetList()[value-1]);
+        loadPreset(presetNames[value-1]);
     }
-
+    
     //Functions
+    
+    /*Function wrapper*/
+    inline function loadPreset(name)
+    {
+        patchName = name; //Set global variable
+        loadSampleMaps(patchName); //Load sample maps for current preset
+        colourKeys(patchName);        
+    }
+    
+    inline function loadSampleMaps(patchName)
+    {
+        local sampleMap = Manifest.patches[patchName].sampleMap;
+        childSynths["sustain"].asSampler().loadSampleMap(sampleMap);
+    }
+    
     inline function colourKeys(patchName)
     {
         local range = Manifest.patches[patchName].range;
@@ -74,11 +87,5 @@ namespace PresetHandler
                 Engine.setKeyColour(i, Colours.withAlpha(Colours.blue, 0.3)); //Set key colour    
             }
         }
-    }
-  
-    inline function loadSampleMaps(patchName)
-    {
-        local sampleMap = Manifest.patches[patchName].sampleMap;
-        childSynths["sustain"].asSampler().loadSampleMap(sampleMap);
     }
 }

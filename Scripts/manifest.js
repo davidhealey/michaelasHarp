@@ -20,12 +20,12 @@
 namespace Manifest
 {
     const var patches = {
-        "Natural":
+        "Michaela's Harp: Natural":
         {
             sampleMap: "celticHarp_sustain", //Identifier for finding sample maps
 	        range: [36, 93],
 	    },
-		"Muted":
+		"Michaela's Harp: Muted":
 		{
             sampleMap:"celticHarp_muted",
             range:[36, 93],
