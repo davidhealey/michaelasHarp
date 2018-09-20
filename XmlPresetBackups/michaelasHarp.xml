@@ -113,19 +113,19 @@
                                mode="Decibel" min="-100" max="0" stepSize="0.1" suffix=" dB"
                                middlePosition="-18" style="Vertical" defaultValue="-6" bgColour="3039176230"
                                itemColour="1850056016" itemColour2="4278190080" textColour="16777215"
-                               showValuePopup="Right"/>
+                               showValuePopup="Right" isPluginParameter="1" pluginParameterName="Close Gain"/>
                     <Component type="ScriptSlider" id="sliVol1" x="85" y="170" width="32" height="100"
                                parentComponent="mixer" processorId="micDI" parameterId="Gain"
                                mode="Decibel" min="-100" max="0" stepSize="0.1" suffix=" dB"
                                middlePosition="-18" style="Vertical" defaultValue="-6" bgColour="3039176230"
                                itemColour="1850056016" itemColour2="4278190080" textColour="16777215"
-                               showValuePopup="Right"/>
+                               showValuePopup="Right" isPluginParameter="1" pluginParameterName="DI Gain"/>
                     <Component type="ScriptSlider" id="sliVol2" x="145" y="170" width="32" height="100"
                                parentComponent="mixer" processorId="micRoom" parameterId="Gain"
                                mode="Decibel" min="-100" max="0" stepSize="0.1" suffix=" dB"
                                middlePosition="-18" style="Vertical" defaultValue="-6" bgColour="3039176230"
                                itemColour="1850056016" itemColour2="4278190080" textColour="16777215"
-                               showValuePopup="Right"/>
+                               showValuePopup="Right" isPluginParameter="1" pluginParameterName="Room Gain"/>
                     <Component type="ScriptPanel" id="sliWidth0" x="25" y="75" width="30" height="30"
                                borderSize="0" borderRadius="0" holdIsRightClick="0" allowCallbacks="Clicks, Hover &amp; Dragging"
                                enableMidiLearn="1" saveInPreset="1" parentComponent="mixer"
@@ -186,12 +186,14 @@
                                parentComponent="controls" mode="Time" max="20000" stepSize="1"
                                suffix=" ms" middlePosition="1000" defaultValue="25" processorId="sustainEnvelope"
                                parameterId="Attack" style="Horizontal" bgColour="4280690214"
-                               itemColour2="4278190080" itemColour="1850056016"/>
+                               itemColour2="4278190080" itemColour="1850056016" isPluginParameter="1"
+                               pluginParameterName="Attack Time"/>
                     <Component type="ScriptSlider" id="sliRelease" x="205" y="75" width="100"
                                height="32" parentComponent="controls" mode="Time" max="20000"
                                stepSize="1" suffix=" ms" middlePosition="1000" defaultValue="2500"
                                processorId="sustainEnvelope" parameterId="Release" style="Horizontal"
-                               bgColour="4280690214" itemColour2="4278190080" itemColour="1850056016"/>
+                               bgColour="4280690214" itemColour2="4278190080" itemColour="1850056016"
+                               isPluginParameter="1" pluginParameterName="Release Time"/>
                     <Component type="ScriptPanel" id="btnRR" x="205" y="125" width="100" parentComponent="controls"
                                text="On" height="30" borderRadius="0" borderSize="0" allowCallbacks="Clicks Only"
                                textColour="4294967295" itemColour2="4280690214" itemColour="4283585106"

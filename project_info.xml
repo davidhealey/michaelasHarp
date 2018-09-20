@@ -3,7 +3,7 @@
 <ProjectSettings>
   <Name value="Michaelas Harp"/>
   <Version value="1.0.0"/>
-  <Description value=""/>
+  <Description value="Celtic Harp"/>
   <BundleIdentifier value="com.librewave.michaelasHarp"/>
   <PluginCode value="Zaga"/>
   <EmbedAudioFiles value="1"/>
