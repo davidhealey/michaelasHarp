@@ -7,9 +7,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
           MonolithLength="942080" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_36_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_36_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_36_dynamic1.wav"/>
   </sample>
   <sample ID="1" Root="36" HiKey="36" LoKey="36" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10740"
@@ -17,9 +17,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="942080"
           MonolithLength="1228800" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_36_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_36_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_36_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_36_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_36_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_36_dynamic2.wav"/>
   </sample>
   <sample ID="2" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="73" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7192"
@@ -27,9 +27,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2170880"
           MonolithLength="724992" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_37_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_37_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_37_dynamic1.wav"/>
   </sample>
   <sample ID="3" Root="37" HiKey="37" LoKey="37" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12401"
@@ -37,9 +37,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2895872"
           MonolithLength="1167360" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_37_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_37_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_37_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_37_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_37_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_37_dynamic2.wav"/>
   </sample>
   <sample ID="4" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="73" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8115"
@@ -47,9 +47,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4063232"
           MonolithLength="1056768" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_38_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_38_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_38_dynamic1.wav"/>
   </sample>
   <sample ID="5" Root="38" HiKey="38" LoKey="38" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11547"
@@ -57,9 +57,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5120000"
           MonolithLength="1368064" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_38_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_38_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_38_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_38_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_38_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_38_dynamic2.wav"/>
   </sample>
   <sample ID="6" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="73" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7839"
@@ -67,9 +67,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6488064"
           MonolithLength="806912" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_39_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_39_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_39_dynamic1.wav"/>
   </sample>
   <sample ID="7" Root="39" HiKey="39" LoKey="39" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12931"
@@ -77,9 +77,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7294976"
           MonolithLength="1114112" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_39_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_39_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_39_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_39_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_39_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_39_dynamic2.wav"/>
   </sample>
   <sample ID="8" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="73" RRGroup="1"
           Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8241"
@@ -87,9 +87,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8409088"
           MonolithLength="954368" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_40_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_40_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_40_dynamic1.wav"/>
   </sample>
   <sample ID="9" Root="40" HiKey="40" LoKey="40" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9144"
@@ -97,9 +97,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9363456"
           MonolithLength="987136" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_40_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_40_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_40_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_40_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_40_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_40_dynamic2.wav"/>
   </sample>
   <sample ID="10" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7965"
@@ -107,9 +107,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10350592"
           MonolithLength="802816" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_41_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_41_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_41_dynamic1.wav"/>
   </sample>
   <sample ID="11" Root="41" HiKey="41" LoKey="41" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="12301"
@@ -117,9 +117,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11153408"
           MonolithLength="1073152" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_41_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_41_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_41_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_41_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_41_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_41_dynamic2.wav"/>
   </sample>
   <sample ID="12" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5789"
@@ -127,9 +127,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12226560"
           MonolithLength="806912" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_42_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_42_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_42_dynamic1.wav"/>
   </sample>
   <sample ID="13" Root="42" HiKey="42" LoKey="42" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6580"
@@ -137,9 +137,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13033472"
           MonolithLength="946176" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_42_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_42_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_42_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_42_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_42_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_42_dynamic2.wav"/>
   </sample>
   <sample ID="14" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2897"
@@ -147,9 +147,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13979648"
           MonolithLength="684032" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_43_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_43_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_43_dynamic1.wav"/>
   </sample>
   <sample ID="15" Root="43" HiKey="43" LoKey="43" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8585"
@@ -157,9 +157,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14663680"
           MonolithLength="1007616" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_43_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_43_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_43_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_43_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_43_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_43_dynamic2.wav"/>
   </sample>
   <sample ID="16" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7606"
@@ -167,9 +167,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15671296"
           MonolithLength="704512" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_44_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_44_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_44_dynamic1.wav"/>
   </sample>
   <sample ID="17" Root="44" HiKey="44" LoKey="44" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="13382"
@@ -177,9 +177,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16375808"
           MonolithLength="880640" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_44_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_44_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_44_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_44_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_44_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_44_dynamic2.wav"/>
   </sample>
   <sample ID="18" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6098"
@@ -187,9 +187,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17256448"
           MonolithLength="798720" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_45_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_45_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_45_dynamic1.wav"/>
   </sample>
   <sample ID="19" Root="45" HiKey="45" LoKey="45" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4573"
@@ -197,9 +197,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18055168"
           MonolithLength="880640" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_45_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_45_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_45_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_45_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_45_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_45_dynamic2.wav"/>
   </sample>
   <sample ID="20" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8255"
@@ -207,9 +207,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18935808"
           MonolithLength="716800" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_46_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_46_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_46_dynamic1.wav"/>
   </sample>
   <sample ID="21" Root="46" HiKey="46" LoKey="46" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3528"
@@ -217,9 +217,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19652608"
           MonolithLength="823296" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_46_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_46_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_46_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_46_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_46_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_46_dynamic2.wav"/>
   </sample>
   <sample ID="22" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2722"
@@ -227,9 +227,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20475904"
           MonolithLength="602112" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_47_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_47_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_47_dynamic1.wav"/>
   </sample>
   <sample ID="23" Root="47" HiKey="47" LoKey="47" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8620"
@@ -237,9 +237,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="21078016"
           MonolithLength="925696" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_47_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_47_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_47_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_47_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_47_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_47_dynamic2.wav"/>
   </sample>
   <sample ID="24" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7119"
@@ -247,9 +247,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22003712"
           MonolithLength="651264" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_48_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_48_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_48_dynamic1.wav"/>
   </sample>
   <sample ID="25" Root="48" HiKey="48" LoKey="48" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11054"
@@ -257,9 +257,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="22654976"
           MonolithLength="876544" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_48_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_48_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_48_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_48_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_48_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_48_dynamic2.wav"/>
   </sample>
   <sample ID="26" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5773"
@@ -267,9 +267,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="23531520"
           MonolithLength="614400" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_49_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_49_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_49_dynamic1.wav"/>
   </sample>
   <sample ID="27" Root="49" HiKey="49" LoKey="49" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6935"
@@ -277,9 +277,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="24145920"
           MonolithLength="860160" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_49_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_49_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_49_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_49_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_49_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_49_dynamic2.wav"/>
   </sample>
   <sample ID="28" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1477"
@@ -287,9 +287,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25006080"
           MonolithLength="409600" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_50_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_50_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_50_dynamic1.wav"/>
   </sample>
   <sample ID="29" Root="50" HiKey="50" LoKey="50" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11485"
@@ -297,9 +297,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25415680"
           MonolithLength="487424" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_50_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_50_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_50_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_50_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_50_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_50_dynamic2.wav"/>
   </sample>
   <sample ID="30" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2738"
@@ -307,9 +307,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="25903104"
           MonolithLength="413696" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_51_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_51_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_51_dynamic1.wav"/>
   </sample>
   <sample ID="31" Root="51" HiKey="51" LoKey="51" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7054"
@@ -317,9 +317,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26316800"
           MonolithLength="454656" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_51_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_51_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_51_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_51_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_51_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_51_dynamic2.wav"/>
   </sample>
   <sample ID="32" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3672"
@@ -327,9 +327,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="26771456"
           MonolithLength="532480" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_52_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_52_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_52_dynamic1.wav"/>
   </sample>
   <sample ID="33" Root="52" HiKey="52" LoKey="52" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7826"
@@ -337,9 +337,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27303936"
           MonolithLength="651264" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_52_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_52_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_52_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_52_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_52_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_52_dynamic2.wav"/>
   </sample>
   <sample ID="34" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5164"
@@ -347,9 +347,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="27955200"
           MonolithLength="466944" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_53_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_53_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_53_dynamic1.wav"/>
   </sample>
   <sample ID="35" Root="53" HiKey="53" LoKey="53" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11656"
@@ -357,9 +357,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28422144"
           MonolithLength="376832" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_53_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_53_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_53_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_53_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_53_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_53_dynamic2.wav"/>
   </sample>
   <sample ID="36" Root="54" HiKey="54" LoKey="54" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8031"
@@ -367,9 +367,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="28798976"
           MonolithLength="462848" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_54_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_54_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_54_dynamic1.wav"/>
   </sample>
   <sample ID="37" Root="54" HiKey="54" LoKey="54" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9857"
@@ -377,9 +377,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29261824"
           MonolithLength="606208" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_54_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_54_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_54_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_54_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_54_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_54_dynamic2.wav"/>
   </sample>
   <sample ID="38" Root="55" HiKey="55" LoKey="55" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3592"
@@ -387,9 +387,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="29868032"
           MonolithLength="364544" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_55_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_55_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_55_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_55_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_55_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_55_dynamic1.wav"/>
   </sample>
   <sample ID="39" Root="55" HiKey="55" LoKey="55" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9499"
@@ -397,9 +397,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30232576"
           MonolithLength="364544" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_55_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_55_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_55_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_55_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_55_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_55_dynamic2.wav"/>
   </sample>
   <sample ID="40" Root="56" HiKey="56" LoKey="56" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5370"
@@ -407,9 +407,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30597120"
           MonolithLength="393216" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_56_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_56_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_56_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_56_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_56_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_56_dynamic1.wav"/>
   </sample>
   <sample ID="41" Root="56" HiKey="56" LoKey="56" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6755"
@@ -417,9 +417,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="30990336"
           MonolithLength="479232" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_56_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_56_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_56_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_56_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_56_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_56_dynamic2.wav"/>
   </sample>
   <sample ID="42" Root="57" HiKey="57" LoKey="57" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3550"
@@ -427,9 +427,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31469568"
           MonolithLength="372736" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_57_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_57_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_57_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_57_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_57_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_57_dynamic1.wav"/>
   </sample>
   <sample ID="43" Root="57" HiKey="57" LoKey="57" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5392"
@@ -437,9 +437,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="31842304"
           MonolithLength="704512" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_57_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_57_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_57_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_57_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_57_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_57_dynamic2.wav"/>
   </sample>
   <sample ID="44" Root="58" HiKey="58" LoKey="58" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2807"
@@ -447,9 +447,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32546816"
           MonolithLength="438272" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_58_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_58_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_58_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_58_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_58_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_58_dynamic1.wav"/>
   </sample>
   <sample ID="45" Root="58" HiKey="58" LoKey="58" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6755"
@@ -457,9 +457,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="32985088"
           MonolithLength="499712" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_58_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_58_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_58_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_58_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_58_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_58_dynamic2.wav"/>
   </sample>
   <sample ID="46" Root="59" HiKey="59" LoKey="59" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3568"
@@ -467,9 +467,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="33484800"
           MonolithLength="593920" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_59_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_59_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_59_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_59_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_59_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_59_dynamic1.wav"/>
   </sample>
   <sample ID="47" Root="59" HiKey="59" LoKey="59" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7378"
@@ -477,9 +477,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="34078720"
           MonolithLength="708608" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_59_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_59_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_59_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_59_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_59_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_59_dynamic2.wav"/>
   </sample>
   <sample ID="48" Root="60" HiKey="60" LoKey="60" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3958"
@@ -487,9 +487,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="34787328"
           MonolithLength="389120" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_60_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_60_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_60_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_60_dynamic1.wav"/>
   </sample>
   <sample ID="49" Root="60" HiKey="60" LoKey="60" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4995"
@@ -497,9 +497,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="35176448"
           MonolithLength="446464" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_60_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_60_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_60_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_60_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_60_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_60_dynamic2.wav"/>
   </sample>
   <sample ID="50" Root="61" HiKey="61" LoKey="61" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3972"
@@ -507,9 +507,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="35622912"
           MonolithLength="536576" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_61_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_61_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_61_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_61_dynamic1.wav"/>
   </sample>
   <sample ID="51" Root="61" HiKey="61" LoKey="61" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9087"
@@ -517,9 +517,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="36159488"
           MonolithLength="790528" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_61_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_61_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_61_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_61_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_61_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_61_dynamic2.wav"/>
   </sample>
   <sample ID="52" Root="62" HiKey="62" LoKey="62" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4170"
@@ -527,9 +527,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="36950016"
           MonolithLength="307200" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_62_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_62_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_62_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_62_dynamic1.wav"/>
   </sample>
   <sample ID="53" Root="62" HiKey="62" LoKey="62" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10741"
@@ -537,9 +537,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="37257216"
           MonolithLength="401408" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_62_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_62_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_62_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_62_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_62_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_62_dynamic2.wav"/>
   </sample>
   <sample ID="54" Root="63" HiKey="63" LoKey="63" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3366"
@@ -547,9 +547,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="37658624"
           MonolithLength="548864" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_63_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_63_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_63_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_63_dynamic1.wav"/>
   </sample>
   <sample ID="55" Root="63" HiKey="63" LoKey="63" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9589"
@@ -557,9 +557,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="38207488"
           MonolithLength="655360" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_63_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_63_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_63_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_63_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_63_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_63_dynamic2.wav"/>
   </sample>
   <sample ID="56" Root="64" HiKey="64" LoKey="64" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3457"
@@ -567,9 +567,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="38862848"
           MonolithLength="491520" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_64_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_64_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_64_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_64_dynamic1.wav"/>
   </sample>
   <sample ID="57" Root="64" HiKey="64" LoKey="64" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9214"
@@ -577,9 +577,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="39354368"
           MonolithLength="667648" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_64_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_64_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_64_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_64_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_64_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_64_dynamic2.wav"/>
   </sample>
   <sample ID="58" Root="65" HiKey="65" LoKey="65" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8348"
@@ -587,9 +587,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="40022016"
           MonolithLength="311296" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_65_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_65_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_65_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_65_dynamic1.wav"/>
   </sample>
   <sample ID="59" Root="65" HiKey="65" LoKey="65" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5908"
@@ -597,9 +597,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="40333312"
           MonolithLength="397312" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_65_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_65_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_65_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_65_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_65_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_65_dynamic2.wav"/>
   </sample>
   <sample ID="60" Root="66" HiKey="66" LoKey="66" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3801"
@@ -607,9 +607,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="40730624"
           MonolithLength="397312" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_66_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_66_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_66_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_66_dynamic1.wav"/>
   </sample>
   <sample ID="61" Root="66" HiKey="66" LoKey="66" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9877"
@@ -617,9 +617,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="41127936"
           MonolithLength="753664" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_66_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_66_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_66_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_66_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_66_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_66_dynamic2.wav"/>
   </sample>
   <sample ID="62" Root="67" HiKey="67" LoKey="67" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4672"
@@ -627,9 +627,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="41881600"
           MonolithLength="471040" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_67_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_67_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_67_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_67_dynamic1.wav"/>
   </sample>
   <sample ID="63" Root="67" HiKey="67" LoKey="67" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11467"
@@ -637,9 +637,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="42352640"
           MonolithLength="446464" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_67_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_67_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_67_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_67_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_67_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_67_dynamic2.wav"/>
   </sample>
   <sample ID="64" Root="68" HiKey="68" LoKey="68" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3328"
@@ -647,9 +647,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="42799104"
           MonolithLength="475136" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_68_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_68_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_68_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_68_dynamic1.wav"/>
   </sample>
   <sample ID="65" Root="68" HiKey="68" LoKey="68" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10283"
@@ -657,9 +657,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="43274240"
           MonolithLength="438272" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_68_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_68_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_68_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_68_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_68_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_68_dynamic2.wav"/>
   </sample>
   <sample ID="66" Root="69" HiKey="69" LoKey="69" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4752"
@@ -667,9 +667,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="43712512"
           MonolithLength="352256" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_69_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_69_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_69_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_69_dynamic1.wav"/>
   </sample>
   <sample ID="67" Root="69" HiKey="69" LoKey="69" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9991"
@@ -677,9 +677,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="44064768"
           MonolithLength="393216" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_69_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_69_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_69_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_69_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_69_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_69_dynamic2.wav"/>
   </sample>
   <sample ID="68" Root="70" HiKey="70" LoKey="70" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3180"
@@ -687,9 +687,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="44457984"
           MonolithLength="356352" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_70_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_70_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_70_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_70_dynamic1.wav"/>
   </sample>
   <sample ID="69" Root="70" HiKey="70" LoKey="70" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10053"
@@ -697,9 +697,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="44814336"
           MonolithLength="434176" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_70_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_70_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_70_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_70_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_70_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_70_dynamic2.wav"/>
   </sample>
   <sample ID="70" Root="71" HiKey="71" LoKey="71" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2996"
@@ -707,9 +707,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="45248512"
           MonolithLength="274432" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_71_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_71_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_71_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_71_dynamic1.wav"/>
   </sample>
   <sample ID="71" Root="71" HiKey="71" LoKey="71" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8408"
@@ -717,9 +717,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="45522944"
           MonolithLength="421888" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_71_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_71_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_71_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_71_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_71_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_71_dynamic2.wav"/>
   </sample>
   <sample ID="72" Root="72" HiKey="72" LoKey="72" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4160"
@@ -727,9 +727,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="45944832"
           MonolithLength="258048" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_72_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_72_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_72_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_72_dynamic1.wav"/>
   </sample>
   <sample ID="73" Root="72" HiKey="72" LoKey="72" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7539"
@@ -737,9 +737,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="46202880"
           MonolithLength="360448" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_72_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_72_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_72_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_72_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_72_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_72_dynamic2.wav"/>
   </sample>
   <sample ID="74" Root="73" HiKey="73" LoKey="73" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2974"
@@ -747,9 +747,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="46563328"
           MonolithLength="512000" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_73_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_73_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_73_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_73_dynamic1.wav"/>
   </sample>
   <sample ID="75" Root="73" HiKey="73" LoKey="73" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9629"
@@ -757,9 +757,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="47075328"
           MonolithLength="499712" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_73_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_73_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_73_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_73_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_73_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_73_dynamic2.wav"/>
   </sample>
   <sample ID="76" Root="74" HiKey="74" LoKey="74" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2289"
@@ -767,9 +767,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="47575040"
           MonolithLength="196608" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_74_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_74_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_74_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_74_dynamic1.wav"/>
   </sample>
   <sample ID="77" Root="74" HiKey="74" LoKey="74" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9655"
@@ -777,9 +777,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="47771648"
           MonolithLength="339968" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_74_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_74_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_74_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_74_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_74_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_74_dynamic2.wav"/>
   </sample>
   <sample ID="78" Root="75" HiKey="75" LoKey="75" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1874"
@@ -787,9 +787,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="48111616"
           MonolithLength="282624" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_75_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_75_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_75_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_75_dynamic1.wav"/>
   </sample>
   <sample ID="79" Root="75" HiKey="75" LoKey="75" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4446"
@@ -797,9 +797,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="48394240"
           MonolithLength="417792" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_75_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_75_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_75_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_75_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_75_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_75_dynamic2.wav"/>
   </sample>
   <sample ID="80" Root="76" HiKey="76" LoKey="76" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2706"
@@ -807,9 +807,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="48812032"
           MonolithLength="253952" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_76_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_76_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_76_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_76_dynamic1.wav"/>
   </sample>
   <sample ID="81" Root="76" HiKey="76" LoKey="76" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8712"
@@ -817,9 +817,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="49065984"
           MonolithLength="327680" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_76_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_76_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_76_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_76_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_76_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_76_dynamic2.wav"/>
   </sample>
   <sample ID="82" Root="77" HiKey="77" LoKey="77" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2070"
@@ -827,9 +827,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="49393664"
           MonolithLength="270336" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_77_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_77_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_77_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_77_dynamic1.wav"/>
   </sample>
   <sample ID="83" Root="77" HiKey="77" LoKey="77" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11600"
@@ -837,9 +837,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="49664000"
           MonolithLength="303104" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_77_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_77_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_77_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_77_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_77_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_77_dynamic2.wav"/>
   </sample>
   <sample ID="84" Root="78" HiKey="78" LoKey="78" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2822"
@@ -847,9 +847,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="49967104"
           MonolithLength="315392" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_78_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_78_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_78_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_78_dynamic1.wav"/>
   </sample>
   <sample ID="85" Root="78" HiKey="78" LoKey="78" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7082"
@@ -857,9 +857,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="50282496"
           MonolithLength="307200" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_78_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_78_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_78_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_78_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_78_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_78_dynamic2.wav"/>
   </sample>
   <sample ID="86" Root="79" HiKey="79" LoKey="79" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2295"
@@ -867,9 +867,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="50589696"
           MonolithLength="196608" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_79_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_79_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_79_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_79_dynamic1.wav"/>
   </sample>
   <sample ID="87" Root="79" HiKey="79" LoKey="79" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9400"
@@ -877,9 +877,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="50786304"
           MonolithLength="299008" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_79_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_79_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_79_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_79_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_79_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_79_dynamic2.wav"/>
   </sample>
   <sample ID="88" Root="80" HiKey="80" LoKey="80" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2519"
@@ -887,9 +887,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="51085312"
           MonolithLength="303104" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_80_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_80_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_80_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_80_dynamic1.wav"/>
   </sample>
   <sample ID="89" Root="80" HiKey="80" LoKey="80" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9524"
@@ -897,9 +897,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="51388416"
           MonolithLength="319488" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_80_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_80_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_80_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_80_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_80_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_80_dynamic2.wav"/>
   </sample>
   <sample ID="90" Root="81" HiKey="81" LoKey="81" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2161"
@@ -907,9 +907,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="51707904"
           MonolithLength="167936" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_81_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_81_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_81_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_81_dynamic1.wav"/>
   </sample>
   <sample ID="91" Root="81" HiKey="81" LoKey="81" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9127"
@@ -917,9 +917,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="51875840"
           MonolithLength="258048" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_81_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_81_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_81_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_81_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_81_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_81_dynamic2.wav"/>
   </sample>
   <sample ID="92" Root="82" HiKey="82" LoKey="82" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2825"
@@ -927,9 +927,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="52133888"
           MonolithLength="282624" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_82_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_82_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_82_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_82_dynamic1.wav"/>
   </sample>
   <sample ID="93" Root="82" HiKey="82" LoKey="82" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9749"
@@ -937,9 +937,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="52416512"
           MonolithLength="335872" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_82_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_82_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_82_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_82_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_82_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_82_dynamic2.wav"/>
   </sample>
   <sample ID="94" Root="83" HiKey="83" LoKey="83" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1780"
@@ -947,9 +947,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="52752384"
           MonolithLength="188416" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_83_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_83_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_83_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_83_dynamic1.wav"/>
   </sample>
   <sample ID="95" Root="83" HiKey="83" LoKey="83" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="10736"
@@ -957,9 +957,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="52940800"
           MonolithLength="327680" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_83_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_83_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_83_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_83_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_83_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_83_dynamic2.wav"/>
   </sample>
   <sample ID="96" Root="84" HiKey="84" LoKey="84" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2111"
@@ -967,9 +967,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="53268480"
           MonolithLength="155648" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_84_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_84_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_84_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_84_dynamic1.wav"/>
   </sample>
   <sample ID="97" Root="84" HiKey="84" LoKey="84" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7196"
@@ -977,9 +977,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="53424128"
           MonolithLength="282624" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_84_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_84_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_84_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_84_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_84_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_84_dynamic2.wav"/>
   </sample>
   <sample ID="98" Root="85" HiKey="85" LoKey="85" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1371"
@@ -987,9 +987,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="53706752"
           MonolithLength="217088" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_85_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_85_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_85_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_85_dynamic1.wav"/>
   </sample>
   <sample ID="99" Root="85" HiKey="85" LoKey="85" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6529"
@@ -997,9 +997,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="53923840"
           MonolithLength="294912" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_85_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_85_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_85_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_85_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_85_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_85_dynamic2.wav"/>
   </sample>
   <sample ID="100" Root="86" HiKey="86" LoKey="86" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2247"
@@ -1007,9 +1007,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="54218752"
           MonolithLength="155648" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_86_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_86_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_86_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_86_dynamic1.wav"/>
   </sample>
   <sample ID="101" Root="86" HiKey="86" LoKey="86" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7199"
@@ -1017,9 +1017,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="54374400"
           MonolithLength="221184" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_86_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_86_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_86_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_86_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_86_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_86_dynamic2.wav"/>
   </sample>
   <sample ID="102" Root="87" HiKey="87" LoKey="87" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1687"
@@ -1027,9 +1027,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="54595584"
           MonolithLength="122880" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_87_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_87_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_87_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_87_dynamic1.wav"/>
   </sample>
   <sample ID="103" Root="87" HiKey="87" LoKey="87" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9086"
@@ -1037,9 +1037,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="54718464"
           MonolithLength="245760" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_87_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_87_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_87_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_87_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_87_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_87_dynamic2.wav"/>
   </sample>
   <sample ID="104" Root="88" HiKey="88" LoKey="88" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2480"
@@ -1047,9 +1047,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="54964224"
           MonolithLength="122880" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_88_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_88_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_88_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_88_dynamic1.wav"/>
   </sample>
   <sample ID="105" Root="88" HiKey="88" LoKey="88" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="11691"
@@ -1057,9 +1057,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="55087104"
           MonolithLength="299008" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_88_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_88_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_88_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_88_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_88_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_88_dynamic2.wav"/>
   </sample>
   <sample ID="106" Root="89" HiKey="89" LoKey="89" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2184"
@@ -1067,9 +1067,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="55386112"
           MonolithLength="151552" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_89_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_89_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_89_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_89_dynamic1.wav"/>
   </sample>
   <sample ID="107" Root="89" HiKey="89" LoKey="89" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7943"
@@ -1077,9 +1077,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="55537664"
           MonolithLength="208896" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_89_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_89_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_89_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_89_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_89_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_89_dynamic2.wav"/>
   </sample>
   <sample ID="108" Root="90" HiKey="90" LoKey="90" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3164"
@@ -1087,9 +1087,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="55746560"
           MonolithLength="122880" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_90_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_90_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_90_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_90_dynamic1.wav"/>
   </sample>
   <sample ID="109" Root="90" HiKey="90" LoKey="90" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="9281"
@@ -1097,9 +1097,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="55869440"
           MonolithLength="245760" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_90_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_90_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_90_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_90_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_90_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_90_dynamic2.wav"/>
   </sample>
   <sample ID="110" Root="91" HiKey="91" LoKey="91" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2508"
@@ -1107,9 +1107,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="56115200"
           MonolithLength="106496" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_91_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_91_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_91_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_91_dynamic1.wav"/>
   </sample>
   <sample ID="111" Root="91" HiKey="91" LoKey="91" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="8504"
@@ -1117,9 +1117,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="56221696"
           MonolithLength="159744" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_91_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_91_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_91_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_91_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_91_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_91_dynamic2.wav"/>
   </sample>
   <sample ID="112" Root="92" HiKey="92" LoKey="92" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1592"
@@ -1127,9 +1127,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="56381440"
           MonolithLength="122880" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_92_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_92_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_92_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_92_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_92_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_92_dynamic1.wav"/>
   </sample>
   <sample ID="113" Root="92" HiKey="92" LoKey="92" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="6296"
@@ -1137,9 +1137,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="56504320"
           MonolithLength="163840" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_92_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_92_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_92_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_92_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_92_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_92_dynamic2.wav"/>
   </sample>
   <sample ID="114" Root="93" HiKey="93" LoKey="93" LoVel="0" HiVel="73"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3173"
@@ -1147,9 +1147,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="20"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="56668160"
           MonolithLength="126976" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_93_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_93_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_93_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_93_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_93_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_93_dynamic1.wav"/>
   </sample>
   <sample ID="115" Root="93" HiKey="93" LoKey="93" LoVel="54" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="7011"
@@ -1157,8 +1157,8 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="20" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="56795136"
           MonolithLength="208896" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_close_93_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_di_93_dynamic2.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/sustain/celticHarp_sustain_room_93_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_close_93_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_di_93_dynamic2.wav"/>
+    <file FileName="{PROJECT_FOLDER}sustain/celticHarp_sustain_room_93_dynamic2.wav"/>
   </sample>
 </samplemap>

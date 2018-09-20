@@ -28,11 +28,13 @@ namespace Theme
 	const var LIGHT = "Oxygen-Light";
 	const var REGULAR = "Oxygen-Regular";
 	const var BOLD = "Oxygen-Bold";	
+	const var C0 = 0xB5262626;
 	const var C1 = 0xff000000;
 	const var C2 = 0xff262626;
 	const var C3 = 0xff333333;
 	const var C4 = 0xff525252;
 	const var C5 = 0xff7a7a7a;
 	const var C6 = 0xffffffff;	
-	const var F = 0xff7ba359; //Feature colour
+	const var F = 0x6E459D50; //Feature colour
+	const var FOpaque = 0xFF459D50; //Feature colour without transparency
 }

@@ -28,40 +28,30 @@ namespace Mixer
 		{
 		    samplers.push(Synth.getSampler(s));
 		}
-
-		//Background panel
-		Content.setPropertiesFromJSON("pnlMixer", {itemColour:Theme.C3, itemColour2:Theme.C3});
 		
-		//Labels	
-		Content.setPropertiesFromJSON("lblVol", {fontName:Theme.BOLD, fontSize:Theme.H2});
-		Content.setPropertiesFromJSON("lblPan", {fontName:Theme.BOLD, fontSize:Theme.H2});
-		Content.setPropertiesFromJSON("lblWidth", {fontName:Theme.BOLD, fontSize:Theme.H2});
-		Content.setPropertiesFromJSON("lblDelay", {fontName:Theme.BOLD, fontSize:Theme.H2});
-	
 		//Knobs and sliders
 		const var purge = [];
 
 		for (i = 0; i < 3; i++)
 		{
 		    //Purge button
-		    Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.C6, itemColour:Theme.C5});
+		    Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.C1, itemColour:Theme.C0});
 			purge[i] = ui.buttonPanel("btnPurge"+i, purgeButtonPaintRoutine);
 			purge[i].setControlCallback(btnPurgeCB);
 			
 		    //Volume slider
-		    Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.C2, itemColour:Theme.F});
-		    ui.sliderPanel("sliVol"+i, paintRoutines.verticalSlider, -50, 0.8);
+		    Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.C0, itemColour:Theme.F});
 		    
 		    //Pan knob
-			Content.setPropertiesFromJSON("sliPan"+i, {bgColour:Theme.C2, itemColour:Theme.F});
+			Content.setPropertiesFromJSON("sliPan"+i, {bgColour:Theme.C2, itemColour:Theme.FOpaque});
 			ui.sliderPanel("sliPan"+i, paintRoutines.knob, 0, 0.5);
 
 			//Width knob
-            Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.C2, itemColour:Theme.F});
+            Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.C2, itemColour:Theme.FOpaque});
 			ui.sliderPanel("sliWidth"+i, paintRoutines.knob, 0, 0.5);
 			
 			//Delay knob
-			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.C2, itemColour:Theme.F});
+			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.C2, itemColour:Theme.FOpaque});
 			ui.sliderPanel("sliDelay"+i, paintRoutines.knob, 0, 0.5);
 		}
 	}

@@ -7,9 +7,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
           MonolithLength="131072" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_36_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_36_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_36_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_36_dynamic1.wav"/>
   </sample>
   <sample ID="1" Root="37" HiKey="37" LoKey="37" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -17,9 +17,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="131072"
           MonolithLength="81920" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_37_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_37_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_37_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_37_dynamic1.wav"/>
   </sample>
   <sample ID="2" Root="38" HiKey="38" LoKey="38" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -27,9 +27,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="212992"
           MonolithLength="77824" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_38_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_38_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_38_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_38_dynamic1.wav"/>
   </sample>
   <sample ID="3" Root="39" HiKey="39" LoKey="39" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -37,9 +37,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="290816"
           MonolithLength="86016" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_39_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_39_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_39_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_39_dynamic1.wav"/>
   </sample>
   <sample ID="4" Root="40" HiKey="40" LoKey="40" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -47,9 +47,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="376832"
           MonolithLength="110592" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_40_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_40_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_40_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_40_dynamic1.wav"/>
   </sample>
   <sample ID="5" Root="41" HiKey="41" LoKey="41" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -57,9 +57,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="487424"
           MonolithLength="118784" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_41_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_41_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_41_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_41_dynamic1.wav"/>
   </sample>
   <sample ID="6" Root="42" HiKey="42" LoKey="42" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -67,9 +67,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="606208"
           MonolithLength="81920" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_42_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_42_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_42_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_42_dynamic1.wav"/>
   </sample>
   <sample ID="7" Root="43" HiKey="43" LoKey="43" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -77,9 +77,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="688128"
           MonolithLength="106496" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_43_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_43_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_43_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_43_dynamic1.wav"/>
   </sample>
   <sample ID="8" Root="44" HiKey="44" LoKey="44" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -87,9 +87,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="794624"
           MonolithLength="176128" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_44_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_44_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_44_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_44_dynamic1.wav"/>
   </sample>
   <sample ID="9" Root="45" HiKey="45" LoKey="45" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -97,9 +97,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="970752"
           MonolithLength="167936" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_45_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_45_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_45_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_45_dynamic1.wav"/>
   </sample>
   <sample ID="10" Root="46" HiKey="46" LoKey="46" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -107,9 +107,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1138688"
           MonolithLength="86016" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_46_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_46_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_46_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_46_dynamic1.wav"/>
   </sample>
   <sample ID="11" Root="47" HiKey="47" LoKey="47" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -117,9 +117,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1224704"
           MonolithLength="147456" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_47_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_47_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_47_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_47_dynamic1.wav"/>
   </sample>
   <sample ID="12" Root="48" HiKey="48" LoKey="48" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -127,9 +127,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1372160"
           MonolithLength="147456" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_48_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_48_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_48_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_48_dynamic1.wav"/>
   </sample>
   <sample ID="13" Root="49" HiKey="49" LoKey="49" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -137,9 +137,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1519616"
           MonolithLength="114688" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_49_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_49_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_49_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_49_dynamic1.wav"/>
   </sample>
   <sample ID="14" Root="50" HiKey="50" LoKey="50" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -147,9 +147,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1634304"
           MonolithLength="106496" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_50_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_50_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_50_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_50_dynamic1.wav"/>
   </sample>
   <sample ID="15" Root="51" HiKey="51" LoKey="51" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -157,9 +157,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1740800"
           MonolithLength="139264" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_51_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_51_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_51_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_51_dynamic1.wav"/>
   </sample>
   <sample ID="16" Root="52" HiKey="52" LoKey="52" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -167,9 +167,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1880064"
           MonolithLength="163840" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_52_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_52_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_52_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_52_dynamic1.wav"/>
   </sample>
   <sample ID="17" Root="53" HiKey="53" LoKey="53" LoVel="0" HiVel="127"
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="0"
@@ -177,9 +177,9 @@
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
           SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2043904"
           MonolithLength="163840" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_53_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_53_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_53_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_53_dynamic1.wav"/>
   </sample>
   <sample ID="18" Root="54" HiKey="93" LoKey="54" LoVel="0" HiVel="127"
           RRGroup="1" Volume="-9.000001" Pan="0" Normalized="0" Pitch="0"
@@ -187,8 +187,8 @@
           LoopEnd="0" LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0"
           UpperVelocityXFade="0" SampleState="0" NormalizedPeak="-1" Duplicate="0"
           MonolithOffset="2207744" MonolithLength="143360" SampleRate="48000">
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_close_54_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_di_54_dynamic1.wav"/>
-    <file FileName="/media/dave/Work 1/Xtant Audio/Products/Virtual Instruments/Strings/Michaelas Harp/session/media/final/damp/celticHarp_damp_room_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_close_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_di_54_dynamic1.wav"/>
+    <file FileName="{PROJECT_FOLDER}final/damp/celticHarp_damp_room_54_dynamic1.wav"/>
   </sample>
 </samplemap>

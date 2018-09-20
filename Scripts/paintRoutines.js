@@ -29,18 +29,6 @@ namespace paintRoutines
         this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
         g.fillPath(svgPaths.disk, [0, 0, this.get("width"), this.get("height")]);
     };
-
-    const var gear = function(g)
-    {
-        this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
-        g.fillPath(svgPaths.gear, [0, 0, this.get("width"), this.get("height")]);
-    };
-    
-	const var star = function(g)
-    {
-        this.getValue() == 0 ? g.setColour(this.get("itemColour")) : g.setColour(this.get("itemColour2"));
-        g.fillPath(svgPaths.star, [0, 0, this.get("width"), this.get("height")]);
-    };
     		    
 	const var biDirectionalSlider = function(g)
 	{       
@@ -83,6 +71,9 @@ namespace paintRoutines
         this.getValue() == 1 ? g.fillAll(this.get("bgColour")) : g.fillAll(this.get("itemColour"));
 	    this.getValue() == 1 ? g.setColour(this.get("textColour")) : g.setColour(this.get("itemColour2"));
 	    	    
+	    g.setColour(0xFF000000);
+	    g.drawRect([0, 0, this.getWidth(), this.getHeight()], 1);
+	    
 		g.setFont(Theme.REGULAR, 18);
 		g.drawAlignedText(this.get("text"), [0, 0, this.getWidth(), this.getHeight()], "centred");
     };

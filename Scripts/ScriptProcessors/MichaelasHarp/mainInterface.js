@@ -26,7 +26,6 @@ include("presetHandler.js");
 include("pageHandler.js");
 include("header.js");
 include("mixer.js");
-include("controllerHandler.js");
 include("performance.js");
 include("settings.js");
 
@@ -50,16 +49,11 @@ Header.onInitCB();
 PresetHandler.onInitCB();
 PageHandler.onInitCB();
 Mixer.onInitCB();
-ControllerHandler.onInitCB();
 Performance.onInitCB();
 Settings.onInitCB();
 function onNoteOn()
 {
-    //Ignore events outside playable range
-    if (Message.getNoteNumber() < Manifest.patches[patchName].range[0] || Message.getNoteNumber() > Manifest.patches[patchName].range[1])
-    {
-        Message.ignoreEvent(true);
-    }    
+	
 }
 function onNoteOff()
 {

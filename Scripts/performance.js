@@ -20,41 +20,22 @@
 namespace Performance
 {
 	inline function onInitCB()
-	{
-        //Background panel
-		Content.setPropertiesFromJSON("pnlPerformance", {itemColour:Theme.C3, itemColour2:Theme.C3});
-	    
+	{    
 		//Labels
-        Content.setPropertiesFromJSON("lblAtk", {fontName:Theme.BOLD, fontSize:20, textColour:Theme.C6});
-        Content.setPropertiesFromJSON("lblRel", {fontName:Theme.BOLD, fontSize:20, textColour:Theme.C6});
-        Content.setPropertiesFromJSON("lblRR", {fontName:Theme.BOLD, fontSize:20, textColour:Theme.C6});
+        Content.setPropertiesFromJSON("lblAtk", {fontName:Theme.BOLD, fontSize:22, textColour:Theme.C1});
+        Content.setPropertiesFromJSON("lblRel", {fontName:Theme.BOLD, fontSize:22, textColour:Theme.C1});
+        Content.setPropertiesFromJSON("lblRR", {fontName:Theme.BOLD, fontSize:22, textColour:Theme.C1});
+        Content.setPropertiesFromJSON("lblVelo", {fontName:Theme.BOLD, fontSize:22, textColour:Theme.C1});
 		
         //Envelope knobs
-        const var sliEnv = [];
-        sliEnv[0] = ui.setupControl("sliAtk", {bgColour:Theme.C2, itemColour:Theme.F});
-        ui.sliderPanel("sliAtk", paintRoutines.knob, 0, 0.2);
-        sliEnv[0].setControlCallback(sliEnvCB);
-        
-        
-        sliEnv[1] = ui.setupControl("sliRel", {bgColour:Theme.C2, itemColour:Theme.F});
-        ui.sliderPanel("sliRel", paintRoutines.knob, 0, 0.03);
-        sliEnv[1].setControlCallback(sliEnvCB);
-	
-        //Value labels
-        const var lblEnv = [];
-		lblEnv[0] = ui.setupControl("lblAtkVal", {fontName:Theme.REGULAR, fontSize:16, textColour:Theme.C6});
-		lblEnv[1] = ui.setupControl("lblRelVal", {fontName:Theme.REGULAR, fontSize:16, textColour:Theme.C6});
-        
+        Content.setPropertiesFromJSON("sliAtk", {bgColour:Theme.C2, itemColour:Theme.F});
+        Content.setPropertiesFromJSON("sliRelease", {bgColour:Theme.C2, itemColour:Theme.F});
+                
         //Round robin button		
 	    Content.setPropertiesFromJSON("btnRR", {bgColour:Theme.C5, itemColour:Theme.C4, itemColour2:Theme.C2, textColour:Theme.C6});
 	    ui.buttonPanel("btnRR", paintRoutines.onOffButton);
+	    
+	    //Velocity curve table
+	    const var tblVelocity = ui.setupControl("tblVelocity", {});
 	}
-	
-	inline function sliEnvCB(control, value)
-    {
-        local idx = sliEnv.indexOf(control);
-        
-        lblEnv[idx].set("text", value + "ms");
-        lblEnv[idx].changed();
-    }
 }
