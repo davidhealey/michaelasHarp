@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="pnlMain" x="0" y="0" width="800" height="581"
+             itemColour2="4280690214" itemColour="4280690214" textColour="0"
+             saveInPreset="1" borderSize="0" borderRadius="0" bgColour="0">
+    <Component type="ScriptImage" id="imgSkin" x="0" y="0" width="800" height="581"
+               parentComponent="pnlMain" fileName="{PROJECT_FOLDER}skin.jpg"
+               scale="0.5"/>
+    <Component type="ScriptPanel" id="pnlPage0" x="0" y="100" width="800" height="364"
+               parentComponent="pnlMain" borderSize="0" borderRadius="20" itemColour="0"
+               itemColour2="0" bgColour="0">
+      <Component type="ScriptPanel" id="mixer" x="0" y="0" width="330" height="340"
+                 parentComponent="pnlPage0" borderSize="0" borderRadius="0" bgColour="0"
+                 itemColour="0" itemColour2="0" textColour="0">
+        <Component type="ScriptSlider" id="sliVol0" x="71" y="194" width="33" height="115"
+                   parentComponent="mixer" processorId="micClose" parameterId="Gain"
+                   mode="Decibel" min="-100" max="0" stepSize="0.1" suffix=" dB"
+                   middlePosition="-18" defaultValue="-6" bgColour="3039176230"
+                   itemColour="1850056016" itemColour2="4278190080" textColour="16777215"
+                   showValuePopup="Below" isPluginParameter="1" pluginParameterName="Close Gain"
+                   numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderV.png"
+                   scaleFactor="0.5" mouseSensitivity="0.5"/>
+        <Component type="ScriptSlider" id="sliVol1" x="135" y="194" width="33" height="115"
+                   parentComponent="mixer" processorId="micDI" parameterId="Gain"
+                   mode="Decibel" min="-100" max="0" stepSize="0.1" suffix=" dB"
+                   middlePosition="-18" defaultValue="-6" bgColour="3039176230"
+                   itemColour="1850056016" itemColour2="4278190080" textColour="16777215"
+                   showValuePopup="Below" isPluginParameter="1" pluginParameterName="DI Gain"
+                   numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderV.png"
+                   scaleFactor="0.5" mouseSensitivity="0.5"/>
+        <Component type="ScriptSlider" id="sliVol2" x="198" y="194" width="33" height="115"
+                   parentComponent="mixer" processorId="micRoom" parameterId="Gain"
+                   mode="Decibel" min="-100" max="0" stepSize="0.1" suffix=" dB"
+                   middlePosition="-18" defaultValue="-6" bgColour="3039176230"
+                   itemColour="1850056016" itemColour2="4278190080" textColour="16777215"
+                   showValuePopup="Below" isPluginParameter="1" pluginParameterName="Room Gain"
+                   numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderV.png"
+                   scaleFactor="0.5" mouseSensitivity="0.5"/>
+        <Component type="ScriptSlider" id="knbPan0" x="71" y="157" width="38" height="38"
+                   parentComponent="mixer" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
+                   mode="Pan" min="-100" max="100" stepSize="1" suffix="L" middlePosition="0"
+                   filmstripImage="{PROJECT_FOLDER}pan.png" processorId="micClose"
+                   parameterId="Balance" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="knbPan1" x="135" y="157" width="38" height="38"
+                   parentComponent="mixer" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
+                   mode="Pan" min="-100" max="100" stepSize="1" suffix="L" middlePosition="0"
+                   filmstripImage="{PROJECT_FOLDER}pan.png" processorId="micDI"
+                   parameterId="Balance" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="knbPan2" x="198" y="157" width="38" height="38"
+                   parentComponent="mixer" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
+                   mode="Pan" min="-100" max="100" stepSize="1" suffix="L" middlePosition="0"
+                   filmstripImage="{PROJECT_FOLDER}pan.png" processorId="micRoom"
+                   parameterId="Balance" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="knbWidth0" x="71" y="96" width="38" height="38"
+                   parentComponent="mixer" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
+                   middlePosition="100" filmstripImage="{PROJECT_FOLDER}pan.png"
+                   processorId="micClose" parameterId="Width" max="200" defaultValue="100"
+                   stepSize="0.1" suffix=" %" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="knbWidth1" x="135" y="96" width="38"
+                   height="38" parentComponent="mixer" numStrips="127" scaleFactor="0.5"
+                   mouseSensitivity="0.69999999" middlePosition="100" filmstripImage="{PROJECT_FOLDER}pan.png"
+                   processorId="micDI" parameterId="Width" max="200" defaultValue="100"
+                   stepSize="0.1" suffix=" %" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="knbWidth2" x="198" y="96" width="38"
+                   height="38" parentComponent="mixer" numStrips="127" scaleFactor="0.5"
+                   mouseSensitivity="0.69999999" middlePosition="100" filmstripImage="{PROJECT_FOLDER}pan.png"
+                   processorId="micRoom" parameterId="Width" max="200" defaultValue="100"
+                   stepSize="0.1" suffix=" %" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="knbDelay0" x="71" y="41" width="38" height="38"
+                   parentComponent="mixer" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.5"
+                   middlePosition="250" filmstripImage="{PROJECT_FOLDER}Knob.png"
+                   processorId="micClose" parameterId="Delay" max="500" stepSize="0.1"
+                   suffix=" ms" mode="Time" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="knbDelay1" x="135" y="41" width="38"
+                   height="38" parentComponent="mixer" numStrips="127" scaleFactor="0.5"
+                   mouseSensitivity="0.5" middlePosition="250" filmstripImage="{PROJECT_FOLDER}Knob.png"
+                   processorId="micDI" parameterId="Delay" max="500" stepSize="0.1"
+                   suffix=" ms" mode="Time" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="knbDelay2" x="198" y="41" width="38"
+                   height="38" parentComponent="mixer" numStrips="127" scaleFactor="0.5"
+                   mouseSensitivity="0.5" middlePosition="250" filmstripImage="{PROJECT_FOLDER}Knob.png"
+                   processorId="micRoom" parameterId="Delay" max="500" stepSize="0.1"
+                   suffix=" ms" mode="Time" showValuePopup="Below"/>
+        <Component type="ScriptButton" id="btnPurge0" x="73" y="298" width="33"
+                   height="42" parentComponent="mixer" filmstripImage="{PROJECT_FOLDER}close-button.png"
+                   scaleFactor=".5"/>
+        <Component type="ScriptButton" id="btnPurge1" x="136" y="298" width="33"
+                   height="42" parentComponent="mixer" filmstripImage="{PROJECT_FOLDER}di-button.png"
+                   scaleFactor=".5"/>
+        <Component type="ScriptButton" id="btnPurge2" x="200" y="298" width="33"
+                   height="42" parentComponent="mixer" filmstripImage="{PROJECT_FOLDER}room-button.png"
+                   scaleFactor=".5" tooltip="Hello"/>
+      </Component>
+      <Component type="ScriptPanel" id="controls" x="429" y="6" width="330" height="340"
+                 parentComponent="pnlPage0" bgColour="0" itemColour="0" itemColour2="0"
+                 textColour="0" borderSize="0" borderRadius="0">
+        <Component type="ScriptSlider" id="sliAtk" x="175" y="21" width="116" height="35"
+                   parentComponent="controls" mode="Time" max="20000" stepSize="1"
+                   suffix=" ms" middlePosition="2000" defaultValue="25" processorId="sustainEnvelope"
+                   parameterId="Attack" bgColour="4280690214" itemColour2="4278190080"
+                   itemColour="1850056016" isPluginParameter="1" pluginParameterName="Attack Time"
+                   numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderH.png"
+                   scaleFactor="0.5" showValuePopup="Below" mouseSensitivity="0.5"/>
+        <Component type="ScriptSlider" id="sliRelease" x="175" y="65" width="116"
+                   height="35" parentComponent="controls" mode="Time" max="20000"
+                   stepSize="1" suffix=" ms" middlePosition="2000" defaultValue="2500"
+                   processorId="sustainEnvelope" parameterId="Release" bgColour="4280690214"
+                   itemColour2="4278190080" itemColour="1850056016" isPluginParameter="1"
+                   pluginParameterName="Release Time" numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderH.png"
+                   scaleFactor="0.5" showValuePopup="Below" mouseSensitivity="0.5"/>
+        <Component type="ScriptButton" id="btnRR" x="216" y="110" width="38" height="38"
+                   parentComponent="controls" filmstripImage="{PROJECT_FOLDER}switch.png"
+                   scaleFactor="0.5" bgColour="4286216826" itemColour="4283585106"
+                   itemColour2="4280690214" ="Clicks Only" processorId="roundRobin"
+                   parameterId="Bypass"/>
+        <Component type="ScriptTable" id="tblVelocity" x="84" y="192" width="246"
+                   height="116" parentComponent="controls" bgColour="2500134" customColours="1"
+                   itemColour="4292327554" itemColour2="3302468191" processorId="Velocity Modulator"/>
+      </Component>
+    </Component>
+    <Component type="ScriptPanel" id="pnlPage1" x="0" y="0" width="800" height="581"
+               parentComponent="pnlMain" bgColour="0" itemColour="0" itemColour2="0"
+               borderSize="0" borderRadius="0" textColour="0" visible="0">
+      <Component type="ScriptImage" id="imgPage1Skin" x="0" y="101" width="800"
+                 height="326" parentComponent="pnlPage1" fileName="{PROJECT_FOLDER}skin-empty.jpg"
+                 scale="0.5" offset="202"/>
+      <Component type="ScriptFloatingTile" id="fltSettings" x="150" y="115" width="500"
+                 height="280" parentComponent="pnlPage1" Font="Oxygen-Regular"
+                 FontSize="22" bgColour="4283519313" itemColour2="4294951115"
+                 itemColour="4284900966" ContentType="Tabs" Data="{&#13;&#10;  &quot;Dynamic&quot;: false,&#13;&#10;  &quot;Content&quot;: [&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;CustomSettings&quot;,&#13;&#10;      &quot;Title&quot;: &quot;Engine&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;undefined&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;55877559&quot;,&#13;&#10;        &quot;textColour&quot;: &quot;fffff3dd&quot;&#13;&#10;      },&#13;&#10;      &quot;Driver&quot;: true,&#13;&#10;      &quot;Device&quot;: true,&#13;&#10;      &quot;Output&quot;: true,&#13;&#10;      &quot;BufferSize&quot;: true,&#13;&#10;      &quot;SampleRate&quot;: true,&#13;&#10;      &quot;GlobalBPM&quot;: true,&#13;&#10;      &quot;StreamingMode&quot;: true,&#13;&#10;      &quot;GraphicRendering&quot;: false,&#13;&#10;      &quot;ScaleFactor&quot;: true,&#13;&#10;      &quot;SustainCC&quot;: false,&#13;&#10;      &quot;VoiceAmountMultiplier&quot;: true,&#13;&#10;      &quot;ClearMidiCC&quot;: true,&#13;&#10;      &quot;SampleLocation&quot;: true,&#13;&#10;      &quot;DebugMode&quot;: false,&#13;&#10;      &quot;ScaleFactorList&quot;: [&#13;&#10;        1,&#13;&#10;        1.25,&#13;&#10;        1.5,&#13;&#10;        2&#13;&#10;      ]&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiSources&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Input&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;undefined&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;55877559&quot;,&#13;&#10;        &quot;textColour&quot;: &quot;fffff3dd&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiChannelList&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Channel&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;undefined&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;55877559&quot;,&#13;&#10;        &quot;textColour&quot;: &quot;fffff3dd&quot;&#13;&#10;      }&#13;&#10;    },&#13;&#10;    {&#13;&#10;      &quot;Type&quot;: &quot;MidiLearnPanel&quot;,&#13;&#10;      &quot;Title&quot;: &quot;MIDI Automation&quot;,&#13;&#10;      &quot;StyleData&quot;: {&#13;&#10;      },&#13;&#10;      &quot;Font&quot;: &quot;undefined&quot;,&#13;&#10;      &quot;FontSize&quot;: 18,&#13;&#10;      &quot;LayoutData&quot;: ,&#13;&#10;      &quot;ColourData&quot;: {&#13;&#10;        &quot;bgColour&quot;: &quot;33877559&quot;,&#13;&#10;        &quot;textColour&quot;: &quot;fffff3dd&quot;,&#13;&#10;        &quot;itemColour1&quot;: &quot;bb877559&quot;&#13;&#10;      }&#13;&#10;    }&#13;&#10;  ],&#13;&#10;  &quot;CurrentTab&quot;: 0&#13;&#10;}"/>
+    </Component>
+    <Component type="ScriptPanel" id="pnlPage2" x="0" y="0" width="800" height="581"
+               parentComponent="pnlMain" bgColour="0" itemColour2="0" itemColour="0"
+               textColour="0" borderSize="0" borderRadius="0" visible="0">
+      <Component type="ScriptImage" id="imgPage2Skin" x="0" y="101" width="800"
+                 height="326" parentComponent="pnlPage2" fileName="{PROJECT_FOLDER}skin-empty.jpg"
+                 scale="0.5" offset="202"/>
+      <Component type="ScriptFloatingTile" id="fltPreset" x="25" y="115" width="750"
+                 height="280" parentComponent="pnlPage2" ContentType="PresetBrowser"
+                 bgColour="1983460138" itemColour="4294961083" itemColour2="11796511"
+                 Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowFolderButton&quot;: true,&#13;&#10;  &quot;ShowNotes&quot;: false,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: true,&#13;&#10;  &quot;NumColumns&quot;: 2&#13;&#10;}"
+                 textColour="4294961872" itemColour3="16449536"/>
+    </Component>
+    <Component type="ScriptPanel" id="pnlPage3" x="0" y="0" width="800" height="581"
+               parentComponent="pnlMain" bgColour="0" itemColour2="0" itemColour="0"
+               textColour="0" borderSize="0" borderRadius="0" visible="0">
+      <Component type="ScriptImage" id="imgPage3Skin" x="0" y="101" width="800"
+                 height="326" parentComponent="pnlPage3" fileName="{PROJECT_FOLDER}skin-empty.jpg"
+                 scale="0.5" offset="202"/>
+      <Component type="ScriptFloatingTile" id="fltAbout" x="320" y="167" width="161"
+                 height="185" parentComponent="pnlPage3" bgColour="2234893" itemColour="4294967295"
+                 itemColour2="4294951115" ContentType="AboutPagePanel" Data="{&#13;&#10;  &quot;CopyrightNotice&quot;: &quot;Copyright: David Healey 2019&quot;,&#13;&#10;  &quot;ShowLicensedEmail&quot;: true,&#13;&#10;  &quot;ShowVersion&quot;: true,&#13;&#10;  &quot;BuildDate&quot;: true,&#13;&#10;  &quot;WebsiteURL&quot;: &quot;http://www.LibreWave.com&quot;,&#13;&#10;  &quot;ShowProductName&quot;: true,&#13;&#10;  &quot;UseCustomImage&quot;: false&#13;&#10;}"
+                 Font="Oxygen-Bold" textColour="4294962883">
+        <Component type="ScriptButton" id="btnURL" x="-8" y="146" width="161" height="20"
+                   parentComponent="fltAbout" filmstripImage="{PROJECT_FOLDER}empty.png"
+                   saveInPreset="0"/>
+      </Component>
+    </Component>
+    <Component type="ScriptButton" id="btnPage0" x="167" y="473" width="128"
+               height="32" parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}instrument-button.png"
+               scaleFactor=".5" defaultValue="1"/>
+    <Component type="ScriptButton" id="btnPage1" x="520" y="471" width="96"
+               height="30" parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}settings-button.png"
+               scaleFactor=".5" defaultValue="1" saveInPreset="0"/>
+    <Component type="ScriptButton" id="btnPage2" x="198" y="68" width="95" height="30"
+               parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}preset-button.png"
+               scaleFactor=".5" defaultValue="1" saveInPreset="0"/>
+    <Component type="ScriptButton" id="btnPage3" x="352" y="397" width="95"
+               height="30" parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}empty.png"
+               scaleFactor=".5" defaultValue="1" saveInPreset="0"/>
+    <Component type="ScriptFloatingTile" id="fltStats" x="508" y="65" width="184"
+               height="28" parentComponent="pnlMain" ContentType="PerformanceLabel"
+               bgColour="0" itemColour="4294951115" itemColour2="4294951115"
+               Data="{&#13;&#10;}" textColour="3472219309"/>
+    <Component type="ScriptComboBox" id="cmbPatch" x="490" y="9" width="200"
+               height="32" max="2" parentComponent="pnlMain" text="Patch" bgColour="16777215"
+               items="Natural&#10;Muted" itemColour="4283585106" itemColour2="4283585106"/>
+    <Component type="ScriptLabel" id="lblPreset" x="327" y="67" width="145"
+               height="25" parentComponent="pnlMain" text="New Preset" fontName="Oxygen"
+               fontSize="16" textColour="4294958233" saveInPreset="0"/>
+    <Component type="ScriptButton" id="btnPreset0" x="303" y="67" width="35"
+               height="27" parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}empty.png"
+               saveInPreset="0"/>
+    <Component type="ScriptButton" id="btnPreset1" x="462" y="67" width="35"
+               height="27" parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}empty.png"
+               saveInPreset="0"/>
+  </Component>
+  <Component type="ScriptPanel" id="pnlKeyboard" x="0" y="508" width="800"
+             height="73" bgColour="16777215" textColour="16777215" itemColour="4283974210"
+             itemColour2="4283974210" borderSize="0" borderRadius="0" text="*">
+    <Component type="ScriptFloatingTile" id="fltKeyboard" x="0" y="0" width="800"
+               height="72" itemColour="4294967295" itemColour2="0" bgColour="4282335039"
+               parentComponent="pnlKeyboard" textColour="0" ContentType="Keyboard"
+               Data="{&#13;&#10;  &quot;KeyWidth&quot;: 14,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 24,&#13;&#10;  &quot;HiKey&quot;: 127,&#13;&#10;  &quot;CustomGraphics&quot;: false,&#13;&#10;  &quot;DefaultAppearance&quot;: true,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.69999998807907104492,&#13;&#10;  &quot;ToggleMode&quot;: false&#13;&#10;}"/>
+  </Component>
+</ContentProperties>

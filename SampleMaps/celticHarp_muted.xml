@@ -5,8 +5,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2607"
           SampleEnd="889505" SampleStartMod="0" LoopStart="2665" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="0"
-          MonolithLength="892928" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="0"
+          MonolithLength="892928">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_36_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_36_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_36_dynamic1.wav"/>
@@ -15,8 +15,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2418"
           SampleEnd="761574" SampleStartMod="0" LoopStart="2029" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="892928"
-          MonolithLength="761856" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="892928"
+          MonolithLength="761856">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_37_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_37_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_37_dynamic1.wav"/>
@@ -25,8 +25,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2942"
           SampleEnd="1179230" SampleStartMod="0" LoopStart="2875" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="1654784"
-          MonolithLength="1179648" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="1654784"
+          MonolithLength="1179648">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_38_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_38_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_38_dynamic1.wav"/>
@@ -35,8 +35,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3300"
           SampleEnd="760662" SampleStartMod="0" LoopStart="3361" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="2834432"
-          MonolithLength="761856" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="2834432"
+          MonolithLength="761856">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_39_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_39_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_39_dynamic1.wav"/>
@@ -45,8 +45,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2774"
           SampleEnd="818883" SampleStartMod="0" LoopStart="3056" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="3596288"
-          MonolithLength="819200" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="3596288"
+          MonolithLength="819200">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_40_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_40_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_40_dynamic1.wav"/>
@@ -55,8 +55,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2928"
           SampleEnd="685103" SampleStartMod="0" LoopStart="3011" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="4415488"
-          MonolithLength="688128" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="4415488"
+          MonolithLength="688128">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_41_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_41_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_41_dynamic1.wav"/>
@@ -65,8 +65,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2738"
           SampleEnd="742377" SampleStartMod="0" LoopStart="3653" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5103616"
-          MonolithLength="745472" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5103616"
+          MonolithLength="745472">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_42_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_42_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_42_dynamic1.wav"/>
@@ -75,8 +75,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3966"
           SampleEnd="600764" SampleStartMod="0" LoopStart="4004" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="5849088"
-          MonolithLength="602112" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="5849088"
+          MonolithLength="602112">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_43_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_43_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_43_dynamic1.wav"/>
@@ -85,8 +85,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="5381"
           SampleEnd="653390" SampleStartMod="0" LoopStart="5402" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="6451200"
-          MonolithLength="655360" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="6451200"
+          MonolithLength="655360">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_44_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_44_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_44_dynamic1.wav"/>
@@ -95,8 +95,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3670"
           SampleEnd="692692" SampleStartMod="0" LoopStart="3701" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7106560"
-          MonolithLength="696320" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7106560"
+          MonolithLength="696320">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_45_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_45_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_45_dynamic1.wav"/>
@@ -105,8 +105,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3730"
           SampleEnd="749394" SampleStartMod="0" LoopStart="3939" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="7802880"
-          MonolithLength="749568" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="7802880"
+          MonolithLength="749568">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_46_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_46_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_46_dynamic1.wav"/>
@@ -115,8 +115,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3289"
           SampleEnd="571624" SampleStartMod="0" LoopStart="3270" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="8552448"
-          MonolithLength="573440" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="8552448"
+          MonolithLength="573440">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_47_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_47_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_47_dynamic1.wav"/>
@@ -125,8 +125,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2067"
           SampleEnd="746431" SampleStartMod="0" LoopStart="2264" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9125888"
-          MonolithLength="749568" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="9125888"
+          MonolithLength="749568">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_48_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_48_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_48_dynamic1.wav"/>
@@ -135,8 +135,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2424"
           SampleEnd="723982" SampleStartMod="0" LoopStart="3772" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="9875456"
-          MonolithLength="724992" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="9875456"
+          MonolithLength="724992">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_49_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_49_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_49_dynamic1.wav"/>
@@ -145,8 +145,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4343"
           SampleEnd="440853" SampleStartMod="0" LoopStart="4499" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="10600448"
-          MonolithLength="442368" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="10600448"
+          MonolithLength="442368">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_50_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_50_dynamic1.wav"/>
@@ -155,8 +155,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1471"
           SampleEnd="379910" SampleStartMod="0" LoopStart="1481" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11042816"
-          MonolithLength="380928" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="11042816"
+          MonolithLength="380928">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_51_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_51_dynamic1.wav"/>
@@ -165,8 +165,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1949"
           SampleEnd="380294" SampleStartMod="0" LoopStart="2033" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11423744"
-          MonolithLength="380928" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="11423744"
+          MonolithLength="380928">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_52_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_52_dynamic1.wav"/>
@@ -175,8 +175,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3350"
           SampleEnd="322862" SampleStartMod="0" LoopStart="3547" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="11804672"
-          MonolithLength="323584" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="11804672"
+          MonolithLength="323584">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_53_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_53_dynamic1.wav"/>
@@ -185,8 +185,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1883"
           SampleEnd="364693" SampleStartMod="0" LoopStart="1934" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12128256"
-          MonolithLength="368640" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="12128256"
+          MonolithLength="368640">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_54_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_54_dynamic1.wav"/>
@@ -195,8 +195,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2973"
           SampleEnd="389484" SampleStartMod="0" LoopStart="3192" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12496896"
-          MonolithLength="393216" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="12496896"
+          MonolithLength="393216">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_55_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_55_dynamic1.wav"/>
@@ -205,8 +205,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1343"
           SampleEnd="429055" SampleStartMod="0" LoopStart="1702" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="12890112"
-          MonolithLength="430080" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="12890112"
+          MonolithLength="430080">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_56_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_56_dynamic1.wav"/>
@@ -215,8 +215,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3795"
           SampleEnd="436586" SampleStartMod="0" LoopStart="3923" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13320192"
-          MonolithLength="438272" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="13320192"
+          MonolithLength="438272">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_57_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_57_dynamic1.wav"/>
@@ -225,8 +225,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2769"
           SampleEnd="393784" SampleStartMod="0" LoopStart="2970" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="13758464"
-          MonolithLength="397312" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="13758464"
+          MonolithLength="397312">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_58_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_58_dynamic1.wav"/>
@@ -235,8 +235,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2696"
           SampleEnd="341661" SampleStartMod="0" LoopStart="3111" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14155776"
-          MonolithLength="344064" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="14155776"
+          MonolithLength="344064">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_59_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_59_dynamic1.wav"/>
@@ -245,8 +245,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="1683"
           SampleEnd="365528" SampleStartMod="0" LoopStart="1848" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14499840"
-          MonolithLength="368640" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="14499840"
+          MonolithLength="368640">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_60_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_60_dynamic1.wav"/>
@@ -255,8 +255,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2155"
           SampleEnd="378964" SampleStartMod="0" LoopStart="2342" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="14868480"
-          MonolithLength="380928" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="14868480"
+          MonolithLength="380928">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_61_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_61_dynamic1.wav"/>
@@ -265,8 +265,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2546"
           SampleEnd="307744" SampleStartMod="0" LoopStart="2726" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15249408"
-          MonolithLength="311296" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="15249408"
+          MonolithLength="311296">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_62_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_62_dynamic1.wav"/>
@@ -275,8 +275,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4435"
           SampleEnd="254160" SampleStartMod="0" LoopStart="4598" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15560704"
-          MonolithLength="258048" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="15560704"
+          MonolithLength="258048">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_63_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_63_dynamic1.wav"/>
@@ -285,8 +285,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2837"
           SampleEnd="268022" SampleStartMod="0" LoopStart="2933" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="15818752"
-          MonolithLength="270336" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="15818752"
+          MonolithLength="270336">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_64_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_64_dynamic1.wav"/>
@@ -295,8 +295,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2833"
           SampleEnd="299527" SampleStartMod="0" LoopStart="3044" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16089088"
-          MonolithLength="303104" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="16089088"
+          MonolithLength="303104">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_65_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_65_dynamic1.wav"/>
@@ -305,8 +305,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2067"
           SampleEnd="256599" SampleStartMod="0" LoopStart="2140" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16392192"
-          MonolithLength="258048" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="16392192"
+          MonolithLength="258048">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_66_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_66_dynamic1.wav"/>
@@ -315,8 +315,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2820"
           SampleEnd="199480" SampleStartMod="0" LoopStart="2921" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16650240"
-          MonolithLength="204800" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="16650240"
+          MonolithLength="204800">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_67_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_67_dynamic1.wav"/>
@@ -325,8 +325,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3451"
           SampleEnd="248234" SampleStartMod="0" LoopStart="3554" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="16855040"
-          MonolithLength="249856" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="16855040"
+          MonolithLength="249856">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_68_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_68_dynamic1.wav"/>
@@ -335,8 +335,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2303"
           SampleEnd="251712" SampleStartMod="0" LoopStart="2490" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17104896"
-          MonolithLength="253952" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="17104896"
+          MonolithLength="253952">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_69_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_69_dynamic1.wav"/>
@@ -345,8 +345,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2938"
           SampleEnd="322575" SampleStartMod="0" LoopStart="3023" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17358848"
-          MonolithLength="323584" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="17358848"
+          MonolithLength="323584">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_70_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_70_dynamic1.wav"/>
@@ -355,8 +355,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3299"
           SampleEnd="177369" SampleStartMod="0" LoopStart="3408" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17682432"
-          MonolithLength="180224" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="17682432"
+          MonolithLength="180224">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_71_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_71_dynamic1.wav"/>
@@ -365,8 +365,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3952"
           SampleEnd="191796" SampleStartMod="0" LoopStart="4106" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="17862656"
-          MonolithLength="192512" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="17862656"
+          MonolithLength="192512">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_72_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_72_dynamic1.wav"/>
@@ -375,8 +375,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2356"
           SampleEnd="198872" SampleStartMod="0" LoopStart="2427" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18055168"
-          MonolithLength="200704" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="18055168"
+          MonolithLength="200704">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_73_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_73_dynamic1.wav"/>
@@ -385,8 +385,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4141"
           SampleEnd="204438" SampleStartMod="0" LoopStart="4178" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18255872"
-          MonolithLength="204800" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="18255872"
+          MonolithLength="204800">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_74_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_74_dynamic1.wav"/>
@@ -395,8 +395,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2703"
           SampleEnd="172265" SampleStartMod="0" LoopStart="2751" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18460672"
-          MonolithLength="176128" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="18460672"
+          MonolithLength="176128">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_75_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_75_dynamic1.wav"/>
@@ -405,8 +405,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4865"
           SampleEnd="174574" SampleStartMod="0" LoopStart="4914" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18636800"
-          MonolithLength="176128" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="18636800"
+          MonolithLength="176128">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_76_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_76_dynamic1.wav"/>
@@ -415,8 +415,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3327"
           SampleEnd="165122" SampleStartMod="0" LoopStart="3362" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18812928"
-          MonolithLength="176128" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="18812928"
+          MonolithLength="176128">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_77_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_77_dynamic1.wav"/>
@@ -425,8 +425,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3464"
           SampleEnd="140266" SampleStartMod="0" LoopStart="3530" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="18989056"
-          MonolithLength="184320" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="18989056"
+          MonolithLength="184320">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_78_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_78_dynamic1.wav"/>
@@ -435,8 +435,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="4700"
           SampleEnd="115557" SampleStartMod="0" LoopStart="4747" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19173376"
-          MonolithLength="163840" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="19173376"
+          MonolithLength="163840">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_79_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_79_dynamic1.wav"/>
@@ -445,8 +445,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2377"
           SampleEnd="194303" SampleStartMod="0" LoopStart="2404" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19337216"
-          MonolithLength="204800" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="19337216"
+          MonolithLength="204800">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_80_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_80_dynamic1.wav"/>
@@ -455,8 +455,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2858"
           SampleEnd="159036" SampleStartMod="0" LoopStart="2879" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19542016"
-          MonolithLength="159744" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="19542016"
+          MonolithLength="159744">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_81_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_81_dynamic1.wav"/>
@@ -465,8 +465,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3717"
           SampleEnd="131020" SampleStartMod="0" LoopStart="3748" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19701760"
-          MonolithLength="139264" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="19701760"
+          MonolithLength="139264">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_82_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_82_dynamic1.wav"/>
@@ -475,8 +475,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3445"
           SampleEnd="118542" SampleStartMod="0" LoopStart="3467" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19841024"
-          MonolithLength="122880" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="19841024"
+          MonolithLength="122880">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_83_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_83_dynamic1.wav"/>
@@ -485,8 +485,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3757"
           SampleEnd="130518" SampleStartMod="0" LoopStart="3761" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="19963904"
-          MonolithLength="131072" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="19963904"
+          MonolithLength="131072">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_84_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_84_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_84_dynamic1.wav"/>
@@ -495,8 +495,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3335"
           SampleEnd="99067" SampleStartMod="0" LoopStart="3369" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20094976"
-          MonolithLength="114688" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="20094976"
+          MonolithLength="114688">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_85_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_85_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_85_dynamic1.wav"/>
@@ -505,8 +505,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3072"
           SampleEnd="126108" SampleStartMod="0" LoopStart="3098" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20209664"
-          MonolithLength="126976" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="20209664"
+          MonolithLength="126976">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_86_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_86_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_86_dynamic1.wav"/>
@@ -515,8 +515,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3326"
           SampleEnd="87436" SampleStartMod="0" LoopStart="3368" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20336640"
-          MonolithLength="94208" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="20336640"
+          MonolithLength="94208">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_87_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_87_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_87_dynamic1.wav"/>
@@ -525,8 +525,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2367"
           SampleEnd="89281" SampleStartMod="0" LoopStart="2403" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20430848"
-          MonolithLength="98304" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="20430848"
+          MonolithLength="98304">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_88_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_88_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_88_dynamic1.wav"/>
@@ -535,8 +535,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3166"
           SampleEnd="79180" SampleStartMod="0" LoopStart="3179" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20529152"
-          MonolithLength="98304" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="20529152"
+          MonolithLength="98304">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_89_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_89_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_89_dynamic1.wav"/>
@@ -545,8 +545,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3893"
           SampleEnd="84378" SampleStartMod="0" LoopStart="3906" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20627456"
-          MonolithLength="90112" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="20627456"
+          MonolithLength="90112">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_90_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_90_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_90_dynamic1.wav"/>
@@ -555,8 +555,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="3618"
           SampleEnd="62519" SampleStartMod="0" LoopStart="3653" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20717568"
-          MonolithLength="81920" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="20717568"
+          MonolithLength="81920">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_91_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_91_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_91_dynamic1.wav"/>
@@ -565,8 +565,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2949"
           SampleEnd="61581" SampleStartMod="0" LoopStart="2959" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20799488"
-          MonolithLength="77824" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="20799488"
+          MonolithLength="77824">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_92_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_92_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_92_dynamic1.wav"/>
@@ -575,8 +575,8 @@
           RRGroup="1" Volume="0" Pan="0" Normalized="0" Pitch="0" SampleStart="2369"
           SampleEnd="97218" SampleStartMod="0" LoopStart="2383" LoopEnd="0"
           LoopXFade="0" LoopEnabled="0" LowerVelocityXFade="0" UpperVelocityXFade="0"
-          SampleState="0" NormalizedPeak="-1" Duplicate="0" MonolithOffset="20877312"
-          MonolithLength="106496" SampleRate="48000">
+          SampleState="0" Duplicate="1" SampleRate="48000" MonolithOffset="20877312"
+          MonolithLength="106496">
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_close_93_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_di_93_dynamic1.wav"/>
     <file FileName="{PROJECT_FOLDER}damped_sustain/celticHarp_dampedSustain_room_93_dynamic1.wav"/>

@@ -17,7 +17,7 @@
 
 namespace PageHandler
 {
-    const var pageCount = 2;
+    const var pageCount = 3;
     const var pages = [];
     const var buttons = [];
 

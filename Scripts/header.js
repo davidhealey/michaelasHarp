@@ -29,7 +29,7 @@ namespace Header
     //About floating tile
     const var pnlAbout = Content.getComponent("pnlAbout");
     const var btnWebsite = Content.getComponent("btnWebsite"); //Button panel to open website link
-    
+
     btnWebsite.setMouseCallback(function(event)
     {
         if (event.clicked) Engine.openWebsite("https://www.librewave.com");

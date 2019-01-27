@@ -29,43 +29,25 @@ namespace Mixer
 		    samplers.push(Synth.getSampler(s));
 		}
 		
-		//Knobs and sliders
-		const var purge = [];
-
+		//Purge buttons
+		const var btnPurge = [];
 		for (i = 0; i < 3; i++)
 		{
-		    //Purge button
-		    Content.setPropertiesFromJSON("btnPurge"+i, {textColour:Theme.C1, itemColour:Theme.C0});
-			purge[i] = ui.buttonPanel("btnPurge"+i, purgeButtonPaintRoutine);
-			purge[i].setControlCallback(btnPurgeCB);
-			
-		    //Volume slider
-		    Content.setPropertiesFromJSON("sliVol"+i, {bgColour:Theme.C0, itemColour:Theme.F});
-		    
-		    //Pan knob
-			Content.setPropertiesFromJSON("sliPan"+i, {bgColour:Theme.C2, itemColour:Theme.FOpaque});
-			ui.sliderPanel("sliPan"+i, paintRoutines.knob, 0, 0.5);
-
-			//Width knob
-            Content.setPropertiesFromJSON("sliWidth"+i, {bgColour:Theme.C2, itemColour:Theme.FOpaque});
-			ui.sliderPanel("sliWidth"+i, paintRoutines.knob, 0, 0.5);
-			
-			//Delay knob
-			Content.setPropertiesFromJSON("sliDelay"+i, {bgColour:Theme.C2, itemColour:Theme.FOpaque});
-			ui.sliderPanel("sliDelay"+i, paintRoutines.knob, 0, 0.5);
+            btnPurge[i] = Content.getComponent("btnPurge"+i);
+            btnPurge[i].setControlCallback(onbtnPurgeControl);
 		}
 	}
 	
-	inline function btnPurgeCB(control, value)
+	inline function onbtnPurgeControl(control, value)
 	{
-		local idx = purge.indexOf(control);
+		local idx = btnPurge.indexOf(control);
 
 		for (s in samplers) //Each sampler
 		{
 			//Only purge or load if it's state has changed
-			if (s.getNumMicPositions() > 1 && s.isMicPositionPurged(idx) != 1-value)
+			if (s.getNumMicPositions() > 1 && s.isMicPositionPurged(idx) != value)
 			{
-				s.purgeMicPosition(s.getMicPositionName(idx), 1-value);
+				s.purgeMicPosition(s.getMicPositionName(idx), value);
 			}
 		}
 	}

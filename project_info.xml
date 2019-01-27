@@ -15,4 +15,8 @@
   <ExtraDefinitionsIOS value=""/>
   <AppGroupID value=""/>
   <RedirectSampleFolder value=""/>
+  <SupportFullDynamicsHLAC value="1"/>
+  <AAXCategoryFX value="AAX_ePlugInCategory_Modulation"/>
+  <SupportMonoFX value="No"/>
+  <UseRawFrontend value="No"/>
 </ProjectSettings>

@@ -33,9 +33,9 @@ namespace Settings
     "Dynamic": false,
     "ColourData":
         {
-            "bgColour": Theme.C3,
-            "itemColour1": Theme.C5,
-            "textColour":Theme.C6
+            "bgColour": 0x00D32222,
+            "itemColour1":0xC9877559,
+            "textColour":0xFFFFF4CA
         },
     "Content": [],
     "CurrentTab": 0
@@ -48,8 +48,8 @@ namespace Settings
         },
         "ColourData":
             {
-                "bgColour": Theme.C3,
-                "textColour": Theme.C6,
+                "bgColour":0x55877559,
+                "textColour":0xFFFFF3DD
             },
         "Font": Theme.BOLD,
         "FontSize": 18,
@@ -85,8 +85,8 @@ namespace Settings
             "Font": Theme.REGULAR,
             "FontSize": 18,
             "ColourData": {
-                "bgColour": Theme.C3,
-                "textColour": Theme.C6
+                "bgColour":0x55877559,
+                "textColour":0xFFFFF3DD
             }
         });
     }
@@ -99,8 +99,8 @@ namespace Settings
         "Font": Theme.REGULAR,
         "FontSize": 18,
         "ColourData": {
-            "bgColour": Theme.C3,
-            "textColour": Theme.C6
+            "bgColour":0x55877559,
+            "textColour":0xFFFFF3DD
         }
     });
 
@@ -111,18 +111,15 @@ namespace Settings
         "FontSize": 18,
         "ColourData":
         {
-            "bgColour": Theme.C3,
-            "textColour": Theme.C6,
-            "itemColour1": Theme.C4
+            "bgColour":0x33877559,
+            "textColour":0xFFFFF3DD,
+            "itemColour1":0xBB877559
         }
     });
     
 	inline function onInitCB()
-	{
-        //Background panel
-		Content.setPropertiesFromJSON("pnlSettings", {itemColour:Theme.C3, itemColour2:Theme.C3});
-		
+	{		
         local fltSettings = Content.getComponent("fltSettings");
-        fltSettings.setContentData(Settings.tileData);
+        fltSettings.setContentData(tileData);
 	}
 };
