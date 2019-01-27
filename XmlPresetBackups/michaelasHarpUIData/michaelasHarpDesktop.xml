@@ -112,7 +112,7 @@
         <Component type="ScriptButton" id="btnRR" x="216" y="110" width="38" height="38"
                    parentComponent="controls" filmstripImage="{PROJECT_FOLDER}switch.png"
                    scaleFactor="0.5" bgColour="4286216826" itemColour="4283585106"
-                   itemColour2="4280690214" ="Clicks Only" processorId="roundRobin"
+                   itemColour2="4280690214" processorId="roundRobin"
                    parameterId="Bypass"/>
         <Component type="ScriptTable" id="tblVelocity" x="84" y="192" width="246"
                    height="116" parentComponent="controls" bgColour="2500134" customColours="1"
