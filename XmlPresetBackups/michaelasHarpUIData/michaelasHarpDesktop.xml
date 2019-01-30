@@ -69,28 +69,28 @@
                    stepSize="0.1" suffix=" %" showValuePopup="Below"/>
         <Component type="ScriptSlider" id="knbDelay0" x="71" y="41" width="38" height="38"
                    parentComponent="mixer" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.5"
-                   middlePosition="250" filmstripImage="{PROJECT_FOLDER}Knob.png"
+                   middlePosition="250" filmstripImage="{PROJECT_FOLDER}knob.png"
                    processorId="micClose" parameterId="Delay" max="500" stepSize="0.1"
                    suffix=" ms" mode="Time" showValuePopup="Below"/>
         <Component type="ScriptSlider" id="knbDelay1" x="135" y="41" width="38"
                    height="38" parentComponent="mixer" numStrips="127" scaleFactor="0.5"
-                   mouseSensitivity="0.5" middlePosition="250" filmstripImage="{PROJECT_FOLDER}Knob.png"
+                   mouseSensitivity="0.5" middlePosition="250" filmstripImage="{PROJECT_FOLDER}knob.png"
                    processorId="micDI" parameterId="Delay" max="500" stepSize="0.1"
                    suffix=" ms" mode="Time" showValuePopup="Below"/>
         <Component type="ScriptSlider" id="knbDelay2" x="198" y="41" width="38"
                    height="38" parentComponent="mixer" numStrips="127" scaleFactor="0.5"
-                   mouseSensitivity="0.5" middlePosition="250" filmstripImage="{PROJECT_FOLDER}Knob.png"
+                   mouseSensitivity="0.5" middlePosition="250" filmstripImage="{PROJECT_FOLDER}knob.png"
                    processorId="micRoom" parameterId="Delay" max="500" stepSize="0.1"
                    suffix=" ms" mode="Time" showValuePopup="Below"/>
         <Component type="ScriptButton" id="btnPurge0" x="73" y="298" width="33"
                    height="42" parentComponent="mixer" filmstripImage="{PROJECT_FOLDER}close-button.png"
-                   scaleFactor=".5"/>
+                   scaleFactor="0.5"/>
         <Component type="ScriptButton" id="btnPurge1" x="136" y="298" width="33"
                    height="42" parentComponent="mixer" filmstripImage="{PROJECT_FOLDER}di-button.png"
-                   scaleFactor=".5"/>
+                   scaleFactor="0.5"/>
         <Component type="ScriptButton" id="btnPurge2" x="200" y="298" width="33"
                    height="42" parentComponent="mixer" filmstripImage="{PROJECT_FOLDER}room-button.png"
-                   scaleFactor=".5" tooltip="Hello"/>
+                   scaleFactor="0.5" tooltip="Hello"/>
       </Component>
       <Component type="ScriptPanel" id="controls" x="429" y="6" width="330" height="340"
                  parentComponent="pnlPage0" bgColour="0" itemColour="0" itemColour2="0"
@@ -112,8 +112,7 @@
         <Component type="ScriptButton" id="btnRR" x="216" y="110" width="38" height="38"
                    parentComponent="controls" filmstripImage="{PROJECT_FOLDER}switch.png"
                    scaleFactor="0.5" bgColour="4286216826" itemColour="4283585106"
-                   itemColour2="4280690214" processorId="roundRobin"
-                   parameterId="Bypass"/>
+                   itemColour2="4280690214" processorId="roundRobin" parameterId="Bypass"/>
         <Component type="ScriptTable" id="tblVelocity" x="84" y="192" width="246"
                    height="116" parentComponent="controls" bgColour="2500134" customColours="1"
                    itemColour="4292327554" itemColour2="3302468191" processorId="Velocity Modulator"/>
@@ -140,7 +139,7 @@
                  height="280" parentComponent="pnlPage2" ContentType="PresetBrowser"
                  bgColour="1983460138" itemColour="4294961083" itemColour2="11796511"
                  Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowFolderButton&quot;: true,&#13;&#10;  &quot;ShowNotes&quot;: false,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: true,&#13;&#10;  &quot;NumColumns&quot;: 2&#13;&#10;}"
-                 textColour="4294961872" itemColour3="16449536"/>
+                 itemColour3="16449536" textColour="4294959548"/>
     </Component>
     <Component type="ScriptPanel" id="pnlPage3" x="0" y="0" width="800" height="581"
                parentComponent="pnlMain" bgColour="0" itemColour2="0" itemColour="0"
@@ -159,26 +158,27 @@
     </Component>
     <Component type="ScriptButton" id="btnPage0" x="167" y="473" width="128"
                height="32" parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}instrument-button.png"
-               scaleFactor=".5" defaultValue="1"/>
+               scaleFactor="0.5" defaultValue="1"/>
     <Component type="ScriptButton" id="btnPage1" x="520" y="471" width="96"
                height="30" parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}settings-button.png"
-               scaleFactor=".5" defaultValue="1" saveInPreset="0"/>
+               scaleFactor="0.5" defaultValue="1" saveInPreset="0"/>
     <Component type="ScriptButton" id="btnPage2" x="198" y="68" width="95" height="30"
                parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}preset-button.png"
-               scaleFactor=".5" defaultValue="1" saveInPreset="0"/>
+               scaleFactor="0.5" defaultValue="1" saveInPreset="0"/>
     <Component type="ScriptButton" id="btnPage3" x="352" y="397" width="95"
                height="30" parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}empty.png"
-               scaleFactor=".5" defaultValue="1" saveInPreset="0"/>
+               scaleFactor="0.5" defaultValue="1" saveInPreset="0"/>
     <Component type="ScriptFloatingTile" id="fltStats" x="508" y="65" width="184"
                height="28" parentComponent="pnlMain" ContentType="PerformanceLabel"
                bgColour="0" itemColour="4294951115" itemColour2="4294951115"
                Data="{&#13;&#10;}" textColour="3472219309"/>
     <Component type="ScriptComboBox" id="cmbPatch" x="490" y="9" width="200"
                height="32" max="2" parentComponent="pnlMain" text="Patch" bgColour="16777215"
-               items="Natural&#10;Muted" itemColour="4283585106" itemColour2="4283585106"/>
+               items="Natural&#10;Muted" itemColour="4283585106" itemColour2="4283585106"
+               visible="0"/>
     <Component type="ScriptLabel" id="lblPreset" x="327" y="67" width="145"
-               height="25" parentComponent="pnlMain" text="New Preset" fontName="Oxygen"
-               fontSize="16" textColour="4294958233" saveInPreset="0"/>
+               height="25" parentComponent="pnlMain" text="Damped" fontName="Oxygen"
+               fontSize="16" textColour="4294958233" saveInPreset="0" editable="0"/>
     <Component type="ScriptButton" id="btnPreset0" x="303" y="67" width="35"
                height="27" parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}empty.png"
                saveInPreset="0"/>
