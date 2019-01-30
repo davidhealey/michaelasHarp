@@ -2,19 +2,12 @@
 
 <samplemap ID="sustain" SaveMode="2" FileName="sustain" MicPositions="close;di;room;"
            RRGroupAmount="1">
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="31" RRGroup="1"
+  <sample Root="36" LoKey="36" HiKey="37" LoVel="0" HiVel="31" RRGroup="1"
           Duplicate="0" UpperVelocityXFade="10" MonolithOffset="0" MonolithLength="856064"
           SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_close_36_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_di_36_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_room_36_dynamic1_rr1.wav"/>
-  </sample>
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="31" RRGroup="1"
-          Duplicate="0" UpperVelocityXFade="10" MonolithOffset="856064"
-          MonolithLength="565248" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_close_37_dynamic1_rr1.wav"/>
-    <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_di_37_dynamic1_rr1.wav"/>
-    <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_room_37_dynamic1_rr1.wav"/>
   </sample>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="31" RRGroup="1"
           Duplicate="0" UpperVelocityXFade="10" MonolithOffset="1421312"
@@ -408,19 +401,12 @@
     <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_di_93_dynamic1_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_room_93_dynamic1_rr1.wav"/>
   </sample>
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="22" HiVel="63" RRGroup="1"
+  <sample Root="36" LoKey="36" HiKey="37" LoVel="22" HiVel="63" RRGroup="1"
           Duplicate="0" LowerVelocityXFade="10" UpperVelocityXFade="10"
           MonolithOffset="20938752" MonolithLength="933888" SampleRate="48000">
     <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_close_36_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_di_36_dynamic2_rr1.wav"/>
     <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_room_36_dynamic2_rr1.wav"/>
-  </sample>
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="22" HiVel="63" RRGroup="1"
-          Duplicate="0" LowerVelocityXFade="10" UpperVelocityXFade="10"
-          MonolithOffset="21872640" MonolithLength="716800" SampleRate="48000">
-    <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_close_37_dynamic2_rr1.wav"/>
-    <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_di_37_dynamic2_rr1.wav"/>
-    <file FileName="{PROJECT_FOLDER}sustain/michaelasHarp_sustain_room_37_dynamic2_rr1.wav"/>
   </sample>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="22" HiVel="63" RRGroup="1"
           Duplicate="0" LowerVelocityXFade="10" UpperVelocityXFade="10"

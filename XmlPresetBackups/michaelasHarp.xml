@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Processor Type="SynthChain" ID="michaelasHarp" Bypassed="0" Gain="0.35481337"
+<Processor Type="SynthChain" ID="michaelasHarp" Bypassed="0" Gain="0.50118721"
            Balance="0" VoiceLimit="64" KillFadeTime="20" IconColour="0"
            packageName="" BuildVersion="650">
   <ChildProcessors>
@@ -28,9 +28,9 @@
             <Control type="ScriptSlider" id="sliAtk" value="25"/>
             <Control type="ScriptSlider" id="sliRelease" value="2500"/>
             <Control type="ScriptButton" id="btnRR" value="0"/>
-            <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C...vO"/>
+            <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C..voO"/>
             <Control type="ScriptButton" id="btnPage0" value="0"/>
-            <Control type="ScriptComboBox" id="cmbPatch" value="2"/>
+            <Control type="ScriptComboBox" id="cmbPatch" value="1"/>
           </Content>
           <UIData Source="michaelasHarpUIData"/>
         </Processor>
@@ -129,7 +129,7 @@
         <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="Velocity" ID="Velocity Modulator" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24...............vO...f+....9C...vO">
+                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24...............vO...f+....9C..voO">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
@@ -189,7 +189,7 @@
                    Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
                    Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
                    Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="damped">
+                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="sustain">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -227,8 +227,8 @@
                   </ChildProcessors>
                 </Processor>
                 <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator"
-                           Bypassed="0" Intensity="0.89999998" UseTable="0" Inverted="0"
-                           TableData="24...............vO...f+....9C..3rO" Connection="Global Modulator Container:Velocity Modulator">
+                           Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C..voO"
+                           Connection="Global Modulator Container:Velocity Modulator">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
@@ -256,7 +256,7 @@
                          Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
-            <channelData enabled="1" level="0" suffix="di"/>
+            <channelData enabled="1" level="-100" suffix="di"/>
             <channelData enabled="1" level="0" suffix="room"/>
           </channels>
         </Processor>
@@ -371,6 +371,11 @@
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
+                </Processor>
+                <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator4"
+                           Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                           Connection="Global Modulator Container:Velocity Modulator">
+                  <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>

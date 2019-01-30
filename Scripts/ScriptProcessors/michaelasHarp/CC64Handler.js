@@ -1,7 +1,10 @@
 const var sustainEnvelope = Synth.getModulator("sustainEnvelope");
 reg releaseTm = sustainEnvelope.getAttribute(sustainEnvelope.Release);function onNoteOn()
 {
-	
+	if (!Synth.isSustainPedalDown())
+    {
+        releaseTm = sustainEnvelope.getAttribute(sustainEnvelope.Release);
+    }
 }
 function onNoteOff()
 {
