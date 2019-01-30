@@ -4,26 +4,26 @@
   <Content Processor="mainInterface">
     <Control type="ScriptPanel" id="pnlMain" value="0"/>
     <Control type="ScriptSlider" id="sliVol0" value="-5.9999986"/>
-    <Control type="ScriptSlider" id="sliVol1" value="-5.9999986"/>
+    <Control type="ScriptSlider" id="sliVol1" value="0"/>
     <Control type="ScriptSlider" id="sliVol2" value="-5.9999986"/>
     <Control type="ScriptSlider" id="knbPan0" value="0"/>
     <Control type="ScriptSlider" id="knbPan1" value="0"/>
     <Control type="ScriptSlider" id="knbPan2" value="0"/>
-    <Control type="ScriptSlider" id="knbWidth0" value="100"/>
+    <Control type="ScriptSlider" id="knbWidth0" value="0"/>
     <Control type="ScriptSlider" id="knbWidth1" value="100"/>
-    <Control type="ScriptSlider" id="knbWidth2" value="100"/>
-    <Control type="ScriptSlider" id="knbDelay0" value="0"/>
+    <Control type="ScriptSlider" id="knbWidth2" value="0"/>
+    <Control type="ScriptSlider" id="knbDelay0" value="250"/>
     <Control type="ScriptSlider" id="knbDelay1" value="0"/>
-    <Control type="ScriptSlider" id="knbDelay2" value="0"/>
+    <Control type="ScriptSlider" id="knbDelay2" value="500"/>
     <Control type="ScriptButton" id="btnPurge0" value="0"/>
     <Control type="ScriptButton" id="btnPurge1" value="0"/>
     <Control type="ScriptButton" id="btnPurge2" value="0"/>
-    <Control type="ScriptSlider" id="sliAtk" value="25"/>
-    <Control type="ScriptSlider" id="sliRelease" value="2500"/>
+    <Control type="ScriptSlider" id="sliAtk" value="250"/>
+    <Control type="ScriptSlider" id="sliRelease" value="5"/>
     <Control type="ScriptButton" id="btnRR" value="0"/>
     <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C..voO"/>
     <Control type="ScriptButton" id="btnPage0" value="1"/>
-    <Control type="ScriptComboBox" id="cmbPatch" value="1"/>
+    <Control type="ScriptComboBox" id="cmbPatch" value="2"/>
   </Content>
   <MidiAutomation/>
   <MPEData Enabled="0"/>
