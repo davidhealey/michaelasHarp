@@ -17,8 +17,6 @@
     along with Libre Winds. If not, see <http://www.gnu.org/licenses/>.
 */
 
-include("HISE-Scripting-Framework/libraries/uiFactory.js");
-
 include("manifest.js");
 include("presetHandler.js");
 include("mixer.js");
@@ -62,13 +60,13 @@ for (i = 0; i < 4; i++)
 inline function onbtnPageControl(control, value)
 {
     local idx = btnPage.indexOf(control);
-    
+
     for (i = 0; i < btnPage.length; i++)
     {
         pnlPage[i].showControl(false);
         btnPage[i].setValue(1);
     }
-    
+
     pnlPage[idx].showControl(true);
     btnPage[idx].setValue(0);
 }

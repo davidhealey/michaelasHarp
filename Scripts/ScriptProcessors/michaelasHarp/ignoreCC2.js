@@ -7,10 +7,10 @@ function onNoteOff()
 	
 }
 function onController()
-{   
-	if (Synth.isSustainPedalDown() == 1)
+{
+	if (Message.getControllerNumber() == 64)
     {
-        Engine.allNotesOff();
+        Message.ignoreEvent(true);
     }
 }
 function onTimer()

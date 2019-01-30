@@ -18,7 +18,7 @@
 namespace PresetHandler
 {
     inline function onInitCB()
-    {    
+    {
         //Get samplers as child synths
         const var samplerIds = Synth.getIdList("Sampler");
         const var childSynths = {};
@@ -34,15 +34,15 @@ namespace PresetHandler
         {
             patchNames.push(k);
         }
-    
+
         //Preset name label
         const var lblPreset = Content.getComponent("lblPreset");
-        
+
         //Patch selection dropdown - hidden from user
         const var cmbPatch = Content.getComponent("cmbPatch");
         cmbPatch.set("items", patchNames.join("\n"));
         cmbPatch.setControlCallback(oncmbPatchControl);
-        
+
         //Previous and Next preset buttons
         const var btnPreset = [];
         for (i = 0; i < 2; i++)
@@ -59,26 +59,25 @@ namespace PresetHandler
         loadSampleMaps(patchName);
         colourKeys(patchName);
         lblPreset.set("text", Engine.getCurrentUserPresetName());
-        
     }
-    
+
     inline function onbtnPresetControl(control, value)
     {
         local idx = btnPreset.indexOf(control);
         idx == 0 ? Engine.loadPreviousUserPreset(false) : Engine.loadNextUserPreset(false);
     }
-    
-    //Functions    
+
+    //Functions
     inline function loadSampleMaps(patchName)
     {
         local sampleMap = Manifest.patches[patchName].sampleMap;
         childSynths["sustain"].asSampler().loadSampleMap(sampleMap);
     }
-    
+
     inline function colourKeys(patchName)
     {
         local range = Manifest.patches[patchName].range;
-        
+
         for (i = 0; i < 128; i++) //Every MIDI note
         {
             if (i < range[0] || i > range[1]) //i is outside max playable range
@@ -87,8 +86,10 @@ namespace PresetHandler
             }
             else
             {
-                Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Set key colour    
+                Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Set key colour
             }
         }
-    }   
+        Engine.setKeyColour(24, Colours.withAlpha(Colours.red, 0.3));
+        Engine.setKeyColour(26, Colours.withAlpha(Colours.red, 0.3));
+    }
 }

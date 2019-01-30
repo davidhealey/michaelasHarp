@@ -22,13 +22,13 @@ namespace Manifest
     const var patches = {
         "Natural":
         {
-            sampleMap: "celticHarp_sustain", //Identifier for finding sample maps
-	        range: [36, 93],
+            sampleMap: "sustain", //Identifier for finding sample maps
+	        range: [36, 93]
 	    },
 		"Muted":
 		{
-            sampleMap:"celticHarp_muted",
-            range:[36, 93],
-		},
+            sampleMap:"damped",
+            range:[36, 93]
+		}
 	};
 }
