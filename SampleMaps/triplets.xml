@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="triplets" SaveMode="2" FileName="triplets" MicPositions="close;di;room;"
+           RRGroupAmount="3">
+  <sample Root="60" LoKey="36" HiKey="60" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="0" MonolithLength="8192" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_60_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_60_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_60_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="60" LoKey="36" HiKey="60" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="8192" MonolithLength="12288" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_60_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_60_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_60_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="60" LoKey="36" HiKey="60" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="20480" MonolithLength="212992"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_60_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_60_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_60_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="233472" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_61_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_61_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_61_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="245760" MonolithLength="8192" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_61_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_61_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_61_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="253952" MonolithLength="253952"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_61_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_61_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_61_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="507904" MonolithLength="8192" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_62_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_62_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_62_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="516096" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_62_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_62_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_62_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="528384" MonolithLength="266240"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_62_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_62_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_62_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="794624" MonolithLength="8192" SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_63_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_63_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_63_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="802816" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_63_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_63_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_63_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="815104" MonolithLength="253952"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_63_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_63_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_63_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="1069056" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_64_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_64_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_64_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="1077248" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_64_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_64_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_64_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="1089536" MonolithLength="286720"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_64_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_64_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_64_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="1376256" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_65_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_65_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_65_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="1384448" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_65_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_65_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_65_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="1396736" MonolithLength="286720"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_65_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_65_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_65_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="1683456" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_66_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_66_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_66_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="1691648" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_66_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_66_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_66_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="1703936" MonolithLength="212992"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_66_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_66_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_66_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="1916928" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_67_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_67_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_67_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="1925120" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_67_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_67_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_67_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="1937408" MonolithLength="241664"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_67_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_67_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_67_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="2179072" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_68_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_68_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_68_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="2187264" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_68_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_68_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_68_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="2195456" MonolithLength="221184"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_68_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_68_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_68_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="2416640" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_69_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_69_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_69_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="2424832" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_69_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_69_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_69_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="2437120" MonolithLength="290816"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_69_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_69_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_69_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="2727936" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_70_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_70_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_70_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="2736128" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_70_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_70_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_70_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="2748416" MonolithLength="196608"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_70_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_70_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_70_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="2945024" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_71_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_71_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_71_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="2953216" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_71_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_71_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_71_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="2965504" MonolithLength="188416"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_71_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_71_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_71_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="73" LoKey="72" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="3153920" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_73_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_73_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_73_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="73" LoKey="72" HiKey="73" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="3162112" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_73_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_73_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_73_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="73" LoKey="72" HiKey="73" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="3174400" MonolithLength="270336"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_73_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_73_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_73_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="3444736" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_74_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_74_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_74_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="3452928" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_74_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_74_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_74_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="3465216" MonolithLength="204800"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_74_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_74_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_74_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="3670016" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_75_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_75_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_75_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="3678208" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_75_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_75_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_75_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="3690496" MonolithLength="155648"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_75_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_75_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_75_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="3846144" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_76_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_76_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_76_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="3858432" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_76_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_76_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_76_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="3870720" MonolithLength="258048"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_76_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_76_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_76_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="78" LoKey="77" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="4128768" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_78_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_78_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_78_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="78" LoKey="77" HiKey="78" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="4141056" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_78_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_78_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_78_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="78" LoKey="77" HiKey="78" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="4149248" MonolithLength="180224"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_78_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_78_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_78_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="4329472" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_79_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_79_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_79_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="4337664" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_79_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_79_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_79_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="4349952" MonolithLength="184320"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_79_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_79_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_79_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="4534272" MonolithLength="8192"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_80_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_80_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_80_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="4542464" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_80_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_80_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_80_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="4554752" MonolithLength="180224"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_80_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_80_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_80_dynamic1_rr3.wav"/>
+  </sample>
+  <sample Root="81" LoKey="81" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          Duplicate="1" MonolithOffset="4734976" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_81_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_81_dynamic1_rr1.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_81_dynamic1_rr1.wav"/>
+  </sample>
+  <sample Root="81" LoKey="81" HiKey="93" LoVel="0" HiVel="127" RRGroup="2"
+          Duplicate="1" MonolithOffset="4747264" MonolithLength="12288"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_81_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_81_dynamic1_rr2.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_81_dynamic1_rr2.wav"/>
+  </sample>
+  <sample Root="81" LoKey="81" HiKey="93" LoVel="0" HiVel="127" RRGroup="3"
+          Duplicate="1" MonolithOffset="4759552" MonolithLength="229376"
+          SampleRate="48000">
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_close_81_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_di_81_dynamic1_rr3.wav"/>
+    <file FileName="{PROJECT_FOLDER}triplet/michaelasHarp_triplet_room_81_dynamic1_rr3.wav"/>
+  </sample>
+</samplemap>
