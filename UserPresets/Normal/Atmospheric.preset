@@ -24,6 +24,7 @@
     <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C..voO"/>
     <Control type="ScriptButton" id="btnPage0" value="1"/>
     <Control type="ScriptComboBox" id="cmbPatch" value="1"/>
+    <Control type="ScriptLabel" id="lblPreset" value="Atmospheric"/>
   </Content>
   <MidiAutomation/>
   <MPEData Enabled="0"/>
