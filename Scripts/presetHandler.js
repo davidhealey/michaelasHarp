@@ -56,7 +56,7 @@ namespace PresetHandler
     inline function oncmbPatchControl(control, value)
     {
         local patchName = control.getItemText();
-        lblPreset.set("text", Engine.getCurrentUserPresetName());
+        if (Engine.getCurrentUserPresetName() != "") lblPreset.set("text", Engine.getCurrentUserPresetName());
         loadSampleMaps(patchName);
         colourKeys(patchName);
     }

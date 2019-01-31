@@ -32,7 +32,7 @@ function onController()
 {
 	if (Message.getControllerNumber() == UACC || Message.isProgramChange())
     {
-        local ccIdx = ccs.indexOf(Message.getControllerNumber());
+        local ccIdx = ccs.indexOf(Message.getControllerValue());
         local programIdx = ccs.indexOf(Message.getProgramChangeNumber());
         
         if (ccIdx != -1) //UACC

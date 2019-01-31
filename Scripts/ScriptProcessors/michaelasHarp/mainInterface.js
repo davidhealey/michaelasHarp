@@ -69,10 +69,7 @@ inline function onbtnPageControl(control, value)
 
     pnlPage[idx].showControl(true);
     btnPage[idx].setValue(0);
-}
-
-Engine.loadNextUserPreset(false);
-Engine.loadPreviousUserPreset(false);function onNoteOn()
+}function onNoteOn()
 {
 	
 }
