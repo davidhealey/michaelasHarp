@@ -87,7 +87,7 @@ namespace PresetHandler
     {
         local range = Manifest.patches[patchName].range;
 
-        for (i = 36; i < 128; i++) //Every MIDI note outside of keyswitch range
+        for (i = 27; i < 128; i++) //Every MIDI note outside of keyswitch range
         {
             if (i < range[0] || i > range[1]) //i is outside max playable range
             {
