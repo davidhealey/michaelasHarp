@@ -185,7 +185,7 @@
                visible="0"/>
     <Component type="ScriptLabel" id="lblPreset" x="327" y="67" width="145"
                height="25" parentComponent="pnlMain" text="Normal" fontName="Oxygen"
-               fontSize="16" textColour="4294958233" editable="0"/>
+               fontSize="16" textColour="4294958233" editable="0" saveInPreset="0"/>
     <Component type="ScriptButton" id="btnPreset0" x="303" y="67" width="35"
                height="27" parentComponent="pnlMain" filmstripImage="{PROJECT_FOLDER}empty.png"
                saveInPreset="0"/>

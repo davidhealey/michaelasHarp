@@ -69,9 +69,26 @@ inline function onbtnPageControl(control, value)
 
     pnlPage[idx].showControl(true);
     btnPage[idx].setValue(0);
-}function onNoteOn()
+}
+
+//Key switches
+const var ks = [24, 25, 26];
+
+for (i = 0; i < ks.length; i++)
 {
-	
+    Engine.setKeyColour(ks[i], Colours.withAlpha(Colours.red, 0.2));
+}
+Engine.setKeyColour(ks[0], Colours.withAlpha(Colours.red, 0.5));function onNoteOn()
+{
+    //If KS triggered callback, change key colour
+	if (ks.indexOf(Message.getNoteNumber()) != -1)
+    {
+        for (i = 0; i < ks.length; i++)
+        {
+            Engine.setKeyColour(ks[i], Colours.withAlpha(Colours.red, 0.3));
+        }
+        Engine.setKeyColour(ks[ks.indexOf(Message.getNoteNumber())], Colours.withAlpha(Colours.red, 0.5));
+    }
 }
 function onNoteOff()
 {

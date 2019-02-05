@@ -56,9 +56,18 @@ namespace PresetHandler
     inline function oncmbPatchControl(control, value)
     {
         local patchName = control.getItemText();
-        if (Engine.getCurrentUserPresetName() != "") lblPreset.set("text", Engine.getCurrentUserPresetName());
         loadSampleMaps(patchName);
         colourKeys(patchName);
+        
+        //Set preset label
+        if (Engine.getCurrentUserPresetName() == "")
+        {
+            lblPreset.set("text", "Normal");
+        }
+        else 
+        {
+            lblPreset.set("text", Engine.getCurrentUserPresetName());
+        }
     }
 
     inline function onbtnPresetControl(control, value)
@@ -78,7 +87,7 @@ namespace PresetHandler
     {
         local range = Manifest.patches[patchName].range;
 
-        for (i = 0; i < 128; i++) //Every MIDI note
+        for (i = 36; i < 128; i++) //Every MIDI note outside of keyswitch range
         {
             if (i < range[0] || i > range[1]) //i is outside max playable range
             {
@@ -89,7 +98,5 @@ namespace PresetHandler
                 Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Set key colour
             }
         }
-        Engine.setKeyColour(24, Colours.withAlpha(Colours.red, 0.3));
-        Engine.setKeyColour(26, Colours.withAlpha(Colours.red, 0.3));
     }
 }

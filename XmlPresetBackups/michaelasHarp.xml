@@ -31,7 +31,6 @@
             <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C..voO"/>
             <Control type="ScriptButton" id="btnPage0" value="0"/>
             <Control type="ScriptComboBox" id="cmbPatch" value="1"/>
-            <Control type="ScriptLabel" id="lblPreset" value="Normal"/>
           </Content>
           <UIData Source="michaelasHarpUIData"/>
         </Processor>
@@ -40,6 +39,17 @@
           <Content/>
           <UIData>
             <ContentProperties DeviceType="Desktop"/>
+          </UIData>
+        </Processor>
+        <Processor Type="ScriptProcessor" ID="retrigger" Bypassed="0">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptButton" id="Mute" value="1"/>
+          </Content>
+          <UIData>
+            <ContentProperties DeviceType="Desktop">
+              <Component type="ScriptButton" id="Mute" x="0" y="0"/>
+            </ContentProperties>
           </UIData>
         </Processor>
       </ChildProcessors>
