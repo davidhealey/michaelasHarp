@@ -1,5 +1,5 @@
 /*
-    Copyright 2018 David Healey
+    Copyright 2018, 2019 David Healey
 
     This file is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -19,16 +19,10 @@ namespace Settings
 {
     const var isPlugin = Engine.isPlugin();
 
-    // Use this function to get the Height for the popup
-    inline function getHeight()
-    {
-        return isPlugin ? 360 : 520;
-    };
-
     // Pass this object to the floating tile
     const var tileData = {
     "Type": "Tabs",
-    "Font": Theme.REGULAR,
+    "Font": "",
     "FontSize": 22,
     "Dynamic": false,
     "ColourData":
@@ -51,7 +45,7 @@ namespace Settings
                 "bgColour":0x55877559,
                 "textColour":0xFFFFF3DD
             },
-        "Font": Theme.BOLD,
+        "Font": "",
         "FontSize": 18,
         "Driver": !isPlugin,
         "Device": !isPlugin,
@@ -82,7 +76,7 @@ namespace Settings
             "Title": "MIDI Input",
             "StyleData": {
             },
-            "Font": Theme.REGULAR,
+            "Font": "",
             "FontSize": 18,
             "ColourData": {
                 "bgColour":0x55877559,
@@ -96,7 +90,7 @@ namespace Settings
         "Title": "MIDI Channel",
         "StyleData": {
         },
-        "Font": Theme.REGULAR,
+        "Font": "",
         "FontSize": 18,
         "ColourData": {
             "bgColour":0x55877559,
@@ -107,7 +101,7 @@ namespace Settings
     tileData["Content"].push({
         "Type": "MidiLearnPanel",
         "Title": "MIDI Automation",
-        "Font": Theme.REGULAR,
+        "Font": "",
         "FontSize": 18,
         "ColourData":
         {
@@ -117,9 +111,21 @@ namespace Settings
         }
     });
     
-	inline function onInitCB()
-	{		
-        local fltSettings = Content.getComponent("fltSettings");
-        fltSettings.setContentData(tileData);
-	}
+    tileData["Content"].push({
+        "Type": "AboutPagePanel",
+        "Title": "About",
+        "Font": "",
+        "FontSize": 18,
+        "ColourData":
+        {
+            "bgColour":0x33877559,
+            "textColour":0xFFFFF3DD,
+            "itemColour1":0xFFFFF3DD
+        },
+        "CopyrightNotice": "© 2019, David Healey",
+        "ShowLicensedEmail": false,
+        "WebsiteURL": "http://www.LibreWave.com"
+    });
+    
+    Content.getComponent("fltSettings").setContentData(tileData);
 };

@@ -267,7 +267,7 @@
                          Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
-            <channelData enabled="1" level="-100" suffix="di"/>
+            <channelData enabled="1" level="0" suffix="di"/>
             <channelData enabled="1" level="0" suffix="room"/>
           </channels>
         </Processor>

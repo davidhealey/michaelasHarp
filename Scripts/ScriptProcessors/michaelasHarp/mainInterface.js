@@ -24,10 +24,6 @@ include("settings.js");
 
 Content.makeFrontInterface(800, 581);
 
-Engine.loadFontAs("{PROJECT_FOLDER}Fonts/oxygen.light.ttf", "Oxygen-Light");
-Engine.loadFontAs("{PROJECT_FOLDER}Fonts/oxygen.regular.ttf", "Oxygen-Regular");
-Engine.loadFontAs("{PROJECT_FOLDER}Fonts/oxygen.bold.ttf", "Oxygen-Bold");
-
 //Loop iterators
 reg i;
 reg j;
@@ -35,22 +31,12 @@ reg j;
 //Includes initialisation
 PresetHandler.onInitCB();
 Mixer.onInitCB();
-Settings.onInitCB();
-
-//URL button on about floating tile
-const var btnURL = Content.getComponent("btnURL");
-btnURL.setControlCallback(onbtnURLControl);
-
-inline function onbtnURLControl(control, value)
-{
-    Engine.openWebsite("http://www.librewave.com");
-}
 
 //Page handling
 const var pnlPage = [];
 const var btnPage = [];
 
-for (i = 0; i < 4; i++)
+for (i = 0; i < 3; i++)
 {
     pnlPage[i] = Content.getComponent("pnlPage"+i);
     btnPage[i] = Content.getComponent("btnPage"+i);
