@@ -148,7 +148,7 @@
              height="32" max="2" text="Patch" bgColour="16777215" items="Natural&#10;Muted"
              itemColour="4283585106" itemColour2="4283585106" visible="0"/>
   <Component type="ScriptLabel" id="lblPreset" x="327" y="67" width="145"
-             height="25" text="Distant" fontName="Oxygen" fontSize="16" textColour="4294958233"
+             height="25" text="Normal" fontName="Oxygen" fontSize="16" textColour="4294958233"
              editable="0" saveInPreset="0"/>
   <Component type="ScriptButton" id="btnPreset0" x="303" y="67" width="35"
              height="27" filmstripImage="{PROJECT_FOLDER}empty.png" saveInPreset="0"/>

@@ -32,6 +32,16 @@ reg j;
 PresetHandler.onInitCB();
 Mixer.onInitCB();
 
+//Value popup styling
+Content.setValuePopupData(
+{
+    "fontName": "Oxygen",
+    "fontSize": 18,
+    "itemColour": 0xC9877559,
+    "itemColour2": 0xC9877559,
+    "borderSize": 0
+});
+
 //Page handling
 const var pnlPage = [];
 const var btnPage = [];
