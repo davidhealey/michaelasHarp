@@ -1,6 +1,6 @@
 # MACOS BUILD SCRIPT
 
-project=Michaelas Harp
+project=Michaelas\ Harp
 xmlFile=michaelasHarp
 build_aax=0
 build_installer=1
