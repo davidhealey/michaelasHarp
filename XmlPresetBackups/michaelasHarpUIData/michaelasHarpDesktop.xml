@@ -5,110 +5,113 @@
              scale="0.5" fileName="{PROJECT_FOLDER}skin.jpg"/>
   <Component type="ScriptPanel" id="pnlPage0" x="0" y="100" width="800" height="364"
              borderSize="0" borderRadius="20" itemColour="0" itemColour2="0"
-             bgColour="0"/>
-  <Component type="ScriptSlider" id="sliVol0" x="70" y="292" width="33" height="115"
-             processorId="micClose" parameterId="Gain" mode="Decibel" min="-100"
-             max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
-             bgColour="3039176230" itemColour="1850056016" itemColour2="4278190080"
-             textColour="16777215" showValuePopup="Below" isPluginParameter="1"
-             pluginParameterName="Close Gain" numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderV.png"
-             scaleFactor="0.5" mouseSensitivity="0.5"/>
-  <Component type="ScriptSlider" id="sliVol1" x="134" y="292" width="33" height="115"
-             processorId="micDI" parameterId="Gain" mode="Decibel" min="-100"
-             max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
-             bgColour="3039176230" itemColour="1850056016" itemColour2="4278190080"
-             textColour="16777215" showValuePopup="Below" isPluginParameter="1"
-             pluginParameterName="DI Gain" numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderV.png"
-             scaleFactor="0.5" mouseSensitivity="0.5"/>
-  <Component type="ScriptSlider" id="sliVol2" x="198" y="292" width="33" height="115"
-             processorId="micRoom" parameterId="Gain" mode="Decibel" min="-100"
-             max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
-             bgColour="3039176230" itemColour="1850056016" itemColour2="4278190080"
-             textColour="16777215" showValuePopup="Below" isPluginParameter="1"
-             pluginParameterName="Room Gain" numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderV.png"
-             scaleFactor="0.5" mouseSensitivity="0.5"/>
-  <Component type="ScriptSlider" id="knbPan0" x="70" y="258" width="38" height="38"
-             numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
-             mode="Pan" min="-100" max="100" stepSize="1" suffix="L" middlePosition="0"
-             filmstripImage="{PROJECT_FOLDER}pan.png" processorId="micClose"
-             parameterId="Balance" showValuePopup="Below" isPluginParameter="1"
-             pluginParameterName="Close Pan"/>
-  <Component type="ScriptSlider" id="knbPan1" x="134" y="258" width="38" height="38"
-             numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
-             mode="Pan" min="-100" max="100" stepSize="1" suffix="L" middlePosition="0"
-             filmstripImage="{PROJECT_FOLDER}pan.png" processorId="micDI"
-             parameterId="Balance" showValuePopup="Below" isPluginParameter="1"
-             pluginParameterName="DI Pan"/>
-  <Component type="ScriptSlider" id="knbPan2" x="198" y="258" width="38" height="38"
-             numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
-             mode="Pan" min="-100" max="100" stepSize="1" suffix="L" middlePosition="0"
-             filmstripImage="{PROJECT_FOLDER}pan.png" processorId="micRoom"
-             parameterId="Balance" showValuePopup="Below" pluginParameterName="Room Pan"
-             isPluginParameter="1"/>
-  <Component type="ScriptSlider" id="knbWidth0" x="70" y="197" width="38"
-             height="38" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
-             middlePosition="100" filmstripImage="{PROJECT_FOLDER}pan.png"
-             processorId="micClose" parameterId="Width" max="200" defaultValue="100"
-             stepSize="0.1" suffix=" %" showValuePopup="Below" isPluginParameter="1"
-             pluginParameterName="Close Width"/>
-  <Component type="ScriptSlider" id="knbWidth1" x="134" y="197" width="38"
-             height="38" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
-             middlePosition="100" filmstripImage="{PROJECT_FOLDER}pan.png"
-             processorId="micDI" parameterId="Width" max="200" defaultValue="100"
-             stepSize="0.1" suffix=" %" showValuePopup="Below"/>
-  <Component type="ScriptSlider" id="knbWidth2" x="198" y="197" width="38"
-             height="38" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
-             middlePosition="100" filmstripImage="{PROJECT_FOLDER}pan.png"
-             processorId="micRoom" parameterId="Width" max="200" defaultValue="100"
-             stepSize="0.1" suffix=" %" showValuePopup="Below" isPluginParameter="1"
-             pluginParameterName="Room Width"/>
-  <Component type="ScriptSlider" id="knbDelay0" x="70" y="141" width="38"
-             height="38" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.5"
-             middlePosition="250" filmstripImage="{PROJECT_FOLDER}knob.png"
-             processorId="micClose" parameterId="Delay" max="500" stepSize="0.1"
-             suffix=" ms" mode="Time" showValuePopup="Below" isPluginParameter="1"
-             pluginParameterName="Close Delay"/>
-  <Component type="ScriptSlider" id="knbDelay1" x="134" y="141" width="38"
-             height="38" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.5"
-             middlePosition="250" filmstripImage="{PROJECT_FOLDER}knob.png"
-             processorId="micDI" parameterId="Delay" max="500" stepSize="0.1"
-             suffix=" ms" mode="Time" showValuePopup="Below" isPluginParameter="1"
-             pluginParameterName="DI Delay"/>
-  <Component type="ScriptSlider" id="knbDelay2" x="198" y="141" width="38"
-             height="38" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.5"
-             middlePosition="250" filmstripImage="{PROJECT_FOLDER}knob.png"
-             processorId="micRoom" parameterId="Delay" max="500" stepSize="0.1"
-             suffix=" ms" mode="Time" showValuePopup="Below" isPluginParameter="1"
-             pluginParameterName="Room Delay"/>
-  <Component type="ScriptButton" id="btnPurge0" x="72" y="397" width="33"
-             height="42" filmstripImage="{PROJECT_FOLDER}close-button.png"
-             scaleFactor="0.5"/>
-  <Component type="ScriptButton" id="btnPurge1" x="136" y="397" width="33"
-             height="42" filmstripImage="{PROJECT_FOLDER}di-button.png" scaleFactor="0.5"/>
-  <Component type="ScriptButton" id="btnPurge2" x="200" y="397" width="33"
-             height="42" filmstripImage="{PROJECT_FOLDER}room-button.png"
-             scaleFactor="0.5" tooltip="Hello"/>
-  <Component type="ScriptSlider" id="sliAtk" x="605" y="127" width="116" height="35"
-             mode="Time" max="20000" stepSize="1" suffix=" ms" middlePosition="2000"
-             defaultValue="25" processorId="sustainEnvelope" parameterId="Attack"
-             bgColour="4280690214" itemColour2="4278190080" itemColour="1850056016"
-             isPluginParameter="1" pluginParameterName="Attack Time" numStrips="127"
-             filmstripImage="{PROJECT_FOLDER}sliderH.png" scaleFactor="0.5"
-             showValuePopup="Below" mouseSensitivity="0.5"/>
-  <Component type="ScriptSlider" id="sliRelease" x="605" y="171" width="116"
-             height="35" mode="Time" max="20000" stepSize="1" suffix=" ms"
-             middlePosition="2000" defaultValue="2500" processorId="sustainEnvelope"
-             parameterId="Release" bgColour="4280690214" itemColour2="4278190080"
-             itemColour="1850056016" isPluginParameter="1" pluginParameterName="Release Time"
-             numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderH.png"
-             scaleFactor="0.5" showValuePopup="Below" mouseSensitivity="0.5"/>
-  <Component type="ScriptButton" id="btnRR" x="646" y="216" width="38" height="38"
-             filmstripImage="{PROJECT_FOLDER}switch.png" scaleFactor="0.5"
-             bgColour="4286216826" itemColour="4283585106" itemColour2="4280690214"
-             processorId="roundRobin" parameterId="Bypass"/>
-  <Component type="ScriptTable" id="tblVelocity" x="513" y="299" width="246"
-             height="116" bgColour="2500134" customColours="1" itemColour="4292327554"
-             itemColour2="3302468191" processorId="Velocity Modulator"/>
+             bgColour="0">
+    <Component type="ScriptSlider" id="sliVol0" x="70" y="192" width="33" height="115"
+               processorId="micClose" parameterId="Gain" mode="Decibel" min="-100"
+               max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
+               bgColour="3039176230" itemColour="1850056016" itemColour2="4278190080"
+               textColour="16777215" showValuePopup="Below" isPluginParameter="1"
+               pluginParameterName="Close Gain" numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderV.png"
+               scaleFactor="0.5" mouseSensitivity="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="sliVol1" x="134" y="192" width="33" height="115"
+               processorId="micDI" parameterId="Gain" mode="Decibel" min="-100"
+               max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
+               bgColour="3039176230" itemColour="1850056016" itemColour2="4278190080"
+               textColour="16777215" showValuePopup="Below" isPluginParameter="1"
+               pluginParameterName="DI Gain" numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderV.png"
+               scaleFactor="0.5" mouseSensitivity="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="sliVol2" x="198" y="192" width="33" height="115"
+               processorId="micRoom" parameterId="Gain" mode="Decibel" min="-100"
+               max="0" stepSize="0.1" suffix=" dB" middlePosition="-18" defaultValue="-6"
+               bgColour="3039176230" itemColour="1850056016" itemColour2="4278190080"
+               textColour="16777215" showValuePopup="Below" isPluginParameter="1"
+               pluginParameterName="Room Gain" numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderV.png"
+               scaleFactor="0.5" mouseSensitivity="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbPan0" x="70" y="158" width="38" height="38"
+               numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
+               mode="Pan" min="-100" max="100" stepSize="1" suffix="L" middlePosition="0"
+               filmstripImage="{PROJECT_FOLDER}pan.png" processorId="micClose"
+               parameterId="Balance" showValuePopup="Below" isPluginParameter="1"
+               pluginParameterName="Close Pan" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbPan1" x="134" y="158" width="38" height="38"
+               numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
+               mode="Pan" min="-100" max="100" stepSize="1" suffix="L" middlePosition="0"
+               filmstripImage="{PROJECT_FOLDER}pan.png" processorId="micDI"
+               parameterId="Balance" showValuePopup="Below" isPluginParameter="1"
+               pluginParameterName="DI Pan" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbPan2" x="198" y="158" width="38" height="38"
+               numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
+               mode="Pan" min="-100" max="100" stepSize="1" suffix="L" middlePosition="0"
+               filmstripImage="{PROJECT_FOLDER}pan.png" processorId="micRoom"
+               parameterId="Balance" showValuePopup="Below" pluginParameterName="Room Pan"
+               isPluginParameter="1" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbWidth0" x="70" y="97" width="38" height="38"
+               numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
+               middlePosition="100" filmstripImage="{PROJECT_FOLDER}pan.png"
+               processorId="micClose" parameterId="Width" max="200" defaultValue="100"
+               stepSize="0.1" suffix=" %" showValuePopup="Below" isPluginParameter="1"
+               pluginParameterName="Close Width" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbWidth1" x="134" y="97" width="38"
+               height="38" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
+               middlePosition="100" filmstripImage="{PROJECT_FOLDER}pan.png"
+               processorId="micDI" parameterId="Width" max="200" defaultValue="100"
+               stepSize="0.1" suffix=" %" showValuePopup="Below" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbWidth2" x="198" y="97" width="38"
+               height="38" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.69999999"
+               middlePosition="100" filmstripImage="{PROJECT_FOLDER}pan.png"
+               processorId="micRoom" parameterId="Width" max="200" defaultValue="100"
+               stepSize="0.1" suffix=" %" showValuePopup="Below" isPluginParameter="1"
+               pluginParameterName="Room Width" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbDelay0" x="70" y="41" width="38" height="38"
+               numStrips="127" scaleFactor="0.5" mouseSensitivity="0.5" middlePosition="250"
+               filmstripImage="{PROJECT_FOLDER}knob.png" processorId="micClose"
+               parameterId="Delay" max="500" stepSize="0.1" suffix=" ms" mode="Time"
+               showValuePopup="Below" isPluginParameter="1" pluginParameterName="Close Delay"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbDelay1" x="134" y="41" width="38"
+               height="38" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.5"
+               middlePosition="250" filmstripImage="{PROJECT_FOLDER}knob.png"
+               processorId="micDI" parameterId="Delay" max="500" stepSize="0.1"
+               suffix=" ms" mode="Time" showValuePopup="Below" isPluginParameter="1"
+               pluginParameterName="DI Delay" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="knbDelay2" x="198" y="41" width="38"
+               height="38" numStrips="127" scaleFactor="0.5" mouseSensitivity="0.5"
+               middlePosition="250" filmstripImage="{PROJECT_FOLDER}knob.png"
+               processorId="micRoom" parameterId="Delay" max="500" stepSize="0.1"
+               suffix=" ms" mode="Time" showValuePopup="Below" isPluginParameter="1"
+               pluginParameterName="Room Delay" parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnPurge0" x="72" y="297" width="33"
+               height="42" filmstripImage="{PROJECT_FOLDER}close-button.png"
+               scaleFactor="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnPurge1" x="136" y="297" width="33"
+               height="42" filmstripImage="{PROJECT_FOLDER}di-button.png" scaleFactor="0.5"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnPurge2" x="200" y="297" width="33"
+               height="42" filmstripImage="{PROJECT_FOLDER}room-button.png"
+               scaleFactor="0.5" tooltip="Hello" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="sliAtk" x="605" y="27" width="116" height="35"
+               mode="Time" max="20000" stepSize="1" suffix=" ms" middlePosition="2000"
+               defaultValue="25" processorId="sustainEnvelope" parameterId="Attack"
+               bgColour="4280690214" itemColour2="4278190080" itemColour="1850056016"
+               isPluginParameter="1" pluginParameterName="Attack Time" numStrips="127"
+               filmstripImage="{PROJECT_FOLDER}sliderH.png" scaleFactor="0.5"
+               showValuePopup="Below" mouseSensitivity="0.5" parentComponent="pnlPage0"/>
+    <Component type="ScriptSlider" id="sliRelease" x="605" y="71" width="116"
+               height="35" mode="Time" max="20000" stepSize="1" suffix=" ms"
+               middlePosition="2000" defaultValue="2500" processorId="sustainEnvelope"
+               parameterId="Release" bgColour="4280690214" itemColour2="4278190080"
+               itemColour="1850056016" isPluginParameter="1" pluginParameterName="Release Time"
+               numStrips="127" filmstripImage="{PROJECT_FOLDER}sliderH.png"
+               scaleFactor="0.5" showValuePopup="Below" mouseSensitivity="0.5"
+               parentComponent="pnlPage0"/>
+    <Component type="ScriptButton" id="btnRR" x="646" y="116" width="38" height="38"
+               filmstripImage="{PROJECT_FOLDER}switch.png" scaleFactor="0.5"
+               bgColour="4286216826" itemColour="4283585106" itemColour2="4280690214"
+               processorId="roundRobin" parameterId="Bypass" parentComponent="pnlPage0"/>
+    <Component type="ScriptTable" id="tblVelocity" x="513" y="199" width="246"
+               height="116" bgColour="2500134" customColours="1" itemColour="4292327554"
+               itemColour2="3302468191" processorId="Velocity Modulator" parentComponent="pnlPage0"/>
+  </Component>
   <Component type="ScriptPanel" id="pnlPage1" x="0" y="0" width="800" height="581"
              bgColour="0" itemColour="0" itemColour2="0" borderSize="0" borderRadius="0"
              textColour="0" visible="0">
