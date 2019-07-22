@@ -2,7 +2,7 @@
 
 set project=Michaelas\ Harp
 set xmlFile=michaelasHarp
-set workspace=D:\HISEProjects\michaelasHarp
+set workspace=D:\HISEProjects\Strings\Michaelas Harp\HISE
 
 set build_standalone=1
 set build_plugin=1
