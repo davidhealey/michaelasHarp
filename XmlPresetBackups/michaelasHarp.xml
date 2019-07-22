@@ -195,11 +195,9 @@
                    Balance="0" VoiceLimit="200" KillFadeTime="250" IconColour="0"
                    PreloadSize="2048" BufferSize="1024" VoiceAmount="256" SamplerRepeatMode="3"
                    RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
-                   Purged="0" Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="24...............vO...f+....9C...vO"
-                   Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
-                   Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
-                   Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="sustain">
+                   Purged="0" Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table=""
+                   Group1Table="" Group2Table="" Group3Table="" Group4Table="" Group5Table=""
+                   Group6Table="" Group7Table="" SampleMapID="sustain">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -229,7 +227,7 @@
                       <ChildProcessors>
                         <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator3"
                                    Bypassed="0" Intensity="0.89999998" UseTable="0" Inverted="1"
-                                   TableData="24...............vO...f+....9C...vO" Connection="Global Modulator Container:Velocity Modulator">
+                                   TableData="" Connection="Global Modulator Container:Velocity Modulator">
                           <ChildProcessors/>
                         </Processor>
                       </ChildProcessors>
@@ -266,7 +264,7 @@
                          Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
-            <channelData enabled="1" level="0" suffix="di"/>
+            <channelData enabled="1" level="-100" suffix="di"/>
             <channelData enabled="1" level="0" suffix="room"/>
           </channels>
         </Processor>
@@ -274,11 +272,9 @@
                    Balance="0" VoiceLimit="32" KillFadeTime="50" IconColour="0"
                    PreloadSize="2048" BufferSize="1024" VoiceAmount="64" SamplerRepeatMode="1"
                    RRGroupAmount="3" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
-                   Purged="0" Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="24...............vO...f+....9C...vO"
-                   Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
-                   Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
-                   Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="triplets">
+                   Purged="0" Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table=""
+                   Group1Table="" Group2Table="" Group3Table="" Group4Table="" Group5Table=""
+                   Group6Table="" Group7Table="" SampleMapID="triplets">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -317,7 +313,7 @@
                   </ChildProcessors>
                 </Processor>
                 <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator3"
-                           Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                           Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData=""
                            Connection="Global Modulator Container:Velocity Modulator">
                   <ChildProcessors/>
                 </Processor>
@@ -349,11 +345,9 @@
                    Balance="0" VoiceLimit="32" KillFadeTime="20" IconColour="0"
                    PreloadSize="2048" BufferSize="1024" VoiceAmount="64" SamplerRepeatMode="1"
                    RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
-                   Purged="0" Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table="24...............vO...f+....9C...vO"
-                   Group1Table="24...............vO...f+....9C...vO" Group2Table="24...............vO...f+....9C...vO"
-                   Group3Table="24...............vO...f+....9C...vO" Group4Table="24...............vO...f+....9C...vO"
-                   Group5Table="24...............vO...f+....9C...vO" Group6Table="24...............vO...f+....9C...vO"
-                   Group7Table="24...............vO...f+....9C...vO" SampleMapID="handMuted">
+                   Purged="0" Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table=""
+                   Group1Table="" Group2Table="" Group3Table="" Group4Table="" Group5Table=""
+                   Group6Table="" Group7Table="" SampleMapID="handMuted">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>
@@ -383,7 +377,7 @@
                   </ChildProcessors>
                 </Processor>
                 <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator4"
-                           Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData="24...............vO...f+....9C...vO"
+                           Bypassed="0" Intensity="1" UseTable="0" Inverted="0" TableData=""
                            Connection="Global Modulator Container:Velocity Modulator">
                   <ChildProcessors/>
                 </Processor>
