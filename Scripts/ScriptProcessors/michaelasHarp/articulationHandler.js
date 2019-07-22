@@ -38,7 +38,7 @@ function onNoteOff()
 {
 	
 }
-function onController()
+ function onController()
 {
 	if (Message.getControllerNumber() == UACC || Message.isProgramChange())
     {
@@ -59,7 +59,8 @@ function onTimer()
 {
 	
 }
-function onControl(number, value)
+ function onControl(number, value)
 {
 	
 }
+ 

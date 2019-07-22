@@ -36,7 +36,8 @@ function onController()
 {
 	
 }
-function onControl(number, value)
+ function onControl(number, value)
 {
 	
 }
+ 

@@ -1,12 +1,12 @@
-function onNoteOn()
+ function onNoteOn()
 {
 	
 }
-function onNoteOff()
+ function onNoteOff()
 {
 	
 }
-function onController()
+ function onController()
 {
 	if (Message.getControllerNumber() == 64)
     {
@@ -17,7 +17,8 @@ function onTimer()
 {
 	
 }
-function onControl(number, value)
+ function onControl(number, value)
 {
 	
 }
+ 
