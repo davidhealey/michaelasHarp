@@ -3,7 +3,7 @@
 project=Michaelas\ Harp
 version=1.0.0
 xmlFile=michaelasHarp
-workspace=/Volumes/SHARED/HISEProjects/Strings/Michaelas\ Harp/HISE
+workspace=/Volumes/SHARED/HISEProjects/Strings/Michaelas_Harp/HISE
 
 build_standalone=0
 build_plugin=0

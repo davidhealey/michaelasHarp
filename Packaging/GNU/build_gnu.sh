@@ -3,7 +3,7 @@
 project=Michaelas\ Harp
 version=1.0.0
 xmlFile=michaelasHarp
-workspace=/media/john/SHARED/HISEProjects/Strings/Michaelas\ Harp/HISE
+workspace=/media/john/SHARED/HISEProjects/Strings/Michaelas_Harp/HISE
 
 build_standalone=0
 build_plugin=0
@@ -17,6 +17,7 @@ makeself=/media/john/SHARED/makeself
 package="$workspace"/Packaging/GNU/temp
 mkdir -p "$package"
 
+mkdir -p "$workspace"/Binaries
 cd "$workspace"/Binaries
 
 # STEP 1: BUILDING THE BINARIES
@@ -24,7 +25,7 @@ cd "$workspace"/Binaries
 if (($build_standalone == 1 || $build_plugin == 1))
 then
 
-  "$hise_path" set_project_folder -p:$workspace
+  "$hise_path" set_project_folder -p:"$workspace"
   "$hise_path" set_version -v:$version
 
   echo Making the Projucer accessible for this project
@@ -33,7 +34,7 @@ then
   if (($build_standalone==1))
   then
     echo Building the standalone app
-    "$hise_path" clean -p:$workspace --all
+    "$hise_path" clean -p:"$workspace" --all
     "$hise_path" export_ci XmlPresetBackups/$xmlFile.xml -t:standalone -a:x64
     chmod +x "$workspace"/Binaries/batchCompileLinux.sh
     sh "$workspace"/Binaries/batchCompileLinux.sh
@@ -43,7 +44,7 @@ then
   if (($build_plugin==1))
   then
     echo Building the plugins
-    "$hise_path" clean -p:$workspace --all
+    "$hise_path" clean -p:"$workspace" --all
     "$hise_path" export_ci XmlPresetBackups/$xmlFile.xml -t:instrument -p:VST -a:x64
     chmod +x "$workspace"/Binaries/batchCompileLinux.sh
     sh "$workspace"/Binaries/batchCompileLinux.sh
