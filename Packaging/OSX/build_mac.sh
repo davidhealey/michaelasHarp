@@ -20,11 +20,11 @@ cd "$workspace"
 # ====================================================================
 if (($build_standalone == 1 || $build_plugin == 1))
 then
-  "$hise_path" set_project_folder -p:$workspace
+  "$hise_path" set_project_folder -p:"$workspace"
 
   if (($clean_project == 1))
   then
-     "$hise_path" clean -p:$workspace --all
+     "$hise_path" clean -p:"$workspace" --all
   fi
 
   echo Making the Projucer accessible for this project
