@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Processor Type="SynthChain" ID="michaelasHarp" Bypassed="0" Gain="0.50118721"
+<Processor Type="SynthChain" ID="michaelasHarp" Bypassed="0" Gain="0.501187"
            Balance="0" VoiceLimit="64" KillFadeTime="20" IconColour="0"
            packageName="" BuildVersion="650">
   <ChildProcessors>
@@ -9,9 +9,9 @@
         <Processor Type="ScriptProcessor" ID="mainInterface" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptSlider" id="sliVol0" value="-5.9999986"/>
-            <Control type="ScriptSlider" id="sliVol1" value="-5.9999986"/>
-            <Control type="ScriptSlider" id="sliVol2" value="-5.9999986"/>
+            <Control type="ScriptSlider" id="sliVol0" value="-6"/>
+            <Control type="ScriptSlider" id="sliVol1" value="-6"/>
+            <Control type="ScriptSlider" id="sliVol2" value="-6"/>
             <Control type="ScriptSlider" id="knbPan0" value="0"/>
             <Control type="ScriptSlider" id="knbPan1" value="0"/>
             <Control type="ScriptSlider" id="knbPan2" value="0"/>
@@ -27,7 +27,7 @@
             <Control type="ScriptSlider" id="sliAtk" value="25"/>
             <Control type="ScriptSlider" id="sliRelease" value="2500"/>
             <Control type="ScriptButton" id="btnRR" value="0"/>
-            <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C..voO"/>
+            <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C..7vO"/>
             <Control type="ScriptButton" id="btnPage0" value="0"/>
             <Control type="ScriptComboBox" id="cmbPatch" value="1"/>
           </Content>
@@ -51,6 +51,18 @@
             </ContentProperties>
           </UIData>
         </Processor>
+        <Processor Type="ScriptProcessor" ID="velocityScaler" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/velocityScaler.js">
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptTable" id="tblVelocity" value="29" data="24...............vO...f+....9C..7vO"/>
+          </Content>
+          <UIData>
+            <ContentProperties DeviceType="Desktop">
+              <Component type="ScriptTable" id="tblVelocity" x="25" y="25" width="600"
+                         height="150" processorId="Velocity Modulator"/>
+            </ContentProperties>
+          </UIData>
+        </Processor>
       </ChildProcessors>
     </Processor>
     <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1">
@@ -67,8 +79,8 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="SimpleGain" ID="micClose" Bypassed="0" Gain="-5.9999986"
-                   Delay="0" Width="100" Balance="0">
+        <Processor Type="SimpleGain" ID="micClose" Bypassed="0" Gain="-6" Delay="0"
+                   Width="100" Balance="0" InvertPolarity="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -87,8 +99,8 @@
                          Channel2="-1" Send2="-1" Channel3="-1" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="micDI" Bypassed="0" Gain="-5.9999986" Delay="0"
-                   Width="100" Balance="0">
+        <Processor Type="SimpleGain" ID="micDI" Bypassed="0" Gain="-6" Delay="0"
+                   Width="100" Balance="0" InvertPolarity="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -107,8 +119,8 @@
                          Send1="-1" Channel2="2" Send2="-1" Channel3="3" Send3="-1" Channel4="-1"
                          Send4="-1" Channel5="-1" Send5="-1"/>
         </Processor>
-        <Processor Type="SimpleGain" ID="micRoom" Bypassed="0" Gain="-5.9999986"
-                   Delay="0" Width="100" Balance="0">
+        <Processor Type="SimpleGain" ID="micRoom" Bypassed="0" Gain="-6" Delay="0"
+                   Width="100" Balance="0" InvertPolarity="0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1">
               <ChildProcessors/>
@@ -139,7 +151,7 @@
         <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="Velocity" ID="Velocity Modulator" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24...............vO...f+....9C..voO">
+                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24...............vO...f+....9C..7vO">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
@@ -191,7 +203,7 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors/>
         </Processor>
-        <Processor Type="StreamingSampler" ID="sustain" Bypassed="0" Gain="0.50118721"
+        <Processor Type="StreamingSampler" ID="sustain" Bypassed="0" Gain="0.354813"
                    Balance="0" VoiceLimit="200" KillFadeTime="250" IconColour="0"
                    PreloadSize="2048" BufferSize="1024" VoiceAmount="256" SamplerRepeatMode="3"
                    RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
@@ -226,8 +238,8 @@
                                Intensity="1">
                       <ChildProcessors>
                         <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator3"
-                                   Bypassed="0" Intensity="0.89999998" UseTable="0" Inverted="1"
-                                   TableData="" Connection="Global Modulator Container:Velocity Modulator">
+                                   Bypassed="0" Intensity="0.9" UseTable="0" Inverted="1" TableData=""
+                                   Connection="Global Modulator Container:Velocity Modulator">
                           <ChildProcessors/>
                         </Processor>
                       </ChildProcessors>
@@ -243,7 +255,7 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
-                <Processor Type="PitchWheel" ID="Pitch Wheel Modulator" Bypassed="0" Intensity="0.083333336"
+                <Processor Type="PitchWheel" ID="Pitch Wheel Modulator" Bypassed="0" Intensity="0.0833333"
                            Bipolar="1" UseTable="0" Inverted="0" SmoothTime="1000">
                   <ChildProcessors/>
                 </Processor>
@@ -264,11 +276,11 @@
                          Send4="-1" Channel5="5" Send5="-1"/>
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
-            <channelData enabled="1" level="-100" suffix="di"/>
+            <channelData enabled="1" level="0" suffix="di"/>
             <channelData enabled="1" level="0" suffix="room"/>
           </channels>
         </Processor>
-        <Processor Type="StreamingSampler" ID="triplets" Bypassed="0" Gain="0.50118721"
+        <Processor Type="StreamingSampler" ID="triplets" Bypassed="0" Gain="0.501187"
                    Balance="0" VoiceLimit="32" KillFadeTime="50" IconColour="0"
                    PreloadSize="2048" BufferSize="1024" VoiceAmount="64" SamplerRepeatMode="1"
                    RRGroupAmount="3" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
@@ -341,7 +353,7 @@
             <channelData enabled="1" level="0" suffix="room"/>
           </channels>
         </Processor>
-        <Processor Type="StreamingSampler" ID="muted" Bypassed="0" Gain="0.35481337"
+        <Processor Type="StreamingSampler" ID="muted" Bypassed="0" Gain="0.354813"
                    Balance="0" VoiceLimit="32" KillFadeTime="20" IconColour="0"
                    PreloadSize="2048" BufferSize="1024" VoiceAmount="64" SamplerRepeatMode="1"
                    RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
@@ -415,14 +427,14 @@
                  Channel2="0" Send2="-1" Channel3="1" Send3="-1" Channel4="0"
                  Send4="-1" Channel5="1" Send5="-1"/>
   <macro_controls>
-    <macro name="Macro 1" value="0" midi_cc="-1"/>
-    <macro name="Macro 2" value="0" midi_cc="-1"/>
-    <macro name="Macro 3" value="0" midi_cc="-1"/>
-    <macro name="Macro 4" value="0" midi_cc="-1"/>
-    <macro name="Macro 5" value="0" midi_cc="-1"/>
-    <macro name="Macro 6" value="0" midi_cc="-1"/>
-    <macro name="Macro 7" value="0" midi_cc="-1"/>
-    <macro name="Macro 8" value="0" midi_cc="-1"/>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
   </macro_controls>
   <MidiAutomation/>
   <MPEData Enabled="0"/>
