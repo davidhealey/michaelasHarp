@@ -6,7 +6,7 @@ xmlFile=michaelasHarp
 workspace=/media/john/SHARED/HISEProjects/Strings/Michaelas_Harp/HISE
 
 build_standalone=0
-build_plugin=0
+build_plugin=1
 build_installer=1
 
 hise_path=/media/john/SHARED/HISE/projects/standalone/Builds/LinuxMakefile/build/HISE\ Standalone
@@ -59,6 +59,7 @@ if (($build_installer==1))
 then
   echo "Build Installer"
 
+  mkdir -p "$workspace"/Installer
   cp "$workspace"/License.txt "$package"
   cp "$workspace"/Packaging/GNU/GNUInstaller.sh "$package"
 

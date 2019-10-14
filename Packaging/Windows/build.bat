@@ -64,3 +64,5 @@ if %build_installer%==1 (
 )
 
 :end
+
+cmd /k

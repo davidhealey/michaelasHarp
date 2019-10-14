@@ -5,8 +5,8 @@ version=1.0.0
 xmlFile=michaelasHarp
 workspace=/Volumes/SHARED/HISEProjects/Strings/Michaelas_Harp/HISE
 
-build_standalone=0
-build_plugin=0
+build_standalone=1
+build_plugin=1
 build_installer=1
 clean_project=0
 
