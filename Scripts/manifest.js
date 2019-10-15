@@ -24,11 +24,6 @@ namespace Manifest
         {
             sampleMap: "sustain", //Identifier for finding sample maps
 	        range: [36, 93]
-	    },
-		"Muted":
-		{
-            sampleMap:"damped",
-            range:[36, 93]
-		}
+	    }
 	};
 }

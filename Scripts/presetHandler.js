@@ -17,86 +17,21 @@
 
 namespace PresetHandler
 {
-    inline function onInitCB()
+    //Preset name label
+    const var lblPreset = Content.getComponent("lblPreset");
+
+    //Previous and Next preset buttons
+    const var btnPreset = [];
+    for (i = 0; i < 2; i++)
     {
-        //Get samplers as child synths
-        const var samplerIds = Synth.getIdList("Sampler");
-        const var childSynths = {};
-
-        for (id in samplerIds)
-        {
-          childSynths[id] = Synth.getChildSynth(id);
-        }
-
-        //Get array of preset names from manifest
-        const var patchNames = [];
-        for (k in Manifest.patches)
-        {
-            patchNames.push(k);
-        }
-
-        //Preset name label
-        const var lblPreset = Content.getComponent("lblPreset");
-
-        //Patch selection dropdown - hidden from user
-        const var cmbPatch = Content.getComponent("cmbPatch");
-        cmbPatch.set("items", patchNames.join("\n"));
-        cmbPatch.setControlCallback(oncmbPatchControl);
-
-        //Previous and Next preset buttons
-        const var btnPreset = [];
-        for (i = 0; i < 2; i++)
-        {
-            btnPreset[i] = Content.getComponent("btnPreset"+i);
-            btnPreset[i].setControlCallback(onbtnPresetControl);
-        }
+        btnPreset[i] = Content.getComponent("btnPreset"+i);
+        btnPreset[i].setControlCallback(onbtnPresetControl);
     }
 
     //UI Callbacks
-    inline function oncmbPatchControl(control, value)
-    {
-        local patchName = control.getItemText();
-        loadSampleMaps(patchName);
-        colourKeys(patchName);
-        
-        //Set preset label
-        if (Engine.getCurrentUserPresetName() == "")
-        {
-            lblPreset.set("text", "Normal");
-        }
-        else 
-        {
-            lblPreset.set("text", Engine.getCurrentUserPresetName());
-        }
-    }
-
     inline function onbtnPresetControl(control, value)
     {
         local idx = btnPreset.indexOf(control);
         idx == 0 ? Engine.loadPreviousUserPreset(false) : Engine.loadNextUserPreset(false);
-    }
-
-    //Functions
-    inline function loadSampleMaps(patchName)
-    {
-        local sampleMap = Manifest.patches[patchName].sampleMap;
-        childSynths["sustain"].asSampler().loadSampleMap(sampleMap);
-    }
-
-    inline function colourKeys(patchName)
-    {
-        local range = Manifest.patches[patchName].range;
-
-        for (i = 27; i < 128; i++) //Every MIDI note outside of keyswitch range
-        {
-            if (i < range[0] || i > range[1]) //i is outside max playable range
-            {
-                Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.5)); //Clear key colour
-            }
-            else
-            {
-                Engine.setKeyColour(i, Colours.withAlpha(Colours.white, 0.0)); //Set key colour
-            }
-        }
     }
 }

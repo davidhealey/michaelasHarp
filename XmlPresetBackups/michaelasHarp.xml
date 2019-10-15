@@ -27,7 +27,7 @@
             <Control type="ScriptSlider" id="sliAtk" value="25"/>
             <Control type="ScriptSlider" id="sliRelease" value="2500"/>
             <Control type="ScriptButton" id="btnRR" value="0"/>
-            <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C..7vO"/>
+            <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C..3rO"/>
             <Control type="ScriptButton" id="btnPage0" value="0"/>
             <Control type="ScriptComboBox" id="cmbPatch" value="1"/>
           </Content>
@@ -54,7 +54,7 @@
         <Processor Type="ScriptProcessor" ID="velocityScaler" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/velocityScaler.js">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptTable" id="tblVelocity" value="29" data="24...............vO...f+....9C..7vO"/>
+            <Control type="ScriptTable" id="tblVelocity" value="64" data="24...............vO...f+....9C..3rO"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
@@ -151,7 +151,7 @@
         <Processor Type="ModulatorChain" ID="Global Modulators" Bypassed="0" Intensity="1">
           <ChildProcessors>
             <Processor Type="Velocity" ID="Velocity Modulator" Bypassed="0" Intensity="1"
-                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24...............vO...f+....9C..7vO">
+                       UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24...............vO...f+....9C..3rO">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
@@ -203,13 +203,13 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors/>
         </Processor>
-        <Processor Type="StreamingSampler" ID="sustain" Bypassed="0" Gain="0.354813"
+        <Processor Type="StreamingSampler" ID="sustain" Bypassed="0" Gain="0.501187"
                    Balance="0" VoiceLimit="200" KillFadeTime="250" IconColour="0"
                    PreloadSize="2048" BufferSize="1024" VoiceAmount="256" SamplerRepeatMode="3"
-                   RRGroupAmount="1" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
+                   RRGroupAmount="2" PitchTracking="1" OneShot="0" CrossfadeGroups="0"
                    Purged="0" Reversed="0" NumChannels="3" UseStaticMatrix="0" Group0Table=""
                    Group1Table="" Group2Table="" Group3Table="" Group4Table="" Group5Table=""
-                   Group6Table="" Group7Table="" SampleMapID="sustain">
+                   Group6Table="" Group7Table="" SampleMapID="sustainAndDamped">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors>

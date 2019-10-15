@@ -17,19 +17,19 @@
     along with Michaela's Harp. If not, see <http://www.gnu.org/licenses/>.
 */
 
-include("manifest.js");
 include("presetHandler.js");
 include("mixer.js");
 include("settings.js");
 
 Content.makeFrontInterface(800, 581);
 
+Synth.deferCallbacks(true);
+
 //Loop iterators
 reg i;
 reg j;
 
 //Includes initialisation
-PresetHandler.onInitCB();
 Mixer.onInitCB();
 
 //Value popup styling
@@ -65,28 +65,11 @@ inline function onbtnPageControl(control, value)
 
     pnlPage[idx].showControl(true);
     btnPage[idx].setValue(0);
-}
-
-//Key switches
-const var ks = [24, 25, 26];
-
-for (i = 0; i < ks.length; i++)
+}function onNoteOn()
 {
-    Engine.setKeyColour(ks[i], Colours.withAlpha(Colours.red, 0.2));
+	
 }
-Engine.setKeyColour(ks[0], Colours.withAlpha(Colours.red, 0.5));function onNoteOn()
-{
-    //If KS triggered callback, change key colour
-	if (ks.indexOf(Message.getNoteNumber()) != -1)
-    {
-        for (i = 0; i < ks.length; i++)
-        {
-            Engine.setKeyColour(ks[i], Colours.withAlpha(Colours.red, 0.3));
-        }
-        Engine.setKeyColour(ks[ks.indexOf(Message.getNoteNumber())], Colours.withAlpha(Colours.red, 0.5));
-    }
-}
-function onNoteOff()
+ function onNoteOff()
 {
 	
 }
