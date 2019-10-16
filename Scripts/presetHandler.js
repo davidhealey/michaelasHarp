@@ -20,6 +20,17 @@ namespace PresetHandler
     //Preset name label
     const var lblPreset = Content.getComponent("lblPreset");
 
+    //Use pnlPage0's callback to set preset label when preset is changed
+    inline function onpnlPage0Control(component, value)
+    {
+        if (Engine.getCurrentUserPresetName() != "")
+            lblPreset.set("text", Engine.getCurrentUserPresetName());
+        else
+            lblPreset.set("text", "Default");
+    };
+
+    Content.getComponent("pnlPage0").setControlCallback(onpnlPage0Control);
+        
     //Previous and Next preset buttons
     const var btnPreset = [];
     for (i = 0; i < 2; i++)
@@ -31,7 +42,10 @@ namespace PresetHandler
     //UI Callbacks
     inline function onbtnPresetControl(control, value)
     {
-        local idx = btnPreset.indexOf(control);
-        idx == 0 ? Engine.loadPreviousUserPreset(false) : Engine.loadNextUserPreset(false);
+        if (value == 1)
+        {
+            local idx = btnPreset.indexOf(control);
+            idx == 0 ? Engine.loadPreviousUserPreset(false) : Engine.loadNextUserPreset(false);   
+        }
     }
 }
