@@ -1,5 +1,5 @@
 ---
-keywords: Musician
+keywords: Michaela Dorrity
 summary:  About Michaela
 author:   David Healey
 modified: 16.10.2019
