@@ -2,10 +2,10 @@
 
 <Preset Version="1.0.0">
   <Content Processor="mainInterface">
-    <Control type="ScriptPanel" id="pnlMain" value="0"/>
-    <Control type="ScriptSlider" id="sliVol0" value="-12"/>
-    <Control type="ScriptSlider" id="sliVol1" value="-17.599998"/>
-    <Control type="ScriptSlider" id="sliVol2" value="-12"/>
+    <Control type="ScriptPanel" id="pnlPage0" value="0"/>
+    <Control type="ScriptSlider" id="sliVol0" value="-6"/>
+    <Control type="ScriptSlider" id="sliVol1" value="-12"/>
+    <Control type="ScriptSlider" id="sliVol2" value="-6"/>
     <Control type="ScriptSlider" id="knbPan0" value="0"/>
     <Control type="ScriptSlider" id="knbPan1" value="0"/>
     <Control type="ScriptSlider" id="knbPan2" value="0"/>
@@ -21,10 +21,8 @@
     <Control type="ScriptSlider" id="sliAtk" value="50"/>
     <Control type="ScriptSlider" id="sliRelease" value="5000"/>
     <Control type="ScriptButton" id="btnRR" value="0"/>
-    <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C..voO"/>
+    <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C..3rO"/>
     <Control type="ScriptButton" id="btnPage0" value="1"/>
-    <Control type="ScriptComboBox" id="cmbPatch" value="1"/>
-    <Control type="ScriptLabel" id="lblPreset" value="Distant"/>
   </Content>
   <MidiAutomation/>
   <MPEData Enabled="0"/>

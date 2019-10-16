@@ -18,13 +18,12 @@
     <Control type="ScriptButton" id="btnPurge0" value="1"/>
     <Control type="ScriptButton" id="btnPurge1" value="0"/>
     <Control type="ScriptButton" id="btnPurge2" value="1"/>
-    <Control type="ScriptSlider" id="sliAtk" value="25"/>
-    <Control type="ScriptSlider" id="sliRelease" value="1000"/>
+    <Control type="ScriptSlider" id="sliAtk" value="0"/>
+    <Control type="ScriptSlider" id="sliRelease" value="250"/>
     <Control type="ScriptButton" id="btnRR" value="0"/>
     <Control type="ScriptTable" id="tblVelocity" value="0" data="24...............vO...f+....9C..voO"/>
     <Control type="ScriptButton" id="btnPage0" value="1"/>
-    <Control type="ScriptComboBox" id="cmbPatch" value="2"/>
-    <Control type="ScriptLabel" id="lblPreset" value="Up-close"/>
+    <Control type="ScriptLabel" id="lblPreset" value="Plinky"/>
   </Content>
   <MidiAutomation/>
   <MPEData Enabled="0"/>
