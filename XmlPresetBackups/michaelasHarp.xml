@@ -53,7 +53,7 @@
         <Processor Type="ScriptProcessor" ID="velocityScaler" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/velocityScaler.js">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptTable" id="tblVelocity" value="47" data="24...............vO...f+....9C..voO"/>
+            <Control type="ScriptTable" id="tblVelocity" value="102" data="24...............vO...f+....9C..voO"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
@@ -153,6 +153,10 @@
                        UseTable="1" Inverted="0" DecibelMode="0" VelocityTableData="24...............vO...f+....9C..voO">
               <ChildProcessors/>
             </Processor>
+            <Processor Type="Random" ID="Random Modulator1" Bypassed="0" Intensity="1"
+                       UseTable="0">
+              <ChildProcessors/>
+            </Processor>
           </ChildProcessors>
         </Processor>
         <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
@@ -250,12 +254,22 @@
                            Connection="Global Modulator Container:Velocity Modulator">
                   <ChildProcessors/>
                 </Processor>
+                <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator3"
+                           Bypassed="0" Intensity="0.15" UseTable="0" Inverted="0" TableData=""
+                           Connection="Global Modulator Container:Random Modulator1">
+                  <ChildProcessors/>
+                </Processor>
               </ChildProcessors>
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0">
               <ChildProcessors>
                 <Processor Type="PitchWheel" ID="Pitch Wheel Modulator" Bypassed="0" Intensity="0.0833333"
                            Bipolar="1" UseTable="0" Inverted="0" SmoothTime="1000">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="GlobalVoiceStartModulator" ID="Global Voice Start Modulator4"
+                           Bypassed="0" Intensity="0.0025" Bipolar="1" UseTable="1" Inverted="0"
+                           TableData="" Connection="Global Modulator Container:Random Modulator1">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
