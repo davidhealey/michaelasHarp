@@ -20,6 +20,7 @@
 include("presetHandler.js");
 include("mixer.js");
 include("settings.js");
+include("paths.js");
 
 Content.makeFrontInterface(800, 581);
 
@@ -46,7 +47,7 @@ Content.setValuePopupData(
 const var pnlPage = [];
 const var btnPage = [];
 
-for (i = 0; i < 3; i++)
+for (i = 0; i < 4; i++)
 {
     pnlPage[i] = Content.getComponent("pnlPage"+i);
     btnPage[i] = Content.getComponent("btnPage"+i);
@@ -56,7 +57,11 @@ for (i = 0; i < 3; i++)
 inline function onbtnPageControl(control, value)
 {
     local idx = btnPage.indexOf(control);
+    changePage(idx);
+}
 
+inline function changePage(idx)
+{
     for (i = 0; i < btnPage.length; i++)
     {
         pnlPage[i].showControl(false);
@@ -64,8 +69,60 @@ inline function onbtnPageControl(control, value)
     }
 
     pnlPage[idx].showControl(true);
-    btnPage[idx].setValue(0);
-}function onNoteOn()
+    btnPage[idx].setValue(0);   
+}
+
+//Open documentation button
+btnPage[3].setPaintRoutine(function(g){
+    this.data.hover == 0 ? g.setColour(0x99D7B882) : g.setColour(0xFFD7B882);
+    g.fillPath(Paths.help, [0, 0, this.getWidth(), this.getHeight()]);
+});
+
+btnPage[3].setMouseCallback(function(e){
+    
+    if (e.mouseUp)
+        this.changed();
+    else
+    {
+        this.data.hover = e.hover;
+        this.repaint();
+    }
+});
+
+//Close documentation button
+const var btnCloseDocs = Content.getComponent("btnCloseDocs");
+btnCloseDocs.setControlCallback(onbtnCloseDocsControl);
+
+inline function onbtnCloseDocsControl(component, value)
+{
+	changePage(0);
+};
+
+btnCloseDocs.setPaintRoutine(function(g){
+    this.data.hover == 0 ? g.setColour(0x99D7B882) : g.setColour(0xFFD7B882);
+    g.fillPath(Paths.close, [0, 0, this.getWidth(), this.getHeight()]);    
+});
+
+btnCloseDocs.setMouseCallback(function(e)
+{
+    if (e.mouseUp)
+        this.changed();
+    else
+    {
+        this.data.hover = e.hover;
+        this.repaint();
+    }
+});
+
+//Documentation panel
+pnlPage[3].setPaintRoutine(function(g){
+   
+    g.setColour(0xFF222222);    
+    g.fillRect([0, 0, 205, this.getHeight()]);    
+    g.setColour(0xEE100B07);
+    g.fillRect([205, 0, this.getWidth(), this.getHeight()]);
+    
+});function onNoteOn()
 {
 	
 }
