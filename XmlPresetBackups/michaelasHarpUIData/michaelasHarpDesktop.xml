@@ -147,9 +147,6 @@
   <Component type="ScriptFloatingTile" id="fltStats" x="508" y="65" width="184"
              height="28" ContentType="PerformanceLabel" bgColour="0" itemColour="4294951115"
              itemColour2="4294951115" Data="{&#13;&#10;}" textColour="3472219309"/>
-  <Component type="ScriptComboBox" id="cmbPatch" x="490" y="9" width="200"
-             height="32" text="Patch" bgColour="16777215" items="Natural"
-             itemColour="4283585106" itemColour2="4283585106" visible="0"/>
   <Component type="ScriptLabel" id="lblPreset" x="327" y="67" width="145"
              height="25" text="Normal" fontName="Oxygen" fontSize="16" textColour="4294958233"
              editable="0"/>

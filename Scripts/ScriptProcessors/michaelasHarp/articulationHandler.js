@@ -20,7 +20,7 @@ for (i = 0; i < 128; i++)
     if (i < range[0] || i > range[1]) //i is outside max playable range
     {        
         if (ks.indexOf(i) != -1) //Keyswitch
-            Engine.setKeyColour(ks.indexOf(i), Colours.withAlpha(Colours.red, 0.2));
+            Engine.setKeyColour(i, Colours.withAlpha(Colours.red, 0.2));
         else
             Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.5)); //Clear key colour            
     }
