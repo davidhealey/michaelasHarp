@@ -172,7 +172,7 @@
     <Component type="ScriptFloatingTile" id="fltDocs" x="5" y="20" width="775"
                height="536" parentComponent="pnlPage3" ContentType="MarkdownPanel"
                bgColour="0" itemColour="4289440683" itemColour2="4285563024"
-               Data="{&#13;&#10;  &quot;ShowBack&quot;: false,&#13;&#10;  &quot;ShowSearch&quot;: false,&#13;&#10;  &quot;ShowToc&quot;: true,&#13;&#10;  &quot;BoldFontName&quot;: &quot;&quot;,&#13;&#10;  &quot;FixTocWidth&quot;: 200&#13;&#10;}"/>
+               Data="{&#13;&#10;  &quot;ShowBack&quot;: false,&#13;&#10;  &quot;ShowSearch&quot;: false,&#13;&#10;  &quot;ShowToc&quot;: true,&#13;&#10;  &quot;BoldFontName&quot;: &quot;&quot;,&#13;&#10;  &quot;FixTocWidth&quot;: 200,&#13;&#10;  &quot;ServerUpdateURL&quot;: &quot;https://docs.librewave.com/michaelas_harp&quot;&#13;&#10;}"/>
     <Component type="ScriptPanel" id="btnCloseDocs" x="760" y="0" width="20"
                height="20" parentComponent="pnlPage3" allowCallbacks="Clicks &amp; Hover"/>
   </Component>
