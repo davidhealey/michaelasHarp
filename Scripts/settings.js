@@ -111,21 +111,5 @@ namespace Settings
         }
     });
     
-    tileData["Content"].push({
-        "Type": "AboutPagePanel",
-        "Title": "About",
-        "Font": "",
-        "FontSize": 18,
-        "ColourData":
-        {
-            "bgColour":0x33877559,
-            "textColour":0xFFFFF3DD,
-            "itemColour1":0xFFFFF3DD
-        },
-        "CopyrightNotice": "© 2019, David Healey",
-        "ShowLicensedEmail": false,
-        "WebsiteURL": "http://www.LibreWave.com"
-    });
-    
     Content.getComponent("fltSettings").setContentData(tileData);
 };
