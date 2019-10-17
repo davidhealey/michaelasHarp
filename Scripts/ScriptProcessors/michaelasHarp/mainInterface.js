@@ -122,7 +122,35 @@ pnlPage[3].setPaintRoutine(function(g){
     g.setColour(0xEE100B07);
     g.fillRect([205, 0, this.getWidth(), this.getHeight()]);
     
-});function onNoteOn()
+});
+
+//About panel
+const var pnlAbout = Content.getComponent("pnlAbout");
+pnlAbout.setIsModalPopup(true);
+
+pnlAbout.setPaintRoutine(function(g){
+    
+    g.setColour(this.get("bgColour"));
+    g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10);    
+});
+
+inline function onbtnAboutControl(component, value)
+{
+    if (value == 1)
+	    pnlAbout.showAsPopup(true);
+};
+
+Content.getComponent("btnAbout").setControlCallback(onbtnAboutControl);
+
+inline function onbtnURLControl(component, value)
+{
+    if (value == 1)
+	    Engine.openWebsite("https://www.librewave.com");
+};
+
+Content.getComponent("btnURL").setControlCallback(onbtnURLControl);
+
+function onNoteOn()
 {
 	
 }

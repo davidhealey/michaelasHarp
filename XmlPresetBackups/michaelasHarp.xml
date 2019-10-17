@@ -54,7 +54,7 @@
         <Processor Type="ScriptProcessor" ID="velocityScaler" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/velocityScaler.js">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptTable" id="tblVelocity" value="52" data="24...............vO...f+....9C..3rO"/>
+            <Control type="ScriptTable" id="tblVelocity" value="38" data="24...............vO...f+....9C..3rO"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
@@ -291,7 +291,7 @@
           <channels>
             <channelData enabled="1" level="0" suffix="close"/>
             <channelData enabled="1" level="0" suffix="di"/>
-            <channelData enabled="1" level="-100" suffix="room"/>
+            <channelData enabled="1" level="0" suffix="room"/>
           </channels>
         </Processor>
         <Processor Type="StreamingSampler" ID="triplets" Bypassed="0" Gain="0.501187"
