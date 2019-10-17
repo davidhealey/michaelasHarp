@@ -91,7 +91,7 @@
                scaleFactor="0.5" tooltip="Hello" parentComponent="pnlPage0"/>
     <Component type="ScriptSlider" id="sliAtk" x="605" y="27" width="116" height="35"
                mode="Time" max="20000" stepSize="1" suffix=" ms" middlePosition="2000"
-               defaultValue="25" processorId="sustainEnvelope" parameterId="Attack"
+               defaultValue="5" processorId="sustainEnvelope" parameterId="Attack"
                bgColour="4280690214" itemColour2="4278190080" itemColour="1850056016"
                isPluginParameter="1" pluginParameterName="Attack Time" numStrips="127"
                filmstripImage="{PROJECT_FOLDER}sliderH.png" scaleFactor="0.5"

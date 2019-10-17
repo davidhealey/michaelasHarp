@@ -54,7 +54,7 @@
         <Processor Type="ScriptProcessor" ID="velocityScaler" Bypassed="0" Script="{EXTERNAL_SCRIPT}{PROJECT_FOLDER}HISE-Scripting-Framework/modules/velocityScaler.js">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptTable" id="tblVelocity" value="38" data="24...............vO...f+....9C..3rO"/>
+            <Control type="ScriptTable" id="tblVelocity" value="66" data="24...............vO...f+....9C..3rO"/>
           </Content>
           <UIData>
             <ContentProperties DeviceType="Desktop">
